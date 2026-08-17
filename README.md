@@ -17,10 +17,17 @@ Open `index.html` in a browser. That's the whole setup.
 
 ## Deploy
 
-Any static host works. For GitHub Pages: Settings → Pages → deploy from `main`, root folder. After the site has a live URL, finish the two TODOs in `<head>`:
+Live at **https://claude-community-bhopal.netlify.app** (Netlify project `claude-community-bhopal`).
 
-1. Make `og:image` / `twitter:image` absolute URLs (`https://<domain>/assets/og-card.jpg`) — social scrapers can't resolve relative paths.
-2. Add `<link rel="canonical">` and `og:url` with the live URL.
+To ship an update, push to `main`, then from a clean clone of this repo:
+
+```
+netlify deploy --prod --dir .
+```
+
+Deploy from a clone (or `git archive` export), not a working folder with extra files — Netlify uploads everything in the directory it's given. Optionally connect the GitHub repo in the Netlify UI (Project → Build & deploy) to get automatic deploys on every push.
+
+If the site ever moves to a custom domain, update the absolute URLs in `<head>` (canonical, `og:url`, `og:image`, `twitter:image`) and in the JSON-LD block.
 
 ## Update checklist for the next event
 

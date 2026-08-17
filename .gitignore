@@ -4,3 +4,7 @@
 !/assets
 !/README.md
 !/.gitignore
+!/netlify.toml
+
+# Local Netlify folder
+.netlify

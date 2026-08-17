@@ -1,0 +1,9 @@
+# Static site — publish the repo root, no build step
+[build]
+  publish = "."
+
+# Long cache for images/icons; HTML stays fresh by default
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
