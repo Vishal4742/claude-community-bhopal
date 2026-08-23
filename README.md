@@ -7,7 +7,7 @@ Website for the Claude community in Bhopal — meetups, workshops, and the Impac
 ## Structure
 
 - `index.html` — the whole site: markup, styles, and scripts in one file, no build step
-- `assets/` — photos, icons, and the social share card (kept out of this repo on purpose; they live in the local working folder and on Netlify)
+- `assets/` — photos, icons, and the social share card, committed to the repo so a clone deploys as-is
 
 Everything is hand-rolled. The rough borders are SVG turbulence filters, the mascots are inline SVG (animated with GSAP, the only dependency, loaded from a CDN with a pinned version and integrity hash), and the rest is plain HTML, CSS, and JavaScript. The page works with JavaScript disabled.
 
@@ -19,15 +19,11 @@ Open `index.html` in a browser. That's the whole setup.
 
 Live at **https://claude-community-bhopal.netlify.app** (Netlify project `claude-community-bhopal`).
 
-The repo has no `assets/` folder, so a bare clone is not deployable on its own. To ship an update, build a clean deploy folder from the git export plus the local `assets/`, then push it to Netlify:
+Netlify builds straight from GitHub. The repo is the whole site — `index.html`, `assets/`, and `netlify.toml` (publish `.`, no build step) — so every push to `main` deploys on its own. To ship an update, commit and push:
 
 ```
-git archive main | tar -x -C /tmp/deploy
-cp -r assets /tmp/deploy/
-netlify deploy --prod --dir /tmp/deploy
+git add -A && git commit -m "…" && git push
 ```
-
-Never run `netlify deploy --dir .` from the working folder — Netlify uploads everything in the directory it's given, including files that should stay local.
 
 If the site ever moves to a custom domain, update the absolute URLs in `<head>` (canonical, `og:url`, `og:image`, `twitter:image`) and in the JSON-LD block.
 
