@@ -7,6 +7,10 @@
 !/robots.txt
 !/404.html
 !/assets
+!/tally
 
 # Local Netlify folder
 .netlify
+
+# generated on every run of tally/create_forms.py
+tally/payloads/
