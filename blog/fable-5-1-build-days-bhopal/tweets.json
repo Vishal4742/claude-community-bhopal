@@ -20,10 +20,11 @@
   "captured_at_ist": "2026-09-11 16:56 IST",
   "captured_at_pretty": "4:56 pm IST on September 11",
   "counts": {
-   "posts_total": 654,
-   "posts_matching_keyword": 286,
-   "authors": 526,
-   "posts_from_conversations": 214
+   "posts_total": 670,
+   "posts_matching_keyword": 302,
+   "authors": 534,
+   "posts_from_conversations": 214,
+   "posts_from_search": 17
   },
   "expand": {
    "last_run_utc": "2026-09-11T11:33:06Z",
@@ -34,18 +35,67 @@
     "2098138556468490240",
     "2098148039500365824",
     "2098158334771920896",
+    "2098229293872820224",
     "2098246552263553024",
     "2098251987045548032",
+    "2098252640388096000",
+    "2098253857021407232",
     "2098258014319042560",
+    "2098258106711179264",
     "2098267942333161472",
     "2098275528507822080",
     "2098278916830240768",
     "2098283683849584640",
+    "2098289183123214336",
+    "2098303539386986497",
+    "2098316200732479488",
     "2098316242813861888",
+    "2098319021670322177",
     "2098324174490185728",
     "2098324275740708864",
-    "2098336349468143629"
+    "2098326723624603648",
+    "2098333135692070912",
+    "2098336349468143629",
+    "2098336770354290688",
+    "2098336793892687872",
+    "2098338185298513921",
+    "2098342056062279680",
+    "2098343110334107648",
+    "2098345121796567040",
+    "2098350592351719619",
+    "2098356188601843713",
+    "2098362774967681024"
    ]
+  },
+  "search": {
+   "last_run_utc": "2026-09-11T11:26:40Z",
+   "instance": "nitter.tiekoetter.com",
+   "queries": {
+    "bhopal fable": {
+     "pages": 3,
+     "found": 5
+    },
+    "bhopal claude": {
+     "pages": 1,
+     "found": 4
+    },
+    "bhopal anthropic": {
+     "pages": 3,
+     "found": 3
+    },
+    "bhopal bengaluru claude": {
+     "pages": 2,
+     "found": 0
+    },
+    "bhopal buildathon": {
+     "pages": 3,
+     "found": 5
+    },
+    "poha claude": {
+     "pages": 2,
+     "found": 0
+    }
+   }
   }
  },
  "posts": [
@@ -11597,6 +11647,43 @@
    "matches_keyword": false
   },
   {
+   "id": "2098293379717345737",
+   "url": "https://x.com/BhabadViraj/status/2098293379717345737",
+   "author": {
+    "name": "PoGo Go Go",
+    "handle": "BhabadViraj",
+    "verified": false,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/1956971698064166913/Dasc-LNh_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T06:11:40Z",
+   "created_at_ist": "2026-09-11 11:41 IST",
+   "type": "post",
+   "in_reply_to": null,
+   "quoted_status_id": null,
+   "text": "Anthropic buildathon in bhopal lmaoooo",
+   "text_raw": "Anthropic buildathon in bhopal lmaoooo",
+   "lang": "en",
+   "metrics": {
+    "likes": 0,
+    "reposts": null,
+    "replies": 0,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [],
+   "media": [],
+   "in_timelines": [
+    "search"
+   ],
+   "first_seen_utc": "2026-09-11T11:26:40Z",
+   "found_via": "nitter.tiekoetter.com search: bhopal buildathon",
+   "matches_keyword": true
+  },
+  {
    "id": "2098293383068614678",
    "url": "https://x.com/kriyanshii/status/2098293383068614678",
    "author": {
@@ -12706,6 +12793,48 @@
    "matches_keyword": false
   },
   {
+   "id": "2098297314716909899",
+   "url": "https://x.com/K1xverse/status/2098297314716909899",
+   "author": {
+    "name": "K",
+    "handle": "K1xverse",
+    "verified": false,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/2097607920011837442/D87X7sf2_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T06:27:18Z",
+   "created_at_ist": "2026-09-11 11:57 IST",
+   "type": "reply",
+   "in_reply_to": {
+    "handle": "grok",
+    "status_id": "2098296854291140770"
+   },
+   "quoted_status_id": null,
+   "text": "@grok Does bengaluru has anthropic office? And tell me about bhopal too",
+   "text_raw": "@grok Does bengaluru has anthropic office? And tell me about bhopal too",
+   "lang": "en",
+   "metrics": {
+    "likes": 0,
+    "reposts": null,
+    "replies": 1,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [
+    "grok"
+   ],
+   "media": [],
+   "in_timelines": [
+    "search"
+   ],
+   "first_seen_utc": "2026-09-11T11:26:40Z",
+   "found_via": "nitter.tiekoetter.com search: bhopal anthropic",
+   "matches_keyword": true
+  },
+  {
    "id": "2098297356525699313",
    "url": "https://x.com/bydhruvil/status/2098297356525699313",
    "author": {
@@ -12994,6 +13123,48 @@
    ],
    "first_seen_utc": "2026-09-11T11:17:24Z",
    "found_under": "2098299294092820659",
+   "matches_keyword": true
+  },
+  {
+   "id": "2098299795177632189",
+   "url": "https://x.com/varadnk/status/2098299795177632189",
+   "author": {
+    "name": "varad",
+    "handle": "varadnk",
+    "verified": false,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/2086165357673553920/6Zjn2lnE_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T06:37:10Z",
+   "created_at_ist": "2026-09-11 12:07 IST",
+   "type": "post",
+   "in_reply_to": null,
+   "quoted_status_id": null,
+   "text": "Anthropic had all of India to choose from for the Fable Buildathon.\n\nBhopal was their choice.\n\nClaude clearly knows something we don't!",
+   "text_raw": "Anthropic had all of India to choose from for the Fable Buildathon.\n\nBhopal was their choice.\n\nClaude clearly knows something we don't! https://t.co/I0mvJFO8ja",
+   "lang": "en",
+   "metrics": {
+    "likes": 3,
+    "reposts": null,
+    "replies": 1,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [],
+   "media": [
+    {
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HR6oiW3aoAAzJLQ.jpg"
+    }
+   ],
+   "in_timelines": [
+    "search"
+   ],
+   "first_seen_utc": "2026-09-11T11:26:40Z",
+   "found_via": "nitter.tiekoetter.com search: bhopal fable",
    "matches_keyword": true
   },
   {
@@ -17263,6 +17434,45 @@
    "matches_keyword": true
   },
   {
+   "id": "2098318506915962903",
+   "url": "https://x.com/KumarManik12/status/2098318506915962903",
+   "author": {
+    "name": "Kumar Manik",
+    "handle": "KumarManik12",
+    "verified": true,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/2078505617241911296/zP9UCOMu_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T07:51:31Z",
+   "created_at_ist": "2026-09-11 13:21 IST",
+   "type": "quote",
+   "in_reply_to": null,
+   "quoted_status_id": "2098138736642933143",
+   "text": "@AnthropicAI is hosting Fable Buildathon in Bhopal - the only city in India.\nLFG",
+   "text_raw": "@AnthropicAI is hosting Fable Buildathon in Bhopal - the only city in India.\nLFG",
+   "lang": "en",
+   "metrics": {
+    "likes": 7,
+    "reposts": null,
+    "replies": 1,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [
+    "AnthropicAI"
+   ],
+   "media": [],
+   "in_timelines": [
+    "search"
+   ],
+   "first_seen_utc": "2026-09-11T11:26:40Z",
+   "found_via": "nitter.tiekoetter.com search: bhopal fable",
+   "matches_keyword": true
+  },
+  {
    "id": "2098318920293953617",
    "url": "https://x.com/spandev_/status/2098318920293953617",
    "author": {
@@ -18236,6 +18446,57 @@
    "matches_keyword": true
   },
   {
+   "id": "2098323778879344755",
+   "url": "https://x.com/RitikMi36262848/status/2098323778879344755",
+   "author": {
+    "name": "Ritik Mishra",
+    "handle": "RitikMi36262848",
+    "verified": false,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/2048308917353299968/y2wSPofu_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T08:12:28Z",
+   "created_at_ist": "2026-09-11 13:42 IST",
+   "type": "post",
+   "in_reply_to": null,
+   "quoted_status_id": null,
+   "text": "Fable 5.1 Build Days start this week\nBuildathons are happening across cities worldwide and Bhopal is one of them.\nProud to say my team and I made it happen here.\n@aniketsahu_115\n\n@0xabhi7\n\n@Vedant_vyasx\n\n@its_punit05\n\nSome people won’t digest it.\nWe’ll let the work speak.",
+   "text_raw": "Fable 5.1 Build Days start this week \nBuildathons are happening across cities worldwide and Bhopal is one of them.\nProud to say my team and I made it happen here.  \n@aniketsahu_115\n \n@0xabhi7\n \n@Vedant_vyasx\n \n@its_punit05\n \nSome people won’t digest it.\nWe’ll let the work speak. https://t.co/52NYnoIRD1",
+   "lang": "en",
+   "metrics": {
+    "likes": 10,
+    "reposts": null,
+    "replies": 0,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [
+    "aniketsahu_115",
+    "0xabhi7",
+    "Vedant_vyasx",
+    "its_punit05"
+   ],
+   "media": [
+    {
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HR6-WL5bIAAPe1T.jpg"
+    },
+    {
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HR6-WL6aMAAtL_b.jpg"
+    }
+   ],
+   "in_timelines": [
+    "search"
+   ],
+   "first_seen_utc": "2026-09-11T11:26:40Z",
+   "found_via": "nitter.tiekoetter.com search: bhopal fable",
+   "matches_keyword": true
+  },
+  {
    "id": "2098323823485726954",
    "url": "https://x.com/srikarthikgowda/status/2098323823485726954",
    "author": {
@@ -18823,6 +19084,50 @@
    }
   },
   {
+   "id": "2098325383632564702",
+   "url": "https://x.com/SharmaTushar1/status/2098325383632564702",
+   "author": {
+    "name": "Tushar Sharma",
+    "handle": "SharmaTushar1",
+    "verified": true,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/2033566932549685248/rp7aXnFI_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T08:18:51Z",
+   "created_at_ist": "2026-09-11 13:48 IST",
+   "type": "reply",
+   "in_reply_to": {
+    "handle": "kdrvrtk",
+    "status_id": "2098149439584317883"
+   },
+   "quoted_status_id": "2098324916617810195",
+   "text": "@kdrvrtk They still using Cortana and Clippy back in Bhopal. wth Anthropic 😭🙏\n\nhttps://x.com/SharmaTushar1/status/2098324916617810195",
+   "text_raw": "@kdrvrtk They still using Cortana and Clippy back in Bhopal. wth Anthropic 😭🙏\n\nhttps://t.co/cbPNwnWqgB",
+   "lang": "en",
+   "metrics": {
+    "likes": 0,
+    "reposts": null,
+    "replies": 0,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [
+    "https://x.com/SharmaTushar1/status/2098324916617810195"
+   ],
+   "hashtags": [],
+   "mentions": [
+    "kdrvrtk"
+   ],
+   "media": [],
+   "in_timelines": [
+    "search"
+   ],
+   "first_seen_utc": "2026-09-11T11:26:40Z",
+   "found_via": "nitter.tiekoetter.com search: bhopal anthropic",
+   "matches_keyword": true
+  },
+  {
    "id": "2098325554223366212",
    "url": "https://x.com/knowShubhangi/status/2098325554223366212",
    "author": {
@@ -18906,6 +19211,48 @@
    "first_seen_utc": "2026-09-11T11:17:24Z",
    "found_under": "2098282904493359138",
    "matches_keyword": false
+  },
+  {
+   "id": "2098325671588307174",
+   "url": "https://x.com/NikhilC1411/status/2098325671588307174",
+   "author": {
+    "name": "Nikhil Chandra",
+    "handle": "NikhilC1411",
+    "verified": false,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/1466811833692528645/Z9bkTibB_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T08:19:59Z",
+   "created_at_ist": "2026-09-11 13:49 IST",
+   "type": "reply",
+   "in_reply_to": {
+    "handle": "AbhinavXJ",
+    "status_id": "2098190601644888455"
+   },
+   "quoted_status_id": null,
+   "text": "@AbhinavXJ Imagine picking bhopal over Bengaluru, Hyderabad, Mumbai .etc. All the tech talent are in these cities, imagine having a buildathon in Bhopal because of lobbying.",
+   "text_raw": "@AbhinavXJ Imagine picking bhopal over Bengaluru, Hyderabad, Mumbai .etc. All the tech talent are in these cities, imagine having a buildathon in Bhopal because of lobbying.",
+   "lang": "en",
+   "metrics": {
+    "likes": 3,
+    "reposts": null,
+    "replies": 2,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [
+    "AbhinavXJ"
+   ],
+   "media": [],
+   "in_timelines": [
+    "search"
+   ],
+   "first_seen_utc": "2026-09-11T11:26:40Z",
+   "found_via": "nitter.tiekoetter.com search: bhopal buildathon",
+   "matches_keyword": true
   },
   {
    "id": "2098325767516262764",
@@ -20200,6 +20547,43 @@
    "matches_keyword": false
   },
   {
+   "id": "2098331758844690607",
+   "url": "https://x.com/iMicrocap/status/2098331758844690607",
+   "author": {
+    "name": "Ayush Agrawal",
+    "handle": "iMicrocap",
+    "verified": true,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/2096106550708625408/yHMPzvfk_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T08:44:11Z",
+   "created_at_ist": "2026-09-11 14:14 IST",
+   "type": "quote",
+   "in_reply_to": null,
+   "quoted_status_id": "2097882312260428202",
+   "text": "This is why Fable Build Say is in Bhopal.",
+   "text_raw": "This is why Fable Build Say is in Bhopal.",
+   "lang": "en",
+   "metrics": {
+    "likes": 1,
+    "reposts": null,
+    "replies": 0,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [],
+   "media": [],
+   "in_timelines": [
+    "search"
+   ],
+   "first_seen_utc": "2026-09-11T11:26:40Z",
+   "found_via": "nitter.tiekoetter.com search: bhopal fable",
+   "matches_keyword": true
+  },
+  {
    "id": "2098331860720078864",
    "url": "https://x.com/ustillstaring/status/2098331860720078864",
    "author": {
@@ -20366,6 +20750,43 @@
     "top"
    ],
    "first_seen_utc": "2026-09-11T08:52:15Z",
+   "matches_keyword": true
+  },
+  {
+   "id": "2098332966242103621",
+   "url": "https://x.com/stacktrace01/status/2098332966242103621",
+   "author": {
+    "name": "decipherx",
+    "handle": "stacktrace01",
+    "verified": false,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/2068049991780982784/vvvZ9TG2_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T08:48:58Z",
+   "created_at_ist": "2026-09-11 14:18 IST",
+   "type": "post",
+   "in_reply_to": null,
+   "quoted_status_id": null,
+   "text": "Anthropic picked exactly one city in India for its Fable 5.1 buildathon.\n\nNot Bengaluru. Not Mumbai. Not Hyderabad.\n\nBhopal\n\nThe next wave of Indian AI builders won't come from where you expect. Sept 20",
+   "text_raw": "Anthropic picked exactly one city in India for its Fable 5.1 buildathon.\n\nNot Bengaluru. Not Mumbai. Not Hyderabad.\n\nBhopal\n\nThe next wave of Indian AI builders won't come from where you expect. Sept 20",
+   "lang": "en",
+   "metrics": {
+    "likes": 4,
+    "reposts": null,
+    "replies": 0,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [],
+   "media": [],
+   "in_timelines": [
+    "search"
+   ],
+   "first_seen_utc": "2026-09-11T11:26:40Z",
+   "found_via": "nitter.tiekoetter.com search: bhopal fable",
    "matches_keyword": true
   },
   {
@@ -23111,6 +23532,48 @@
    "matches_keyword": true
   },
   {
+   "id": "2098347112480326012",
+   "url": "https://x.com/aksssrao/status/2098347112480326012",
+   "author": {
+    "name": "Sonam R",
+    "handle": "aksssrao",
+    "verified": true,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/2067687481093554176/WHmy2fDy_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T09:45:11Z",
+   "created_at_ist": "2026-09-11 15:15 IST",
+   "type": "reply",
+   "in_reply_to": {
+    "handle": "claudeai",
+    "status_id": "2098138736642933143"
+   },
+   "quoted_status_id": null,
+   "text": "@claudeai Well a nice time to be among the 10 people in bhopal who have paid licence for claude then",
+   "text_raw": "@claudeai Well a nice time to be among the 10 people in bhopal who have paid licence for claude then",
+   "lang": "en",
+   "metrics": {
+    "likes": 3,
+    "reposts": null,
+    "replies": 1,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [
+    "claudeai"
+   ],
+   "media": [],
+   "in_timelines": [
+    "search"
+   ],
+   "first_seen_utc": "2026-09-11T11:26:40Z",
+   "found_via": "nitter.tiekoetter.com search: bhopal claude",
+   "matches_keyword": true
+  },
+  {
    "id": "2098347745132044664",
    "url": "https://x.com/pranaym0/status/2098347745132044664",
    "author": {
@@ -23189,6 +23652,48 @@
     "latest"
    ],
    "first_seen_utc": "2026-09-11T10:25:11Z",
+   "matches_keyword": true
+  },
+  {
+   "id": "2098347852414235031",
+   "url": "https://x.com/Wajoodrizvi/status/2098347852414235031",
+   "author": {
+    "name": "Wajood",
+    "handle": "Wajoodrizvi",
+    "verified": false,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/2057740572618883073/AhIewW81_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T09:48:08Z",
+   "created_at_ist": "2026-09-11 15:18 IST",
+   "type": "reply",
+   "in_reply_to": {
+    "handle": "amaan8429",
+    "status_id": "2098347144206061756"
+   },
+   "quoted_status_id": null,
+   "text": "@amaan8429 Anthropic saw your logs so so they change the location to BHOPAL so you couldn't attend 😭.",
+   "text_raw": "@amaan8429 Anthropic saw your logs so so they change the location to BHOPAL so you couldn't attend 😭.",
+   "lang": "en",
+   "metrics": {
+    "likes": 1,
+    "reposts": null,
+    "replies": 1,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [
+    "amaan8429"
+   ],
+   "media": [],
+   "in_timelines": [
+    "search"
+   ],
+   "first_seen_utc": "2026-09-11T11:26:40Z",
+   "found_via": "nitter.tiekoetter.com search: bhopal anthropic",
    "matches_keyword": true
   },
   {
@@ -23515,6 +24020,48 @@
    "first_seen_utc": "2026-09-11T11:26:13Z",
    "found_under": "2098324287816093718",
    "matches_keyword": false
+  },
+  {
+   "id": "2098351199250698604",
+   "url": "https://x.com/nawazish_khan1/status/2098351199250698604",
+   "author": {
+    "name": "Nawazish Khan",
+    "handle": "nawazish_khan1",
+    "verified": true,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/2062076817633423360/qkCa7049_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T10:01:26Z",
+   "created_at_ist": "2026-09-11 15:31 IST",
+   "type": "reply",
+   "in_reply_to": {
+    "handle": "simranrambles",
+    "status_id": "2098310518390092169"
+   },
+   "quoted_status_id": null,
+   "text": "@simranrambles I really don't understand\nClaude india is basically bhopal centric",
+   "text_raw": "@simranrambles I really don't understand \nClaude india is basically bhopal centric",
+   "lang": "en",
+   "metrics": {
+    "likes": 0,
+    "reposts": null,
+    "replies": 0,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [
+    "simranrambles"
+   ],
+   "media": [],
+   "in_timelines": [
+    "search"
+   ],
+   "first_seen_utc": "2026-09-11T11:26:40Z",
+   "found_via": "nitter.tiekoetter.com search: bhopal claude",
+   "matches_keyword": true
   },
   {
    "id": "2098351393749012781",
@@ -24427,6 +24974,59 @@
    "matches_keyword": false
   },
   {
+   "id": "2098358653200085389",
+   "url": "https://x.com/ImDigitalAkshat/status/2098358653200085389",
+   "author": {
+    "name": "Akshat",
+    "handle": "ImDigitalAkshat",
+    "verified": false,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/1898356433760002049/rd-9LsFE_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T10:31:03Z",
+   "created_at_ist": "2026-09-11 16:01 IST",
+   "type": "post",
+   "in_reply_to": null,
+   "quoted_status_id": null,
+   "text": "Yes! , you heard it right, it's happening in Bhopal.🇮🇳\n\nWe did it @og_guild @aniketsahu_115 🥳🥳\n\nJoin us on 20th Sep : https://luma.com/claude-z01j",
+   "text_raw": "Yes! , you heard it right, it's happening in Bhopal.🇮🇳\n\nWe did it @og_guild @aniketsahu_115 🥳🥳\n\nJoin us on 20th Sep : https://t.co/gaQtYWN9um https://t.co/eLJzRyCInZ",
+   "lang": "en",
+   "metrics": {
+    "likes": 0,
+    "reposts": null,
+    "replies": 0,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [
+    "https://luma.com/claude-z01j"
+   ],
+   "hashtags": [],
+   "mentions": [
+    "og_guild",
+    "aniketsahu_115"
+   ],
+   "media": [
+    {
+     "type": "video",
+     "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2098357483568033792/img/XpsQjE6GLGqmvHeL.jpg",
+     "video_url": "https://video.twimg.com/amplify_video/2098357483568033792/vid/avc1/720x1280/_fVQDB-TN4E4Eqix.mp4?tag=14",
+     "video_url_best": "https://video.twimg.com/amplify_video/2098357483568033792/vid/avc1/720x1280/_fVQDB-TN4E4Eqix.mp4?tag=14"
+    },
+    {
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HR7dJ98acAAUWB2.jpg"
+    }
+   ],
+   "in_timelines": [
+    "search"
+   ],
+   "first_seen_utc": "2026-09-11T11:26:40Z",
+   "found_via": "nitter.tiekoetter.com search: bhopal claude",
+   "matches_keyword": true
+  },
+  {
    "id": "2098358693016547403",
    "url": "https://x.com/Maaksh97/status/2098358693016547403",
    "author": {
@@ -25048,6 +25648,48 @@
    "matches_keyword": false
   },
   {
+   "id": "2098362446985711722",
+   "url": "https://x.com/ShubhangiYaps/status/2098362446985711722",
+   "author": {
+    "name": "Shubhangi Tiwari",
+    "handle": "ShubhangiYaps",
+    "verified": true,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/2045236989356834816/O2gB29j1_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T10:46:07Z",
+   "created_at_ist": "2026-09-11 16:16 IST",
+   "type": "post",
+   "in_reply_to": null,
+   "quoted_status_id": null,
+   "text": "Kya fayda Bangalore ka jab buildathon Bhopal mein hona hai",
+   "text_raw": "Kya fayda Bangalore ka jab buildathon Bhopal mein hona hai https://t.co/TYvPLe8tf5",
+   "lang": "in",
+   "metrics": {
+    "likes": 16,
+    "reposts": null,
+    "replies": 3,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [],
+   "media": [
+    {
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HR7hg3eb0AAM7dH.jpg"
+    }
+   ],
+   "in_timelines": [
+    "search"
+   ],
+   "first_seen_utc": "2026-09-11T11:26:40Z",
+   "found_via": "nitter.tiekoetter.com search: bhopal buildathon",
+   "matches_keyword": true
+  },
+  {
    "id": "2098362536748068882",
    "url": "https://x.com/0xabhi7/status/2098362536748068882",
    "author": {
@@ -25380,6 +26022,43 @@
     "top"
    ],
    "first_seen_utc": "2026-09-11T10:52:33Z",
+   "matches_keyword": true
+  },
+  {
+   "id": "2098363429472145740",
+   "url": "https://x.com/nirajxdev/status/2098363429472145740",
+   "author": {
+    "name": "Niraj",
+    "handle": "nirajxdev",
+    "verified": true,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/2096297883649892352/avKTs4E0_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T10:50:01Z",
+   "created_at_ist": "2026-09-11 16:20 IST",
+   "type": "post",
+   "in_reply_to": null,
+   "quoted_status_id": null,
+   "text": "earlier I used to know Bhopal only because of the Gas Tragedy\n\nnow Claude has given me another reason to remember it",
+   "text_raw": "earlier I used to know Bhopal only because of the Gas Tragedy\n\nnow Claude has given me another reason to remember it",
+   "lang": "en",
+   "metrics": {
+    "likes": 0,
+    "reposts": null,
+    "replies": 0,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [],
+   "media": [],
+   "in_timelines": [
+    "search"
+   ],
+   "first_seen_utc": "2026-09-11T11:26:40Z",
+   "found_via": "nitter.tiekoetter.com search: bhopal claude",
    "matches_keyword": true
   },
   {
@@ -26354,6 +27033,7 @@
    "media": [],
    "in_timelines": [
     "latest",
+    "search",
     "top"
    ],
    "first_seen_utc": "2026-09-11T11:26:13Z",
@@ -26581,6 +27261,45 @@
     "latest"
    ],
    "first_seen_utc": "2026-09-11T11:26:13Z",
+   "matches_keyword": true
+  },
+  {
+   "id": "2098372351528501699",
+   "url": "https://x.com/kkabra_/status/2098372351528501699",
+   "author": {
+    "name": "Kishan Kabra",
+    "handle": "kkabra_",
+    "verified": false,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/2096495301091827712/X4pfH9dA_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T11:25:29Z",
+   "created_at_ist": "2026-09-11 16:55 IST",
+   "type": "post",
+   "in_reply_to": null,
+   "quoted_status_id": null,
+   "text": "Finally @claudeai Buildathon at Bhopal.",
+   "text_raw": "Finally @claudeai Buildathon at Bhopal.",
+   "lang": "en",
+   "metrics": {
+    "likes": 0,
+    "reposts": null,
+    "replies": 0,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [
+    "claudeai"
+   ],
+   "media": [],
+   "in_timelines": [
+    "search"
+   ],
+   "first_seen_utc": "2026-09-11T11:26:40Z",
+   "found_via": "nitter.tiekoetter.com search: bhopal buildathon",
    "matches_keyword": true
   },
   {
