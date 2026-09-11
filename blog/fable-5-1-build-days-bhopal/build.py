@@ -93,6 +93,12 @@ tr = meta["trend"]
 renamed = (f' and later renamed <em>"{esc(tr["title"])}"</em>' if tr.get("title") and tr["title"] != tr.get("title_original") else "")
 correction = ("<p>One correction to that summary. Luma still showed seats for the Impact Lab when this page was last built, "
               "so it was not sold out.</p>" if "sold" in (tr.get("summary_by_grok") or "") else "")
+x_count = tr.get("post_count")
+proof_html = (f'<li>{fmt(x_count)} posts in the trend, by X\'s count</li><li>{counts["posts_total"]} readable without an account, saved here</li>'
+              if x_count else f'<li>{counts["posts_total"]} posts in the trend</li>')
+lead_open = ((f'X counts {fmt(x_count)} posts in this trend but shows only some of them to readers without an account; '
+              f'every one of those was read, one by one. Of the {counts["posts_total"]} saved so far, ')
+             if x_count else f'Every post in the trend, read one by one. Of {counts["posts_total"]}, ')
 now_ist = datetime.datetime.now(bk.IST).replace(second=0, microsecond=0)
 jsonld = json.dumps({
     "@context": "https://schema.org", "@type": "BlogPosting", "headline": TITLE, "description": DESC,
@@ -120,7 +126,7 @@ body = f'''{bk.FILTERS}
       <p class="label">Blog · Thursday, September 11, 2026 · 8 min read</p>
       <h1>The night Bhopal <em>trended</em> on X</h1>
       <p class="deck">Claude announced Fable 5.1 Build Days in cities around the world. One Indian city made the list. The timeline had opinions. All of them are saved here.</p>
-      <ul class="proof"><li>{counts["posts_total"]} posts in the trend</li><li>{counts["posts_mentioning_bhopal"]} name Bhopal</li><li>{fmt(anchor["metrics"]["views"])} views on the announcement</li></ul>
+      <ul class="proof">{proof_html}<li>{counts["posts_mentioning_bhopal"]} name Bhopal</li><li>{fmt(anchor["metrics"]["views"])} views on the announcement</li></ul>
     </div>
     <figure class="hero-fig">
       <div class="polaroid">
@@ -168,7 +174,7 @@ body = f'''{bk.FILTERS}
 <section class="paper" id="reactions">
   <div class="wrap">
     <h2 class="kicker">What the timeline said</h2>
-    <p class="lead-wide">Every post in the trend, read one by one. Of {counts["posts_total"]}, {counts["posts_mentioning_bhopal"]} name Bhopal directly and a handful more are clearly about it. Here are the ones worth your time, grouped by mood. The full list is at the bottom.</p>
+    <p class="lead-wide">{lead_open}{counts["posts_mentioning_bhopal"]} name Bhopal directly and a handful more are clearly about it. Here are the ones worth your time, grouped by mood. The full list is at the bottom.</p>
     {groups_html}
   </div>
 </section>

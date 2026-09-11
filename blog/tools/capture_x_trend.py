@@ -210,6 +210,14 @@ def main():
     title = article.get("title")
     summary = ((article.get("article_text") or {}).get("text"))
     print("trend:", title)
+    # X's own size of the trend (postCount in the story page's payload). Only a
+    # fraction of those posts is shown to readers without an account.
+    post_count = None
+    code_h, html_page = http(f"https://x.com/i/trending/{trend_id}")
+    mm = re.search(r"postCount:(\d+)", html_page) if code_h == 200 else None
+    if mm:
+        post_count = int(mm.group(1))
+        print("posts in the trend, by X's count:", post_count)
     timelines = {t["label"].lower(): t["post_timeline"]["id"] for t in page.get("post_timelines", [])}
 
     fresh = {}
@@ -261,6 +269,7 @@ def main():
                   "title": title, "title_original": old_trend.get("title_original") or title,
                   "summary_by_grok": summary, "summary_original": old_trend.get("summary_original") or summary,
                   "summary_disclaimer": page.get("disclaimer"),
+                  "post_count": post_count if post_count is not None else old_trend.get("post_count"),
                   "summary_last_updated_utc": (datetime.datetime.fromtimestamp(page["last_updated_at_ms"] / 1000, UTC).isoformat().replace("+00:00", "Z")
                                                if page.get("last_updated_at_ms") else None),
                   "created_at_utc": created.isoformat().replace("+00:00", "Z"),
