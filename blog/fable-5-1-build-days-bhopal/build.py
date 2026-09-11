@@ -94,10 +94,11 @@ renamed = (f' and later renamed <em>"{esc(tr["title"])}"</em>' if tr.get("title"
 correction = ("<p>One correction to that summary. Luma still showed seats for the Impact Lab when this page was last built, "
               "so it was not sold out.</p>" if "sold" in (tr.get("summary_by_grok") or "") else "")
 x_count = tr.get("post_count")
-proof_html = (f'<li>{x_count:,} posts in the trend, by X\'s count</li><li>{counts["posts_total"]} readable without an account, saved here</li>'
+proof_html = (f'<li>{x_count:,} posts in the trend, by X\'s count</li><li>{counts["posts_total"]} saved here, readable without an account</li>'
               if x_count else f'<li>{counts["posts_total"]} posts in the trend</li>')
-lead_open = ((f'X counts {x_count:,} posts in this trend but shows only some of them to readers without an account; '
-              f'every one of those was read, one by one. Of the {counts["posts_total"]} saved so far, ')
+lead_open = ((f'X counts {x_count:,} posts in this trend but shows only some of them to readers without an account: '
+              f'the trend\'s own timelines, plus the replies visible under each post. All of those were read, one by one. '
+              f'Of the {counts["posts_total"]} saved so far, ')
              if x_count else f'Every post in the trend, read one by one. Of {counts["posts_total"]}, ')
 now_ist = datetime.datetime.now(bk.IST).replace(second=0, microsecond=0)
 jsonld = json.dumps({

@@ -43,6 +43,8 @@ python3 blog/tools/capture_x_trend.py https://x.com/i/trending/<trend-id> --keyw
 
 It pages through the trend's "Top" and "Latest" post timelines with a guest token and writes `tweets.json`. If the file already exists, new posts are merged in and counts are refreshed; nothing is ever dropped. GraphQL query ids change every few weeks; the script refreshes them from the community-maintained TwitterInternalAPIDocument project and falls back to the ids that worked on September 11, 2026.
 
+X's trend timelines leave out the replies under each post, and search needs an account, so `blog/tools/expand_x_archive.py` fills in what a logged-out visitor can still see: it opens the page of every saved post that has replies, collects the reply ids X renders there, fetches each one through X's syndication endpoint (the one embedded posts use), and merges the ones that belong to the conversation into `tweets.json`. Those posts carry `in_timelines: ["conversation"]`; X does not expose their repost or view counts. It runs after the capture in the workflow, a few dozen pages per run, so threads fill in over successive runs.
+
 Each post folder has a `build.py` that turns `tweets.json` into `index.html` (plus `tweets.csv`), fetching images and avatars into `media/` on first use. The shared page chrome, tweet cards and stylesheet live in `blog/tools/blogkit.py` and `blog/tools/blog.css`:
 
 ```

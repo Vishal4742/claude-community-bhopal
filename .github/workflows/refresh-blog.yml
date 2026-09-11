@@ -54,6 +54,9 @@ jobs:
       - name: Fetch new posts from the trend
         run: python3 blog/tools/capture_x_trend.py 2098201852286324889 --keyword bhopal --out blog/fable-5-1-build-days-bhopal
 
+      - name: Add the replies X shows under saved posts
+        run: python3 blog/tools/expand_x_archive.py --out blog/fable-5-1-build-days-bhopal --keyword bhopal --max-pages 40
+
       - name: Rebuild the post
         run: python3 blog/fable-5-1-build-days-bhopal/build.py
 

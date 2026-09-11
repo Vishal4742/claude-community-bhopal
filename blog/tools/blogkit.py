@@ -63,6 +63,11 @@ NUMBER_WORDS = {0: "None", 1: "One", 2: "Two", 3: "Three", 4: "Four", 5: "Five",
                 9: "Nine", 10: "Ten", 11: "Eleven", 12: "Twelve", 13: "Thirteen", 14: "Fourteen", 15: "Fifteen"}
 
 
+def stat(title, icon, value):
+    """One metric for a card footer; nothing when X did not expose it (None)."""
+    return "" if value is None else f'<span title="{title}">{icon} {fmt(value)}</span>'
+
+
 def number_word(n):
     return NUMBER_WORDS.get(n, str(n))
 
@@ -193,7 +198,7 @@ def card(post, posts, media_dir, note=None):
     return f'''<article class="tw" id="p{p["id"]}">
   <header class="tw-head">{avatar}<div class="tw-who"><a class="tw-name" href="https://x.com/{esc(a["handle"])}" target="_blank" rel="noopener">{esc(a["name"] or a["handle"])}</a><span class="tw-handle">@{esc(a["handle"])}</span></div><a class="tw-time" href="{esc(p["url"])}" target="_blank" rel="noopener">{when(p)}</a></header>
   {ctx}<p class="tw-text">{rich(p["text"])}</p>{med}
-  <footer class="tw-foot"><span title="likes">♥ {fmt(m["likes"])}</span><span title="reposts">⟲ {fmt(m["reposts"])}</span><span title="replies">✎ {fmt(m["replies"])}</span><span title="views">◉ {fmt(m["views"])}</span><a href="{esc(p["url"])}" target="_blank" rel="noopener">Open on X ↗</a></footer>{notehtml}
+  <footer class="tw-foot">{stat("likes", "♥", m["likes"])}{stat("reposts", "⟲", m["reposts"])}{stat("replies", "✎", m["replies"])}{stat("views", "◉", m["views"])}<a href="{esc(p["url"])}" target="_blank" rel="noopener">Open on X ↗</a></footer>{notehtml}
 </article>'''
 
 
@@ -215,7 +220,7 @@ def archive_card(post, i, media_dir, tag_text="about Bhopal", tagged=False):
     return f'''<li class="ar-card" data-t="{epoch(p)}" data-views="{m["views"] or 0}" data-likes="{m["likes"] or 0}" data-s="{search}">
   <div class="ar-head">{avatar}<div class="ar-who"><a class="ar-name" href="https://x.com/{esc(a["handle"])}" target="_blank" rel="noopener">{esc(a["name"] or a["handle"])}</a><span class="ar-handle">@{esc(a["handle"])}</span></div><span class="ar-n">{i:02d}</span></div>
   <p class="ar-text">{rich(p["text"])}</p>{thumb}
-  <div class="ar-foot"><a class="ar-time" href="{esc(p["url"])}" target="_blank" rel="noopener">{when(p)} ↗</a>{tag}<span class="ar-stats">♥ {fmt(m["likes"])} · ◉ {fmt(m["views"])}</span></div>
+  <div class="ar-foot"><a class="ar-time" href="{esc(p["url"])}" target="_blank" rel="noopener">{when(p)} ↗</a>{tag}<span class="ar-stats">♥ {fmt(m["likes"])}{" · ◉ " + fmt(m["views"]) if m["views"] is not None else ""}</span></div>
 </li>'''
 
 # ---------------------------------------------------------------- page chrome
