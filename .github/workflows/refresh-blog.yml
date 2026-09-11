@@ -1,10 +1,11 @@
 # Refreshes the Bhopal trend archive: fetches new posts from X, rebuilds the
-# blog post, and pushes the result. Netlify deploys every push to main.
+# blog post, and pushes the result. Every push to main deploys both Netlify
+# projects (the main site's /blog/ and claude-bhopal-blog).
 name: Refresh Bhopal trend archive
 
 on:
   schedule:
-    - cron: "23 */3 * * *"   # every 3 hours (UTC)
+    - cron: "*/10 * * * *"   # every 10 minutes (UTC); GitHub may delay or skip a slot under load
   workflow_dispatch:
 
 permissions:
@@ -27,22 +28,41 @@ jobs:
       - name: Install Pillow (resizes images and avatars)
         run: pip install --quiet pillow
 
+      - name: Note what is already saved
+        id: before
+        run: |
+          python3 - >> "$GITHUB_OUTPUT" <<'PY'
+          import json
+          m = json.load(open("blog/fable-5-1-build-days-bhopal/tweets.json"))["meta"]
+          print("n=" + str(m["counts"]["posts_total"]))
+          print("t=" + m["captured_at_utc"])
+          PY
+
       - name: Fetch new posts from the trend
         run: python3 blog/tools/capture_x_trend.py 2098201852286324889 --keyword bhopal --out blog/fable-5-1-build-days-bhopal
 
       - name: Rebuild the post
         run: python3 blog/fable-5-1-build-days-bhopal/build.py
 
-      - name: Commit and push if anything changed
+      # Engagement counts change on every run, so without a guard the archive
+      # would be committed (and both sites redeployed) every 10 minutes.
+      # Commit when new posts arrived, or every 3 hours so the counts stay fresh.
+      - name: Commit and push when there are new posts (or every 3 hours)
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A blog
           if git diff --cached --quiet; then
-            echo "Nothing new."
+            echo "Nothing changed."
             exit 0
           fi
-          N=$(python3 -c "import json;print(json.load(open('blog/fable-5-1-build-days-bhopal/tweets.json'))['meta']['counts']['posts_total'])")
-          git commit -m "Refresh Bhopal trend archive: $N posts"
+          AFTER=$(python3 -c "import json;print(json.load(open('blog/fable-5-1-build-days-bhopal/tweets.json'))['meta']['counts']['posts_total'])")
+          NEW=$(( AFTER - ${{ steps.before.outputs.n }} ))
+          AGE=$(python3 -c "import datetime as d;t=d.datetime.strptime('${{ steps.before.outputs.t }}','%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=d.timezone.utc);print(int((d.datetime.now(d.timezone.utc)-t).total_seconds()))")
+          if [ "$NEW" -le 0 ] && [ "$AGE" -lt 10800 ]; then
+            echo "No new posts ($AFTER saved); last refresh was $((AGE / 60)) minutes ago. Not committing."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh Bhopal trend archive: $AFTER posts ($NEW new)"
           git pull --rebase origin main
           git push origin HEAD:main

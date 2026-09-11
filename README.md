@@ -52,7 +52,7 @@ python3 blog/tools/build_index.py          # the post list; add new posts to POS
 
 ### Automatic refresh
 
-`.github/workflows/refresh-blog.yml` runs every 3 hours (and on demand from the Actions tab, or with `gh workflow run refresh-blog.yml`). It fetches new posts, rebuilds the post, and commits the result to `main` as `github-actions[bot]`; Netlify then deploys it. When nothing changed, it commits nothing. Pillow is installed in the job so images are resized; without it the scripts still run and just copy files as they are.
+`.github/workflows/refresh-blog.yml` runs every 10 minutes (and on demand from the Actions tab, or with `gh workflow run refresh-blog.yml`). It fetches new posts and rebuilds the post, then commits to `main` as `github-actions[bot]` when new posts arrived, or every 3 hours so the engagement counts on the page stay fresh; Netlify deploys each push to both projects. When nothing changed, it commits nothing. Pillow is installed in the job so images are resized; without it the scripts still run and just copy files as they are.
 
 To stop the refreshes, disable the workflow in the Actions tab (or delete the `schedule` block). To point it at another trend, change the trend id and `--keyword` in the workflow and add a matching post folder with its own `build.py`.
 
