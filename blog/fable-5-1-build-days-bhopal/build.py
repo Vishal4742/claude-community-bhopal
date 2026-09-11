@@ -43,15 +43,18 @@ GROUPS = [
       "2098272331798040775", "2098178895640166585", "2098306513437851727", "2098306480797868441"]),
     ("Bengaluru gets one too, afterwards", "There was no Bengaluru Build Day when the trend started. One went up after it, announced at 1:44 pm by its host, for Friday the 25th. Bhopal's, on the 20th, came first.",
      ["2098324283143700669", "2098328022890029508", "2098326733825229259", "2098333150204076220", "2098325311838634384"]),
+    ("Still going at 10 pm", "The trend did not stop with the workday. Posts kept coming at about a hundred an hour through the afternoon and evening; these are the ones that travelled furthest.",
+     ["2098336832681603212", "2098363119378768035", "2098351586179473864", "2098362446985711722", "2098375938782503062",
+      "2098423982576001036", "2098387045496295851", "2098408329018257582"]),
     ("Wait, why Bhopal?", 'Fair question. The answer is a few scrolls up, under <a href="#why-bhopal">Why Bhopal?</a>',
      ["2098186648357843343", "2098148907704520830", "2098142420416512215", "2098230260051693859", "2098195509014106121",
       "2098251137153691990", "2098221619965768021", "2098289813732626887", "2098288267221520554", "2098291317088657818",
-      "2098273574322831854", "2098228434443162050"]),
+      "2098273574322831854", "2098228434443162050", "2098336801832460795", "2098375009110810817", "2098405090067710236"]),
     ("The memes", "Poha stocks are up.",
      ["2098191966525874523", "2098158341524738408", "2098182461754839131", "2098292489627292141", "2098289796829380654",
       "2098180941483323446", "2098305414035075521"]),
     ("From the people making it happen", "The organisers and regulars of the Bhopal chapter, replying with a Luma link.",
-     ["2098261992524144910", "2098252000450457658", "2098289190081638684"]),
+     ["2098261992524144910", "2098252000450457658", "2098289190081638684", "2098339402791714953"]),
 ]
 
 BUILD_DAYS = [("Cape Town", "Sat, Sep 12"), ("Oslo", "Mon, Sep 14"), ("Brisbane", "Wed, Sep 16"), ("Chicago", "Wed, Sep 16"),
@@ -145,6 +148,7 @@ body = f'''{bk.FILTERS}
     <p>At 1:27 am on Friday, <a href="https://x.com/claudeai" target="_blank" rel="noopener">@claudeai</a> posted a 30-second video. Fable 5.1 Build Days, a worldwide buildathon from September 11 to 25, with the Claude community hosting in cities across every continent. The video scrolls through the host cities. Nairobi. Stockholm. Cape Town. Oslo. Mexico City. Osaka. Miami. Then, in a clay-coloured box: <strong>Bhopal</strong>.</p>
     <p>Bhopal was the only Indian city on the list. No Bengaluru, no Delhi, no Mumbai, no Hyderabad. Within half an hour the quote-posts started, and they did not stop. By 5:37 am X's trending system had bundled the conversation into its own story page, first titled <em>"{esc(tr.get("title_original") or tr.get("title") or "")}"</em>{renamed}. That page is where this post comes from.</p>
     <p><strong>Update, 2 pm IST:</strong> Bengaluru is on the list now, and it got there after Bhopal trended. There was no Bengaluru event when the announcement went out at 1:27 am. The first word of one came at 1:44 pm, twelve hours later, from <a href="https://x.com/knowShubhangi" target="_blank" rel="noopener">@knowShubhangi</a>, who is hosting it: a <a href="https://luma.com/claude-x5dm" target="_blank" rel="noopener">Claude Fable Build Day in Bengaluru</a> on Friday, September 25, followed by a Claude Conversation in Mumbai on the 26th. Bhopal, on the 20th, was first on the list and is first on the calendar.</p>
+    <p><strong>Update, 10 pm IST:</strong> the story is still climbing. X has renamed it four times since the morning, and at the last refresh it counted {x_count:,} posts in the trend, with {fmt(anchor["metrics"]["views"])} views on the announcement. On X's trending page it now sits beside two larger India stories from the same day, Karnataka's partnership with Anthropic on public services and Anthropic's chief executive Dario Amodei meeting Prime Minister Narendra Modi. Bhopal's is the smallest of the three and the only one about a city nobody expected on the list.</p>
     {bk.card(anchor, posts, MEDIA)}
     <p class="asof">Counts on this page are as of {esc(meta.get("captured_at_pretty") or meta.get("captured_at_ist") or "")}. They will have moved since.</p>
     <blockquote class="grok">
