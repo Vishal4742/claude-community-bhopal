@@ -1,0 +1,48 @@
+# Refreshes the Bhopal trend archive: fetches new posts from X, rebuilds the
+# blog post, and pushes the result. Netlify deploys every push to main.
+name: Refresh Bhopal trend archive
+
+on:
+  schedule:
+    - cron: "23 */3 * * *"   # every 3 hours (UTC)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-blog
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Pillow (resizes images and avatars)
+        run: pip install --quiet pillow
+
+      - name: Fetch new posts from the trend
+        run: python3 blog/tools/capture_x_trend.py 2098201852286324889 --keyword bhopal --out blog/fable-5-1-build-days-bhopal
+
+      - name: Rebuild the post
+        run: python3 blog/fable-5-1-build-days-bhopal/build.py
+
+      - name: Commit and push if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A blog
+          if git diff --cached --quiet; then
+            echo "Nothing new."
+            exit 0
+          fi
+          N=$(python3 -c "import json;print(json.load(open('blog/fable-5-1-build-days-bhopal/tweets.json'))['meta']['counts']['posts_total'])")
+          git commit -m "Refresh Bhopal trend archive: $N posts"
+          git pull --rebase origin main
+          git push origin HEAD:main

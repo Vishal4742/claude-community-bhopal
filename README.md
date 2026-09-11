@@ -9,6 +9,7 @@ Then: Claude Conversation · Sat, Sep 12 · [Luma](https://luma.com/claude-6khk)
 
 - `index.html` — the whole site: markup, styles, and scripts in one file, no build step
 - `assets/` — photos, icons, and the social share card, committed to the repo so a clone deploys as-is
+- `blog/` — the blog. `blog/index.html` lists the posts; each post lives in its own folder (`blog/<slug>/index.html` plus its `media/`, `og.jpg` and any data files). `blog/tools/` holds the scripts used to build posts
 
 Everything is hand-rolled. The rough borders are SVG turbulence filters, the mascots are inline SVG (animated with GSAP, loaded from a CDN with a pinned version and integrity hash; the Tally popup embed is the only other external script), and the rest is plain HTML, CSS, and JavaScript. The page works with JavaScript disabled.
 
@@ -27,6 +28,32 @@ git add -A && git commit -m "…" && git push
 ```
 
 If the site ever moves to a custom domain, update the absolute URLs in `<head>` (canonical, `og:url`, `og:image`, `twitter:image`) and in the JSON-LD block.
+
+## Blog
+
+Posts are plain HTML pages that reuse the site's styles, so they work with JavaScript disabled and need no build step. To add one, copy the folder of an existing post, replace the content, and add a card to `blog/index.html`.
+
+**First post:** [The night Bhopal trended on X](https://claude-community-bhopal.netlify.app/blog/fable-5-1-build-days-bhopal/) (`blog/fable-5-1-build-days-bhopal/`). It archives X's trend "Claude Fable 5.1 Build Days Launch Worldwide with Bhopal Spotlight" from September 11, 2026: every post in the trend is saved in `tweets.json` (243 posts, with author, time, text, media and engagement counts as of 12:42 pm IST) and the 131 posts about Bhopal in `tweets.csv`, with images and avatars in `media/`.
+
+The archive was made with `blog/tools/capture_x_trend.py`, which needs no X account and no third-party packages:
+
+```
+python3 blog/tools/capture_x_trend.py https://x.com/i/trending/<trend-id> --keyword bhopal --out blog/<slug>
+```
+
+It pages through the trend's "Top" and "Latest" post timelines with a guest token and writes `tweets.json`. If the file already exists, new posts are merged in and counts are refreshed; nothing is ever dropped. GraphQL query ids change every few weeks; the script refreshes them from the community-maintained TwitterInternalAPIDocument project and falls back to the ids that worked on September 11, 2026.
+
+Each post folder has a `build.py` that turns `tweets.json` into `index.html` (plus `tweets.csv`), fetching images and avatars into `media/` on first use. The shared page chrome, tweet cards and stylesheet live in `blog/tools/blogkit.py` and `blog/tools/blog.css`:
+
+```
+python3 blog/fable-5-1-build-days-bhopal/build.py
+```
+
+### Automatic refresh
+
+`.github/workflows/refresh-blog.yml` runs every 3 hours (and on demand from the Actions tab, or with `gh workflow run refresh-blog.yml`). It fetches new posts, rebuilds the post, and commits the result to `main` as `github-actions[bot]`; Netlify then deploys it. When nothing changed, it commits nothing. Pillow is installed in the job so images are resized; without it the scripts still run and just copy files as they are.
+
+To stop the refreshes, disable the workflow in the Actions tab (or delete the `schedule` block). To point it at another trend, change the trend id and `--keyword` in the workflow and add a matching post folder with its own `build.py`.
 
 ## Tally forms for the "pick your role" section
 
