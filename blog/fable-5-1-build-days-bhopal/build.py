@@ -89,8 +89,8 @@ context_n = counts["posts_about_bhopal"] - sum(1 for p in about if p["mentions_b
 bd_html = "".join(f'<li{" class=\"here\"" if c_ == "Bhopal" else ""}><b>{c_}</b><span>{d}</span></li>' for c_, d in BUILD_DAYS)
 tr = meta["trend"]
 renamed = (f' and later renamed <em>"{esc(tr["title"])}"</em>' if tr.get("title") and tr["title"] != tr.get("title_original") else "")
-correction = ("<p>One correction to that summary. The Impact Lab was not sold out when we checked Luma. It still had seats. "
-              "If you read that as a nudge, good.</p>" if "sold" in (tr.get("summary_by_grok") or "") else "")
+correction = ("<p>One correction to that summary. Luma still showed seats for the Impact Lab when this page was last built, "
+              "so it was not sold out.</p>" if "sold" in (tr.get("summary_by_grok") or "") else "")
 now_ist = datetime.datetime.now(bk.IST).replace(second=0, microsecond=0)
 jsonld = json.dumps({
     "@context": "https://schema.org", "@type": "BlogPosting", "headline": TITLE, "description": DESC,
@@ -117,7 +117,7 @@ body = f'''{bk.FILTERS}
     <div>
       <p class="label">Blog · Thursday, September 11, 2026 · 8 min read</p>
       <h1>The night Bhopal <em>trended</em> on X</h1>
-      <p class="deck">Claude announced Fable 5.1 Build Days in cities around the world. One Indian city made the list. The timeline had opinions, and we saved all of them.</p>
+      <p class="deck">Claude announced Fable 5.1 Build Days in cities around the world. One Indian city made the list. The timeline had opinions. All of them are saved here.</p>
       <ul class="proof"><li>{counts["posts_total"]} posts in the trend</li><li>{counts["posts_mentioning_bhopal"]} name Bhopal</li><li>{fmt(anchor["metrics"]["views"])} views on the announcement</li></ul>
     </div>
     <figure class="hero-fig">
@@ -148,12 +148,12 @@ body = f'''{bk.FILTERS}
 <section class="ink-section" id="why-bhopal">
   <div class="wrap narrow">
     <h2 class="kicker cream">Why Bhopal?</h2>
-    <p>Because someone here put an event on the calendar. Build Days are hosted by local Claude community chapters, and the Bhopal chapter has been meeting since July. Eight meetups so far, all free, all run by volunteers. When the Fable 5.1 Build Days went up on the global calendar, Bhopal was on it.</p>
-    <p>Three events are now on the way, and the Build Day is the one the whole timeline was arguing about.</p>
+    <p>Because the local chapter put an event on the calendar. Build Days are hosted by Claude community chapters in each city, and Bhopal has one: a volunteer-run group, hosted by The Origin Guild, that has held nine free meetups since March, from Claude Code workshops to a full-day Impact Lab in August. When the Fable 5.1 Build Days went up on the global calendar, Bhopal was on it.</p>
+    <p>Three events are on the chapter's calendar for September, and the Build Day is the one the whole timeline was arguing about.</p>
     <div class="ev-grid">
-      <a class="ev" href="https://luma.com/claude-6khk" target="_blank" rel="noopener"><span class="ev-date">Sat, Sep 12 · 6:00–8:30 pm</span><span class="ev-title">Claude Conversation</span><span class="ev-desc">A small room, one question: what does AI mean for our future? The problem the room picks becomes Sunday's build.</span><span class="ev-cta">Reserve a seat ↗</span></a>
+      <a class="ev" href="https://luma.com/claude-6khk" target="_blank" rel="noopener"><span class="ev-date">Sat, Sep 12 · 6:00–8:30 pm</span><span class="ev-title">Claude Conversation</span><span class="ev-desc">A small room, one question: what does AI mean for the future of building startups? The problem the room picks becomes Sunday's build.</span><span class="ev-cta">Reserve a seat ↗</span></a>
       <a class="ev" href="https://luma.com/claude-r61u" target="_blank" rel="noopener"><span class="ev-date">Sun, Sep 13 · 10 am–7 pm</span><span class="ev-title">Claude Impact Lab</span><span class="ev-desc">A full day of building on Saturday's problem, in teams, with demos by evening.</span><span class="ev-cta">Reserve a seat ↗</span></a>
-      <a class="ev hot" href="https://luma.com/claude-z01j" target="_blank" rel="noopener"><span class="ev-date">Sun, Sep 20 · 11 am–6 pm</span><span class="ev-title">Claude Code Build Day · Fable 5.1</span><span class="ev-desc">The Build Day everyone was posting about. Three tracks: Delight, Breakthrough, Everyday. Solo or teams of 2–4. Hosted by Aniket Sahu.</span><span class="ev-cta">Register, it's free ↗</span></a>
+      <a class="ev hot" href="https://luma.com/claude-z01j" target="_blank" rel="noopener"><span class="ev-date">Sun, Sep 20 · 11 am–6 pm</span><span class="ev-title">Claude Code Build Day · Fable 5.1</span><span class="ev-desc">The Build Day everyone was posting about. Three tracks: Delight, Breakthrough, Everyday. Solo or teams of 2–4. Hosted by Aniket Sahu, who runs the chapter's events.</span><span class="ev-cta">Register, it's free ↗</span></a>
     </div>
     <p class="fine">All three are free and approval-based. Register early on Luma. The venue is shared with confirmed registrants.</p>
     <h3 class="kicker cream small">Where else Build Days are happening</h3>
@@ -165,15 +165,15 @@ body = f'''{bk.FILTERS}
 <section class="paper" id="reactions">
   <div class="wrap">
     <h2 class="kicker">What the timeline said</h2>
-    <p class="lead-wide">We went through every post in the trend. Of {counts["posts_total"]}, {counts["posts_mentioning_bhopal"]} name Bhopal directly and a handful more are clearly about it. Here are the ones worth your time, grouped by mood. The full list is at the bottom.</p>
+    <p class="lead-wide">Every post in the trend, read one by one. Of {counts["posts_total"]}, {counts["posts_mentioning_bhopal"]} name Bhopal directly and a handful more are clearly about it. Here are the ones worth your time, grouped by mood. The full list is at the bottom.</p>
     {groups_html}
   </div>
 </section>
 
-<section class="clay-section" id="our-take">
+<section class="clay-section" id="the-reply">
   <div class="wrap narrow">
-    <h2 class="kicker">Our take</h2>
-    <p class="big">We'll take the jokes. We'll even take the poha stock tips. Then we'll spend Sunday the 20th building things with the newest model there is, in a room full of people who showed up. If you are travelling from Bengaluru, at least one person on the timeline has offered you a couch.</p>
+    <h2 class="kicker">The reply from Bhopal</h2>
+    <p class="big">The chapter's answer to the jokes is a date. On Sunday, September 20, the people who signed up will spend the day building with the newest model there is, in the city the whole timeline was posting about. Anyone travelling from Bengaluru has already been offered a couch by at least one person on X.</p>
     <p><a class="btn btn-dark" href="https://luma.com/claude-z01j" target="_blank" rel="noopener"><span>Register for the Bhopal Build Day</span><span class="arrow">↗</span></a></p>
   </div>
 </section>

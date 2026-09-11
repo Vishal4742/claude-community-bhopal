@@ -15,8 +15,8 @@ import blogkit as bk  # noqa: E402
 
 BLOG = os.path.join(HERE, "..")
 URL = f"{bk.SITE}/blog/"
-DESC = ("Notes from the Claude community in Bhopal: what happened at our meetups, what people built, "
-        "and the occasional night we trend on X.")
+DESC = ("Notes on the Claude community in Bhopal: what happens at its meetups, what people build there, "
+        "and the occasional night the city trends on X.")
 POSTS = [
     {"slug": "fable-5-1-build-days-bhopal", "title": "The night Bhopal trended on X",
      "date": "September 11, 2026", "iso": "2026-09-11T14:00:00+05:30", "read": "8 min read",
@@ -47,7 +47,7 @@ body = f'''{bk.FILTERS}
   <div class="wrap">
     <p class="label">Blog</p>
     <h1>Notes from <em>Bhopal</em></h1>
-    <p class="deck">What happened at our meetups, what people built, and the occasional night we trend on X.</p>
+    <p class="deck">What happens at the meetups, what people build, and the occasional night Bhopal trends on X.</p>
   </div>
 </header>
 <main>
