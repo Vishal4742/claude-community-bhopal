@@ -124,7 +124,7 @@ body = f'''{bk.FILTERS}
 <header class="hero">
   <div class="wrap hero-grid">
     <div>
-      <p class="label">Blog · Thursday, September 11, 2026 · 8 min read</p>
+      <p class="label">Blog · Friday, September 11, 2026 · 8 min read</p>
       <h1>The night Bhopal <em>trended</em> on X</h1>
       <p class="deck">Claude announced Fable 5.1 Build Days in cities around the world. One Indian city made the list. The timeline had opinions. All of them are saved here.</p>
       <ul class="proof">{proof_html}<li>{counts["posts_mentioning_bhopal"]} name Bhopal</li><li>{fmt(anchor["metrics"]["views"])} views on the announcement</li></ul>
@@ -142,7 +142,7 @@ body = f'''{bk.FILTERS}
 <section class="paper" id="what-happened">
   <div class="wrap narrow">
     <h2 class="kicker">What happened</h2>
-    <p>At 1:27 am on Thursday, <a href="https://x.com/claudeai" target="_blank" rel="noopener">@claudeai</a> posted a 30-second video. Fable 5.1 Build Days, a worldwide buildathon from September 11 to 25, with the Claude community hosting in cities across every continent. The video scrolls through the host cities. Nairobi. Stockholm. Cape Town. Oslo. Mexico City. Osaka. Miami. Then, in a clay-coloured box: <strong>Bhopal</strong>.</p>
+    <p>At 1:27 am on Friday, <a href="https://x.com/claudeai" target="_blank" rel="noopener">@claudeai</a> posted a 30-second video. Fable 5.1 Build Days, a worldwide buildathon from September 11 to 25, with the Claude community hosting in cities across every continent. The video scrolls through the host cities. Nairobi. Stockholm. Cape Town. Oslo. Mexico City. Osaka. Miami. Then, in a clay-coloured box: <strong>Bhopal</strong>.</p>
     <p>Bhopal was the only Indian city on the list. No Bengaluru, no Delhi, no Mumbai, no Hyderabad. Within half an hour the quote-posts started, and they did not stop. By 5:37 am X's trending system had bundled the conversation into its own story page, first titled <em>"{esc(tr.get("title_original") or tr.get("title") or "")}"</em>{renamed}. That page is where this post comes from.</p>
     <p><strong>Update, 2 pm IST:</strong> Bengaluru is on the list now, and it got there after Bhopal trended. There was no Bengaluru event when the announcement went out at 1:27 am. The first word of one came at 1:44 pm, twelve hours later, from <a href="https://x.com/knowShubhangi" target="_blank" rel="noopener">@knowShubhangi</a>, who is hosting it: a <a href="https://luma.com/claude-x5dm" target="_blank" rel="noopener">Claude Fable Build Day in Bengaluru</a> on Friday, September 25, followed by a Claude Conversation in Mumbai on the 26th. Bhopal, on the 20th, was first on the list and is first on the calendar.</p>
     {bk.card(anchor, posts, MEDIA)}
