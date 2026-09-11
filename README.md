@@ -52,9 +52,11 @@ python3 blog/tools/build_index.py          # the post list; add new posts to POS
 
 ### Automatic refresh
 
-`.github/workflows/refresh-blog.yml` runs every 10 minutes (and on demand from the Actions tab, or with `gh workflow run refresh-blog.yml`). It fetches new posts and rebuilds the post, then commits to `main` as `github-actions[bot]` when new posts arrived, or every 3 hours so the engagement counts on the page stay fresh; Netlify deploys each push to both projects. When nothing changed, it commits nothing. Pillow is installed in the job so images are resized; without it the scripts still run and just copy files as they are.
+`.github/workflows/refresh-blog.yml` runs every 10 minutes: each run starts the next one 10 minutes after it began (GitHub's cron trigger never fired for this repo, so it is only a backup). Run it on demand from the Actions tab or with `gh workflow run refresh-blog.yml`. It fetches new posts and rebuilds the post, then commits to `main` as `github-actions[bot]` when new posts arrived, or every 3 hours so the engagement counts on the page stay fresh; Netlify deploys each push to both projects. When nothing changed, it commits nothing.
 
-To stop the refreshes, disable the workflow in the Actions tab (or delete the `schedule` block). To point it at another trend, change the trend id and `--keyword` in the workflow and add a matching post folder with its own `build.py`.
+To pause the loop, disable the workflow (`gh workflow disable refresh-blog.yml`, or the Actions tab); to resume, enable it and run it once (`gh workflow enable refresh-blog.yml && gh workflow run refresh-blog.yml`). Runs share a concurrency group, so a manual run never overlaps with the loop. Pillow is installed in the job so images are resized; without it the scripts still run and just copy files as they are.
+
+To stop the refreshes for good, disable the workflow in the Actions tab (or delete the workflow file). To point it at another trend, change the trend id and `--keyword` in the workflow and add a matching post folder with its own `build.py`.
 
 ### The blog as its own project
 

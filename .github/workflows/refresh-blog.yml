@@ -1,17 +1,24 @@
 # Refreshes the Bhopal trend archive: fetches new posts from X, rebuilds the
 # blog post, and pushes the result. Every push to main deploys both Netlify
 # projects (the main site's /blog/ and claude-bhopal-blog).
+#
+# Cadence: every 10 minutes. GitHub's cron trigger never fired for this repo
+# (see the schedule below, kept as a backup), so each run starts the next one
+# itself 10 minutes after it began. Because runs share a concurrency group,
+# extra triggers (cron, manual) never overlap or pile up; at most one run is
+# pending at a time. To stop the loop, disable the workflow:
+#   gh workflow disable refresh-blog.yml
+# To start it again: gh workflow enable refresh-blog.yml && gh workflow run refresh-blog.yml
 name: Refresh Bhopal trend archive
 
 on:
   schedule:
-    # Every 10 minutes, offset from :00 and :30: GitHub delays or drops scheduled
-    # runs at the start of the hour when Actions is busy, so avoid those minutes.
-    - cron: "4,14,24,34,44,54 * * * *"
+    - cron: "4,14,24,34,44,54 * * * *"   # backup only; offset from :00 where GitHub drops runs
   workflow_dispatch:
 
 permissions:
   contents: write
+  actions: write   # lets a run dispatch the next one
 
 concurrency:
   group: refresh-blog
@@ -21,6 +28,10 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
+      - name: Note when this run started
+        id: clock
+        run: echo "start=$(date +%s)" >> "$GITHUB_OUTPUT"
+
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
@@ -68,3 +79,17 @@ jobs:
           git commit -m "Refresh Bhopal trend archive: $AFTER posts ($NEW new)"
           git pull --rebase origin main
           git push origin HEAD:main
+
+      - name: Start the next run 10 minutes after this one began
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          WAIT=$(( ${{ steps.clock.outputs.start }} + 600 - $(date +%s) ))
+          if [ "$WAIT" -gt 600 ]; then WAIT=600; fi
+          if [ "$WAIT" -gt 0 ]; then
+            echo "Waiting $WAIT s so runs stay 10 minutes apart."
+            sleep "$WAIT"
+          fi
+          gh workflow run refresh-blog.yml --repo "$GITHUB_REPOSITORY" --ref main
+          echo "Next run dispatched."
