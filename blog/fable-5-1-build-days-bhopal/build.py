@@ -41,6 +41,8 @@ GROUPS = [
      ["2098145206650692009", "2098190601644888455", "2098148045389201461", "2098149439584317883", "2098155215367377346",
       "2098253864424357947", "2098268060738338990", "2098275536506433621", "2098231941250334861", "2098188540798705972",
       "2098272331798040775", "2098178895640166585", "2098306513437851727", "2098306480797868441"]),
+    ("Bengaluru gets one too", "By 2 pm the calendar had a Build Day for Bengaluru as well, on Friday the 25th. Both cities are on the list now.",
+     ["2098324283143700669", "2098328022890029508", "2098326733825229259", "2098333150204076220", "2098325311838634384"]),
     ("Wait, why Bhopal?", 'Fair question. The answer is a few scrolls up, under <a href="#why-bhopal">Why Bhopal?</a>',
      ["2098186648357843343", "2098148907704520830", "2098142420416512215", "2098230260051693859", "2098195509014106121",
       "2098251137153691990", "2098221619965768021", "2098289813732626887", "2098288267221520554", "2098291317088657818",
@@ -53,10 +55,10 @@ GROUPS = [
 ]
 
 BUILD_DAYS = [("Cape Town", "Sat, Sep 12"), ("Oslo", "Mon, Sep 14"), ("Brisbane", "Wed, Sep 16"), ("Chicago", "Wed, Sep 16"),
-              ("Sydney", "Thu, Sep 17"), ("New York", "Thu, Sep 17"), ("Mexico City", "Thu, Sep 17"), ("Singapore", "Fri, Sep 18"),
+              ("Sydney", "Thu, Sep 17"), ("New York", "Thu, Sep 17"), ("Tel Aviv", "Thu, Sep 17"), ("Mexico City", "Thu, Sep 17"), ("Singapore", "Fri, Sep 18"),
               ("Osaka", "Sat, Sep 19"), ("Medellín", "Sat, Sep 19"), ("Nairobi", "Sat, Sep 19"), ("San Francisco", "Sat, Sep 19"),
               ("Austin", "Sat, Sep 19"), ("Bhopal", "Sun, Sep 20"), ("Taipei", "Sun, Sep 20"), ("Miami", "Sun, Sep 20"),
-              ("Seoul", "Wed, Sep 23"), ("Barcelona", "Wed, Sep 23"), ("Melbourne", "Thu, Sep 24")]
+              ("Seoul", "Wed, Sep 23"), ("Barcelona", "Wed, Sep 23"), ("Melbourne", "Thu, Sep 24"), ("Bengaluru", "Fri, Sep 25")]
 
 # ---------------------------------------------------------------- data
 with open(os.path.join(HERE, "tweets.json"), encoding="utf-8") as f:
@@ -134,7 +136,8 @@ body = f'''{bk.FILTERS}
   <div class="wrap narrow">
     <h2 class="kicker">What happened</h2>
     <p>At 1:27 am on Thursday, <a href="https://x.com/claudeai" target="_blank" rel="noopener">@claudeai</a> posted a 30-second video. Fable 5.1 Build Days, a worldwide buildathon from September 11 to 25, with the Claude community hosting in cities across every continent. The video scrolls through the host cities. Nairobi. Stockholm. Cape Town. Oslo. Mexico City. Osaka. Miami. Then, in a clay-coloured box: <strong>Bhopal</strong>.</p>
-    <p>Bhopal is the only Indian city on the list. No Bengaluru, no Delhi, no Mumbai, no Hyderabad. Within half an hour the quote-posts started, and they did not stop. By 5:37 am X's trending system had bundled the conversation into its own story page, first titled <em>"{esc(tr.get("title_original") or tr.get("title") or "")}"</em>{renamed}. That page is where this post comes from.</p>
+    <p>Bhopal was the only Indian city on the list. No Bengaluru, no Delhi, no Mumbai, no Hyderabad. Within half an hour the quote-posts started, and they did not stop. By 5:37 am X's trending system had bundled the conversation into its own story page, first titled <em>"{esc(tr.get("title_original") or tr.get("title") or "")}"</em>{renamed}. That page is where this post comes from.</p>
+    <p><strong>Update, 2 pm IST:</strong> Bengaluru is on the list now. A <a href="https://luma.com/claude-x5dm" target="_blank" rel="noopener">Claude Fable Build Day in Bengaluru</a> went up on the calendar for Friday, September 25, followed by a Claude Conversation in Mumbai on the 26th. Bhopal, on the 20th, is still the first in India.</p>
     {bk.card(anchor, posts, MEDIA)}
     <p class="asof">Counts on this page are as of {esc(meta.get("captured_at_pretty") or meta.get("captured_at_ist") or "")}. They will have moved since.</p>
     <blockquote class="grok">
@@ -173,7 +176,7 @@ body = f'''{bk.FILTERS}
 <section class="clay-section" id="the-reply">
   <div class="wrap narrow">
     <h2 class="kicker">The reply from Bhopal</h2>
-    <p class="big">The chapter's answer to the jokes is a date. On Sunday, September 20, the people who signed up will spend the day building with the newest model there is, in the city the whole timeline was posting about. Anyone travelling from Bengaluru has already been offered a couch by at least one person on X.</p>
+    <p class="big">The chapter's answer to the jokes is a date. On Sunday, September 20, the people who signed up will spend the day building with the newest model there is, in the city the whole timeline was posting about. Anyone travelling from Bengaluru has already been offered a couch by at least one person on X. And Bengaluru has its own date now, Friday the 25th, so the couch offers can go both ways.</p>
     <p><a class="btn btn-dark" href="https://luma.com/claude-z01j" target="_blank" rel="noopener"><span>Register for the Bhopal Build Day</span><span class="arrow">↗</span></a></p>
   </div>
 </section>
