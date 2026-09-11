@@ -97,7 +97,7 @@ x_count = tr.get("post_count")
 proof_html = (f'<li>{x_count:,} posts in the trend, by X\'s count</li><li>{counts["posts_total"]} saved here, readable without an account</li>'
               if x_count else f'<li>{counts["posts_total"]} posts in the trend</li>')
 lead_open = ((f'X counts {x_count:,} posts in this trend but shows only some of them to readers without an account: '
-              f'the trend\'s own timelines, plus the replies visible under each post. All of those were read, one by one. '
+              f'the trend\'s own timelines, the replies visible under each post, and what a public mirror\'s search turns up. All of those were read, one by one. '
               f'Of the {counts["posts_total"]} saved so far, ')
              if x_count else f'Every post in the trend, read one by one. Of {counts["posts_total"]}, ')
 now_ist = datetime.datetime.now(bk.IST).replace(second=0, microsecond=0)

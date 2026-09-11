@@ -20,15 +20,15 @@
   "captured_at_ist": "2026-09-11 16:56 IST",
   "captured_at_pretty": "4:56 pm IST on September 11",
   "counts": {
-   "posts_total": 631,
-   "posts_matching_keyword": 285,
-   "authors": 517,
-   "posts_from_conversations": 191
+   "posts_total": 654,
+   "posts_matching_keyword": 286,
+   "authors": 526,
+   "posts_from_conversations": 214
   },
   "expand": {
-   "last_run_utc": "2026-09-11T11:26:13Z",
-   "pages_opened": 40,
-   "pages_left": 89,
+   "last_run_utc": "2026-09-11T11:33:06Z",
+   "pages_opened": 20,
+   "pages_left": 83,
    "blocked": false,
    "not_posts": [
     "2098138556468490240",
@@ -1111,7 +1111,12 @@
    ],
    "first_seen_utc": "2026-09-11T11:26:13Z",
    "found_under": "2098142617058062460",
-   "matches_keyword": false
+   "matches_keyword": false,
+   "conversation_scan": {
+    "at": "2026-09-11T11:33:06Z",
+    "replies": 1,
+    "found": 1
+   }
   },
   {
    "id": "2098143417737809938",
@@ -1280,7 +1285,12 @@
    ],
    "first_seen_utc": "2026-09-11T11:26:13Z",
    "found_under": "2098139068177797211",
-   "matches_keyword": false
+   "matches_keyword": false,
+   "conversation_scan": {
+    "at": "2026-09-11T11:33:06Z",
+    "replies": 2,
+    "found": 2
+   }
   },
   {
    "id": "2098144791515066877",
@@ -1645,6 +1655,48 @@
    "matches_keyword": false
   },
   {
+   "id": "2098146492007743715",
+   "url": "https://x.com/emaann28/status/2098146492007743715",
+   "author": {
+    "name": "Emaan",
+    "handle": "emaann28",
+    "verified": true,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/2082910005200822272/2Pgr15AV_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-10T20:28:00Z",
+   "created_at_ist": "2026-09-11 01:58 IST",
+   "type": "reply",
+   "in_reply_to": {
+    "handle": "darekgusto",
+    "status_id": "2098143275383197869"
+   },
+   "quoted_status_id": null,
+   "text": "@darekgusto ohhh",
+   "text_raw": "@darekgusto ohhh",
+   "lang": "und",
+   "metrics": {
+    "likes": 1,
+    "reposts": null,
+    "replies": 0,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [
+    "darekgusto"
+   ],
+   "media": [],
+   "in_timelines": [
+    "conversation"
+   ],
+   "first_seen_utc": "2026-09-11T11:33:06Z",
+   "found_under": "2098143275383197869",
+   "matches_keyword": false
+  },
+  {
    "id": "2098146913396642080",
    "url": "https://x.com/ObaiBiOlorun/status/2098146913396642080",
    "author": {
@@ -1773,6 +1825,50 @@
     "replies": 162,
     "found": 2
    }
+  },
+  {
+   "id": "2098148468988514543",
+   "url": "https://x.com/Patriot5715/status/2098148468988514543",
+   "author": {
+    "name": "Patriot57",
+    "handle": "Patriot5715",
+    "verified": false,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/1611939289876537344/3T1mepCg_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-10T20:35:51Z",
+   "created_at_ist": "2026-09-11 02:05 IST",
+   "type": "reply",
+   "in_reply_to": {
+    "handle": "mewset",
+    "status_id": "2098144668009574722"
+   },
+   "quoted_status_id": null,
+   "text": "@mewset @JJ_McCubbin29 @claudeai You can use Opus 4.8 or Sonnet 4.6. Opus 5 and Sonnet 5 have guardrails.",
+   "text_raw": "@mewset @JJ_McCubbin29 @claudeai You can use Opus 4.8 or Sonnet 4.6. Opus 5 and Sonnet 5 have guardrails.",
+   "lang": "en",
+   "metrics": {
+    "likes": 1,
+    "reposts": null,
+    "replies": 0,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [
+    "mewset",
+    "JJ_McCubbin29",
+    "claudeai"
+   ],
+   "media": [],
+   "in_timelines": [
+    "conversation"
+   ],
+   "first_seen_utc": "2026-09-11T11:33:06Z",
+   "found_under": "2098144668009574722",
+   "matches_keyword": false
   },
   {
    "id": "2098148907704520830",
@@ -1980,6 +2076,50 @@
     "top"
    ],
    "first_seen_utc": "2026-09-11T07:25:33Z",
+   "matches_keyword": false
+  },
+  {
+   "id": "2098153346741698644",
+   "url": "https://x.com/zejt/status/2098153346741698644",
+   "author": {
+    "name": "evelynn:~/",
+    "handle": "zejt",
+    "verified": true,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/1978912109225267200/IppJMGZx_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-10T20:55:14Z",
+   "created_at_ist": "2026-09-11 02:25 IST",
+   "type": "reply",
+   "in_reply_to": {
+    "handle": "mewset",
+    "status_id": "2098144668009574722"
+   },
+   "quoted_status_id": null,
+   "text": "@mewset @JJ_McCubbin29 @claudeai this is the method. fable high orchestrating opus & sonnet subagents in a goal loop is incredibly light on usage for the results.",
+   "text_raw": "@mewset @JJ_McCubbin29 @claudeai this is the method. fable high orchestrating opus &amp; sonnet subagents in a goal loop is incredibly light on usage for the results.",
+   "lang": "en",
+   "metrics": {
+    "likes": 1,
+    "reposts": null,
+    "replies": 0,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [
+    "mewset",
+    "JJ_McCubbin29",
+    "claudeai"
+   ],
+   "media": [],
+   "in_timelines": [
+    "conversation"
+   ],
+   "first_seen_utc": "2026-09-11T11:33:06Z",
+   "found_under": "2098144668009574722",
    "matches_keyword": false
   },
   {
@@ -2921,7 +3061,12 @@
    ],
    "first_seen_utc": "2026-09-11T11:26:13Z",
    "found_under": "2098144791515066877",
-   "matches_keyword": false
+   "matches_keyword": false,
+   "conversation_scan": {
+    "at": "2026-09-11T11:33:06Z",
+    "replies": 1,
+    "found": 1
+   }
   },
   {
    "id": "2098180941483323446",
@@ -4167,6 +4312,51 @@
    ],
    "first_seen_utc": "2026-09-11T07:25:33Z",
    "matches_keyword": true
+  },
+  {
+   "id": "2098207389174415752",
+   "url": "https://x.com/matthew_hartman/status/2098207389174415752",
+   "author": {
+    "name": "Matt",
+    "handle": "matthew_hartman",
+    "verified": true,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/2097448639719227392/X_uAOcQn_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T00:29:59Z",
+   "created_at_ist": "2026-09-11 05:59 IST",
+   "type": "reply",
+   "in_reply_to": {
+    "handle": "KendraRamirez",
+    "status_id": "2098180480566808603"
+   },
+   "quoted_status_id": null,
+   "text": "@KendraRamirez @adocomplete @ClaudeDevs @cjav_dev - can you help get Cincinnati on a list somewhere? :)",
+   "text_raw": "@KendraRamirez @adocomplete @ClaudeDevs @cjav_dev - can you help get Cincinnati on a list somewhere? :)",
+   "lang": "en",
+   "metrics": {
+    "likes": 1,
+    "reposts": null,
+    "replies": 0,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [
+    "KendraRamirez",
+    "adocomplete",
+    "ClaudeDevs",
+    "cjav_dev"
+   ],
+   "media": [],
+   "in_timelines": [
+    "conversation"
+   ],
+   "first_seen_utc": "2026-09-11T11:33:06Z",
+   "found_under": "2098180480566808603",
+   "matches_keyword": false
   },
   {
    "id": "2098208336919642601",
@@ -5563,7 +5753,12 @@
    ],
    "first_seen_utc": "2026-09-11T11:26:13Z",
    "found_under": "2098211478167822386",
-   "matches_keyword": false
+   "matches_keyword": false,
+   "conversation_scan": {
+    "at": "2026-09-11T11:33:06Z",
+    "replies": 1,
+    "found": 1
+   }
   },
   {
    "id": "2098244601874366768",
@@ -5605,7 +5800,12 @@
    ],
    "first_seen_utc": "2026-09-11T11:26:13Z",
    "found_under": "2098242969421955366",
-   "matches_keyword": false
+   "matches_keyword": false,
+   "conversation_scan": {
+    "at": "2026-09-11T11:33:06Z",
+    "replies": 1,
+    "found": 1
+   }
   },
   {
    "id": "2098246559075127357",
@@ -5655,6 +5855,48 @@
    ],
    "first_seen_utc": "2026-09-11T11:26:13Z",
    "found_under": "2098211478167822386",
+   "matches_keyword": false
+  },
+  {
+   "id": "2098247135477354809",
+   "url": "https://x.com/Anakin1911806/status/2098247135477354809",
+   "author": {
+    "name": "asukahikari03",
+    "handle": "Anakin1911806",
+    "verified": false,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/2076667540638687232/xJVJMhNo_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T03:07:55Z",
+   "created_at_ist": "2026-09-11 08:37 IST",
+   "type": "reply",
+   "in_reply_to": {
+    "handle": "QQAI2778",
+    "status_id": "2098244601874366768"
+   },
+   "quoted_status_id": null,
+   "text": "@QQAI2778 泪目。。只能国内拼好克了。",
+   "text_raw": "@QQAI2778 泪目。。只能国内拼好克了。",
+   "lang": "zh",
+   "metrics": {
+    "likes": 0,
+    "reposts": null,
+    "replies": 0,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [
+    "QQAI2778"
+   ],
+   "media": [],
+   "in_timelines": [
+    "conversation"
+   ],
+   "first_seen_utc": "2026-09-11T11:33:06Z",
+   "found_under": "2098244601874366768",
    "matches_keyword": false
   },
   {
@@ -6451,7 +6693,12 @@
    ],
    "first_seen_utc": "2026-09-11T11:26:13Z",
    "found_under": "2098275471796625776",
-   "matches_keyword": true
+   "matches_keyword": true,
+   "conversation_scan": {
+    "at": "2026-09-11T11:33:06Z",
+    "replies": 1,
+    "found": 0
+   }
   },
   {
    "id": "2098258623646581205",
@@ -7347,6 +7594,50 @@
    "matches_keyword": true
   },
   {
+   "id": "2098267341666816442",
+   "url": "https://x.com/Rohith_Digital/status/2098267341666816442",
+   "author": {
+    "name": "Rohith K Gowda",
+    "handle": "Rohith_Digital",
+    "verified": true,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/1976026872573198339/qK-Y99Nd_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T04:28:12Z",
+   "created_at_ist": "2026-09-11 09:58 IST",
+   "type": "reply",
+   "in_reply_to": {
+    "handle": "yashchhihum",
+    "status_id": "2098244585822806244"
+   },
+   "quoted_status_id": null,
+   "text": "@yashchhihum @pefttuner @DrDatta_AIIMS Yeah bro agreed. The fucking migrants from north states have ruined the city.",
+   "text_raw": "@yashchhihum @pefttuner @DrDatta_AIIMS Yeah bro agreed. The fucking migrants from north states have ruined the city.",
+   "lang": "en",
+   "metrics": {
+    "likes": 0,
+    "reposts": null,
+    "replies": 2,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [
+    "yashchhihum",
+    "pefttuner",
+    "DrDatta_AIIMS"
+   ],
+   "media": [],
+   "in_timelines": [
+    "conversation"
+   ],
+   "first_seen_utc": "2026-09-11T11:33:06Z",
+   "found_under": "2098244585822806244",
+   "matches_keyword": false
+  },
+  {
    "id": "2098268060738338990",
    "url": "https://x.com/iBuild/status/2098268060738338990",
    "author": {
@@ -7811,7 +8102,12 @@
    ],
    "first_seen_utc": "2026-09-11T11:26:13Z",
    "found_under": "2098270018228162762",
-   "matches_keyword": false
+   "matches_keyword": false,
+   "conversation_scan": {
+    "at": "2026-09-11T11:33:06Z",
+    "replies": 2,
+    "found": 2
+   }
   },
   {
    "id": "2098273574322831854",
@@ -8262,7 +8558,12 @@
    ],
    "first_seen_utc": "2026-09-11T11:26:13Z",
    "found_under": "2098275471796625776",
-   "matches_keyword": true
+   "matches_keyword": true,
+   "conversation_scan": {
+    "at": "2026-09-11T11:33:06Z",
+    "replies": 1,
+    "found": 1
+   }
   },
   {
    "id": "2098276052141535500",
@@ -8541,6 +8842,48 @@
    ],
    "first_seen_utc": "2026-09-11T11:26:13Z",
    "found_under": "2098211478167822386",
+   "matches_keyword": false
+  },
+  {
+   "id": "2098276848761475314",
+   "url": "https://x.com/nanyanotes/status/2098276848761475314",
+   "author": {
+    "name": "nanya",
+    "handle": "nanyanotes",
+    "verified": true,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/2089700333786378240/fGIi2_uf_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T05:05:59Z",
+   "created_at_ist": "2026-09-11 10:35 IST",
+   "type": "reply",
+   "in_reply_to": {
+    "handle": "subankundesu",
+    "status_id": "2098276041865507297"
+   },
+   "quoted_status_id": null,
+   "text": "@subankundesu Exactly 😭 if it was with other cities I would understand but it being the only city???",
+   "text_raw": "@subankundesu Exactly 😭 if it was with other cities I would understand but it being the only city???",
+   "lang": "en",
+   "metrics": {
+    "likes": 1,
+    "reposts": null,
+    "replies": 0,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [
+    "subankundesu"
+   ],
+   "media": [],
+   "in_timelines": [
+    "conversation"
+   ],
+   "first_seen_utc": "2026-09-11T11:33:06Z",
+   "found_under": "2098276041865507297",
    "matches_keyword": false
   },
   {
@@ -9012,7 +9355,12 @@
    ],
    "first_seen_utc": "2026-09-11T11:26:13Z",
    "found_under": "2098260090784776301",
-   "matches_keyword": false
+   "matches_keyword": false,
+   "conversation_scan": {
+    "at": "2026-09-11T11:33:06Z",
+    "replies": 1,
+    "found": 1
+   }
   },
   {
    "id": "2098281959218676044",
@@ -9381,7 +9729,12 @@
    ],
    "first_seen_utc": "2026-09-11T11:26:13Z",
    "found_under": "2098279981331906567",
-   "matches_keyword": false
+   "matches_keyword": false,
+   "conversation_scan": {
+    "at": "2026-09-11T11:33:06Z",
+    "replies": 1,
+    "found": 1
+   }
   },
   {
    "id": "2098285067810337275",
@@ -9460,6 +9813,53 @@
    ],
    "first_seen_utc": "2026-09-11T11:26:13Z",
    "found_under": "2098265294560960855",
+   "matches_keyword": false,
+   "conversation_scan": {
+    "at": "2026-09-11T11:33:06Z",
+    "replies": 1,
+    "found": 1
+   }
+  },
+  {
+   "id": "2098285710512189446",
+   "url": "https://x.com/Kritika_Kabra/status/2098285710512189446",
+   "author": {
+    "name": "Kritika Kabra",
+    "handle": "Kritika_Kabra",
+    "verified": true,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/2087943017353318404/hZqpYBeo_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T05:41:12Z",
+   "created_at_ist": "2026-09-11 11:11 IST",
+   "type": "reply",
+   "in_reply_to": {
+    "handle": "DhiruCodes",
+    "status_id": "2098284995223970049"
+   },
+   "quoted_status_id": null,
+   "text": "@DhiruCodes hello, nope. hunt is still on 😔✌️",
+   "text_raw": "@DhiruCodes hello, nope. hunt is still on 😔✌️",
+   "lang": "en",
+   "metrics": {
+    "likes": 1,
+    "reposts": null,
+    "replies": 0,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [
+    "DhiruCodes"
+   ],
+   "media": [],
+   "in_timelines": [
+    "conversation"
+   ],
+   "first_seen_utc": "2026-09-11T11:33:06Z",
+   "found_under": "2098284995223970049",
    "matches_keyword": false
   },
   {
@@ -10144,7 +10544,12 @@
     "latest"
    ],
    "first_seen_utc": "2026-09-11T07:25:33Z",
-   "matches_keyword": true
+   "matches_keyword": true,
+   "conversation_scan": {
+    "at": "2026-09-11T11:33:06Z",
+    "replies": 1,
+    "found": 1
+   }
   },
   {
    "id": "2098289813732626887",
@@ -10275,7 +10680,12 @@
    ],
    "first_seen_utc": "2026-09-11T11:17:24Z",
    "found_under": "2098289813732626887",
-   "matches_keyword": true
+   "matches_keyword": true,
+   "conversation_scan": {
+    "at": "2026-09-11T11:33:06Z",
+    "replies": 1,
+    "found": 2
+   }
   },
   {
    "id": "2098290231875363318",
@@ -10353,7 +10763,12 @@
    ],
    "first_seen_utc": "2026-09-11T11:17:24Z",
    "found_under": "2098268060738338990",
-   "matches_keyword": false
+   "matches_keyword": false,
+   "conversation_scan": {
+    "at": "2026-09-11T11:33:06Z",
+    "replies": 1,
+    "found": 1
+   }
   },
   {
    "id": "2098290473974821051",
@@ -10426,7 +10841,12 @@
     "top"
    ],
    "first_seen_utc": "2026-09-11T07:25:33Z",
-   "matches_keyword": true
+   "matches_keyword": true,
+   "conversation_scan": {
+    "at": "2026-09-11T11:33:06Z",
+    "replies": 1,
+    "found": 1
+   }
   },
   {
    "id": "2098290876220887178",
@@ -10462,7 +10882,12 @@
     "latest"
    ],
    "first_seen_utc": "2026-09-11T07:25:33Z",
-   "matches_keyword": false
+   "matches_keyword": false,
+   "conversation_scan": {
+    "at": "2026-09-11T11:33:06Z",
+    "replies": 1,
+    "found": 1
+   }
   },
   {
    "id": "2098291029829124492",
@@ -10589,7 +11014,12 @@
    ],
    "first_seen_utc": "2026-09-11T11:17:24Z",
    "found_under": "2098190601644888455",
-   "matches_keyword": true
+   "matches_keyword": true,
+   "conversation_scan": {
+    "at": "2026-09-11T11:33:06Z",
+    "replies": 1,
+    "found": 2
+   }
   },
   {
    "id": "2098291244921397416",
@@ -10625,7 +11055,12 @@
     "latest"
    ],
    "first_seen_utc": "2026-09-11T07:25:33Z",
-   "matches_keyword": true
+   "matches_keyword": true,
+   "conversation_scan": {
+    "at": "2026-09-11T11:33:06Z",
+    "replies": 1,
+    "found": 1
+   }
   },
   {
    "id": "2098291317088657818",
@@ -10666,7 +11101,12 @@
     "top"
    ],
    "first_seen_utc": "2026-09-11T07:25:33Z",
-   "matches_keyword": false
+   "matches_keyword": false,
+   "conversation_scan": {
+    "at": "2026-09-11T11:33:06Z",
+    "replies": 1,
+    "found": 1
+   }
   },
   {
    "id": "2098291380737253488",
@@ -10708,7 +11148,12 @@
     "top"
    ],
    "first_seen_utc": "2026-09-11T08:52:15Z",
-   "matches_keyword": false
+   "matches_keyword": false,
+   "conversation_scan": {
+    "at": "2026-09-11T11:33:06Z",
+    "replies": 1,
+    "found": 1
+   }
   },
   {
    "id": "2098291423879840125",
@@ -10751,6 +11196,132 @@
     "replies": 4,
     "found": 3
    }
+  },
+  {
+   "id": "2098291642117873933",
+   "url": "https://x.com/xegan271/status/2098291642117873933",
+   "author": {
+    "name": "XEGAN",
+    "handle": "xegan271",
+    "verified": false,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/2065445014310895616/NdAE2q_z_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T06:04:46Z",
+   "created_at_ist": "2026-09-11 11:34 IST",
+   "type": "reply",
+   "in_reply_to": {
+    "handle": "kdrvrtk",
+    "status_id": "2098290110806856149"
+   },
+   "quoted_status_id": null,
+   "text": "@kdrvrtk Yeah 😂😭",
+   "text_raw": "@kdrvrtk Yeah 😂😭",
+   "lang": "en",
+   "metrics": {
+    "likes": 0,
+    "reposts": null,
+    "replies": 0,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [
+    "kdrvrtk"
+   ],
+   "media": [],
+   "in_timelines": [
+    "conversation"
+   ],
+   "first_seen_utc": "2026-09-11T11:33:06Z",
+   "found_under": "2098290110806856149",
+   "matches_keyword": false
+  },
+  {
+   "id": "2098292187427643753",
+   "url": "https://x.com/kdrvrtk/status/2098292187427643753",
+   "author": {
+    "name": "Kedar Vartak",
+    "handle": "kdrvrtk",
+    "verified": true,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/2086505772192845824/NZM6-PXj_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T06:06:56Z",
+   "created_at_ist": "2026-09-11 11:36 IST",
+   "type": "reply",
+   "in_reply_to": {
+    "handle": "AmitSingh403_",
+    "status_id": "2098290729269539245"
+   },
+   "quoted_status_id": null,
+   "text": "@AmitSingh403_ Ahaha true",
+   "text_raw": "@AmitSingh403_ Ahaha true",
+   "lang": "tl",
+   "metrics": {
+    "likes": 1,
+    "reposts": null,
+    "replies": 0,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [
+    "AmitSingh403_"
+   ],
+   "media": [],
+   "in_timelines": [
+    "conversation"
+   ],
+   "first_seen_utc": "2026-09-11T11:33:06Z",
+   "found_under": "2098290729269539245",
+   "matches_keyword": false
+  },
+  {
+   "id": "2098292281237483953",
+   "url": "https://x.com/kdrvrtk/status/2098292281237483953",
+   "author": {
+    "name": "Kedar Vartak",
+    "handle": "kdrvrtk",
+    "verified": true,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/2086505772192845824/NZM6-PXj_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T06:07:18Z",
+   "created_at_ist": "2026-09-11 11:37 IST",
+   "type": "reply",
+   "in_reply_to": {
+    "handle": "AbhiFrmEicher",
+    "status_id": "2098291244921397416"
+   },
+   "quoted_status_id": null,
+   "text": "@AbhiFrmEicher Bangalore guys be hating on anything and everything",
+   "text_raw": "@AbhiFrmEicher Bangalore guys be hating on anything and everything",
+   "lang": "en",
+   "metrics": {
+    "likes": 1,
+    "reposts": null,
+    "replies": 0,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [
+    "AbhiFrmEicher"
+   ],
+   "media": [],
+   "in_timelines": [
+    "conversation"
+   ],
+   "first_seen_utc": "2026-09-11T11:33:06Z",
+   "found_under": "2098291244921397416",
+   "matches_keyword": false
   },
   {
    "id": "2098292312829002047",
@@ -10984,6 +11555,48 @@
    "matches_keyword": false
   },
   {
+   "id": "2098293311383781547",
+   "url": "https://x.com/iBuild/status/2098293311383781547",
+   "author": {
+    "name": "void.",
+    "handle": "iBuild",
+    "verified": true,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/2027986889165443079/HcAw5gDH_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T06:11:24Z",
+   "created_at_ist": "2026-09-11 11:41 IST",
+   "type": "reply",
+   "in_reply_to": {
+    "handle": "_jaydeepkarale",
+    "status_id": "2098290269796057517"
+   },
+   "quoted_status_id": null,
+   "text": "@_jaydeepkarale 😂😂",
+   "text_raw": "@_jaydeepkarale 😂😂",
+   "lang": "qme",
+   "metrics": {
+    "likes": 0,
+    "reposts": null,
+    "replies": 0,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [
+    "_jaydeepkarale"
+   ],
+   "media": [],
+   "in_timelines": [
+    "conversation"
+   ],
+   "first_seen_utc": "2026-09-11T11:33:06Z",
+   "found_under": "2098290269796057517",
+   "matches_keyword": false
+  },
+  {
    "id": "2098293383068614678",
    "url": "https://x.com/kriyanshii/status/2098293383068614678",
    "author": {
@@ -11137,6 +11750,48 @@
     "latest"
    ],
    "first_seen_utc": "2026-09-11T07:25:33Z",
+   "matches_keyword": false
+  },
+  {
+   "id": "2098293795712315592",
+   "url": "https://x.com/azzambinsafar/status/2098293795712315592",
+   "author": {
+    "name": "عزام بن سفر",
+    "handle": "azzambinsafar",
+    "verified": true,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/2057920676862791680/9MKzuOEz_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T06:13:19Z",
+   "created_at_ist": "2026-09-11 11:43 IST",
+   "type": "reply",
+   "in_reply_to": {
+    "handle": "SamiBizConsult",
+    "status_id": "2098272889942200615"
+   },
+   "quoted_status_id": null,
+   "text": "@SamiBizConsult هذا buildathons من claude\n\nفـ سألتك اذا عندنا زيه بالرياض\n\nبرمجان = hackathon\n\nنحاول نستخدم الكلمة الجديده 😅",
+   "text_raw": "@SamiBizConsult هذا buildathons من claude\n\nفـ سألتك اذا عندنا زيه بالرياض\n\nبرمجان = hackathon\n\nنحاول نستخدم الكلمة الجديده 😅",
+   "lang": "ar",
+   "metrics": {
+    "likes": 1,
+    "reposts": null,
+    "replies": 1,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [
+    "SamiBizConsult"
+   ],
+   "media": [],
+   "in_timelines": [
+    "conversation"
+   ],
+   "first_seen_utc": "2026-09-11T11:33:06Z",
+   "found_under": "2098272889942200615",
    "matches_keyword": false
   },
   {
@@ -11458,6 +12113,91 @@
    "matches_keyword": true
   },
   {
+   "id": "2098294827502780640",
+   "url": "https://x.com/pigg_thomas/status/2098294827502780640",
+   "author": {
+    "name": "Thomas Pigg",
+    "handle": "pigg_thomas",
+    "verified": true,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/1929918138168045568/oGnjZTyd_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T06:17:25Z",
+   "created_at_ist": "2026-09-11 11:47 IST",
+   "type": "reply",
+   "in_reply_to": {
+    "handle": "Cliffinkent",
+    "status_id": "2098290876220887178"
+   },
+   "quoted_status_id": null,
+   "text": "@Cliffinkent Don’t they have an office in London ?",
+   "text_raw": "@Cliffinkent Don’t they have an office in London ?",
+   "lang": "en",
+   "metrics": {
+    "likes": 1,
+    "reposts": null,
+    "replies": 1,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [
+    "Cliffinkent"
+   ],
+   "media": [],
+   "in_timelines": [
+    "conversation"
+   ],
+   "first_seen_utc": "2026-09-11T11:33:06Z",
+   "found_under": "2098290876220887178",
+   "matches_keyword": false
+  },
+  {
+   "id": "2098295321562390851",
+   "url": "https://x.com/tawanug/status/2098295321562390851",
+   "author": {
+    "name": "tawanug on a journey",
+    "handle": "tawanug",
+    "verified": true,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/1793957975641792512/Dj_I9Ypu_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T06:19:23Z",
+   "created_at_ist": "2026-09-11 11:49 IST",
+   "type": "reply",
+   "in_reply_to": {
+    "handle": "DrDoubtPhD",
+    "status_id": "2098291380737253488"
+   },
+   "quoted_status_id": null,
+   "text": "@DrDoubtPhD @kdrvrtk lol",
+   "text_raw": "@DrDoubtPhD @kdrvrtk lol",
+   "lang": "und",
+   "metrics": {
+    "likes": 0,
+    "reposts": null,
+    "replies": 0,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [
+    "DrDoubtPhD",
+    "kdrvrtk"
+   ],
+   "media": [],
+   "in_timelines": [
+    "conversation"
+   ],
+   "first_seen_utc": "2026-09-11T11:33:06Z",
+   "found_under": "2098291380737253488",
+   "matches_keyword": false
+  },
+  {
    "id": "2098295405696122967",
    "url": "https://x.com/imdigitalashish/status/2098295405696122967",
    "author": {
@@ -11599,6 +12339,49 @@
     "latest"
    ],
    "first_seen_utc": "2026-09-11T07:25:33Z",
+   "matches_keyword": false
+  },
+  {
+   "id": "2098296266438713504",
+   "url": "https://x.com/manastwts/status/2098296266438713504",
+   "author": {
+    "name": "Manas",
+    "handle": "manastwts",
+    "verified": false,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/1890018344973049856/MhQ267s9_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T06:23:09Z",
+   "created_at_ist": "2026-09-11 11:53 IST",
+   "type": "reply",
+   "in_reply_to": {
+    "handle": "aniketsahu_115",
+    "status_id": "2098281788913365083"
+   },
+   "quoted_status_id": null,
+   "text": "@aniketsahu_115 @IndraVahan Will claude credits be given there to build or we have have our own sub ?",
+   "text_raw": "@aniketsahu_115 @IndraVahan Will claude credits be given there to build or we have have our own sub ?",
+   "lang": "en",
+   "metrics": {
+    "likes": 0,
+    "reposts": null,
+    "replies": 0,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [
+    "aniketsahu_115",
+    "IndraVahan"
+   ],
+   "media": [],
+   "in_timelines": [
+    "conversation"
+   ],
+   "first_seen_utc": "2026-09-11T11:33:06Z",
+   "found_under": "2098281788913365083",
    "matches_keyword": false
   },
   {
@@ -14242,6 +15025,48 @@
    "matches_keyword": false
   },
   {
+   "id": "2098308507921748423",
+   "url": "https://x.com/parthaggar69751/status/2098308507921748423",
+   "author": {
+    "name": "Parth",
+    "handle": "parthaggar69751",
+    "verified": false,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/1973627940857585664/aaJwRmgv_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T07:11:47Z",
+   "created_at_ist": "2026-09-11 12:41 IST",
+   "type": "reply",
+   "in_reply_to": {
+    "handle": "Shubair313",
+    "status_id": "2098285273394315705"
+   },
+   "quoted_status_id": null,
+   "text": "@Shubair313 kya pta",
+   "text_raw": "@Shubair313 kya pta",
+   "lang": "in",
+   "metrics": {
+    "likes": 1,
+    "reposts": null,
+    "replies": 0,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [
+    "Shubair313"
+   ],
+   "media": [],
+   "in_timelines": [
+    "conversation"
+   ],
+   "first_seen_utc": "2026-09-11T11:33:06Z",
+   "found_under": "2098285273394315705",
+   "matches_keyword": false
+  },
+  {
    "id": "2098309054863163890",
    "url": "https://x.com/atharva_again/status/2098309054863163890",
    "author": {
@@ -14360,6 +15185,48 @@
    ],
    "first_seen_utc": "2026-09-11T11:17:24Z",
    "found_under": "2098266915734982774",
+   "matches_keyword": false
+  },
+  {
+   "id": "2098309575355339161",
+   "url": "https://x.com/0xSameerMishra/status/2098309575355339161",
+   "author": {
+    "name": "0x612",
+    "handle": "0xSameerMishra",
+    "verified": false,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/1945901174890106881/JmfULnl9_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T07:16:02Z",
+   "created_at_ist": "2026-09-11 12:46 IST",
+   "type": "reply",
+   "in_reply_to": {
+    "handle": "RizzshabK",
+    "status_id": "2098289796829380654"
+   },
+   "quoted_status_id": null,
+   "text": "@RizzshabK Yo 🤘🥳🥳",
+   "text_raw": "@RizzshabK Yo 🤘🥳🥳",
+   "lang": "und",
+   "metrics": {
+    "likes": 0,
+    "reposts": null,
+    "replies": 0,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [
+    "RizzshabK"
+   ],
+   "media": [],
+   "in_timelines": [
+    "conversation"
+   ],
+   "first_seen_utc": "2026-09-11T11:33:06Z",
+   "found_under": "2098289796829380654",
    "matches_keyword": false
   },
   {
@@ -18291,6 +19158,49 @@
    "matches_keyword": true
   },
   {
+   "id": "2098327151040700510",
+   "url": "https://x.com/binjabi_wadee/status/2098327151040700510",
+   "author": {
+    "name": "Binjabi.eth",
+    "handle": "binjabi_wadee",
+    "verified": true,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/2068117929732767744/KsjzgPNN_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T08:25:52Z",
+   "created_at_ist": "2026-09-11 13:55 IST",
+   "type": "reply",
+   "in_reply_to": {
+    "handle": "SamiBizConsult",
+    "status_id": "2098272889942200615"
+   },
+   "quoted_status_id": null,
+   "text": "@SamiBizConsult @azzambinsafar برنامج + مهرجان = برمجان تعريب هاكثون 😅",
+   "text_raw": "@SamiBizConsult @azzambinsafar برنامج + مهرجان = برمجان تعريب هاكثون 😅",
+   "lang": "ar",
+   "metrics": {
+    "likes": 1,
+    "reposts": null,
+    "replies": 0,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [
+    "SamiBizConsult",
+    "azzambinsafar"
+   ],
+   "media": [],
+   "in_timelines": [
+    "conversation"
+   ],
+   "first_seen_utc": "2026-09-11T11:33:06Z",
+   "found_under": "2098272889942200615",
+   "matches_keyword": false
+  },
+  {
    "id": "2098327536950460889",
    "url": "https://x.com/kaif9998/status/2098327536950460889",
    "author": {
@@ -18811,6 +19721,49 @@
    "first_seen_utc": "2026-09-11T11:26:13Z",
    "found_under": "2098286183939989658",
    "matches_keyword": false
+  },
+  {
+   "id": "2098329782698041642",
+   "url": "https://x.com/prkeshari/status/2098329782698041642",
+   "author": {
+    "name": "Prateek K. Keshari",
+    "handle": "prkeshari",
+    "verified": true,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/1746347405291773952/_OSC2fbN_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T08:36:19Z",
+   "created_at_ist": "2026-09-11 14:06 IST",
+   "type": "reply",
+   "in_reply_to": {
+    "handle": "pragunbhutani",
+    "status_id": "2098291317088657818"
+   },
+   "quoted_status_id": null,
+   "text": "@pragunbhutani @kdrvrtk as a bhopali, i actually love it :D",
+   "text_raw": "@pragunbhutani @kdrvrtk as a bhopali, i actually love it :D",
+   "lang": "en",
+   "metrics": {
+    "likes": 0,
+    "reposts": null,
+    "replies": 1,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [
+    "pragunbhutani",
+    "kdrvrtk"
+   ],
+   "media": [],
+   "in_timelines": [
+    "conversation"
+   ],
+   "first_seen_utc": "2026-09-11T11:33:06Z",
+   "found_under": "2098291317088657818",
+   "matches_keyword": true
   },
   {
    "id": "2098329804986823041",
@@ -22888,6 +23841,50 @@
    }
   },
   {
+   "id": "2098354039784390708",
+   "url": "https://x.com/aniketsharma502/status/2098354039784390708",
+   "author": {
+    "name": "aniket sharma",
+    "handle": "aniketsharma502",
+    "verified": false,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/2061446961677688833/jjJesl7I_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T10:12:43Z",
+   "created_at_ist": "2026-09-11 15:42 IST",
+   "type": "reply",
+   "in_reply_to": {
+    "handle": "shubhanshu92",
+    "status_id": "2098291045301911894"
+   },
+   "quoted_status_id": null,
+   "text": "@shubhanshu92 @AbhinavXJ @shivilisedman Lal parade ground mei organise hoga 😂",
+   "text_raw": "@shubhanshu92 @AbhinavXJ @shivilisedman Lal parade ground mei organise hoga 😂",
+   "lang": "et",
+   "metrics": {
+    "likes": 0,
+    "reposts": null,
+    "replies": 0,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [
+    "shubhanshu92",
+    "AbhinavXJ",
+    "shivilisedman"
+   ],
+   "media": [],
+   "in_timelines": [
+    "conversation"
+   ],
+   "first_seen_utc": "2026-09-11T11:33:06Z",
+   "found_under": "2098291045301911894",
+   "matches_keyword": false
+  },
+  {
    "id": "2098354809778647436",
    "url": "https://x.com/alex_alexiuc/status/2098354809778647436",
    "author": {
@@ -23384,6 +24381,49 @@
     "top"
    ],
    "first_seen_utc": "2026-09-11T10:35:19Z",
+   "matches_keyword": false
+  },
+  {
+   "id": "2098358498149199878",
+   "url": "https://x.com/shivilisedman/status/2098358498149199878",
+   "author": {
+    "name": "Shivam Hargunani",
+    "handle": "shivilisedman",
+    "verified": false,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/378800000631970531/30e7632b773240395d97c5b264e87035_400x400.jpeg"
+   },
+   "created_at_utc": "2026-09-11T10:30:26Z",
+   "created_at_ist": "2026-09-11 16:00 IST",
+   "type": "reply",
+   "in_reply_to": {
+    "handle": "shubhanshu92",
+    "status_id": "2098291045301911894"
+   },
+   "quoted_status_id": null,
+   "text": "@shubhanshu92 @AbhinavXJ LFG!! ❤️",
+   "text_raw": "@shubhanshu92 @AbhinavXJ LFG!! ❤️",
+   "lang": "und",
+   "metrics": {
+    "likes": 0,
+    "reposts": null,
+    "replies": 0,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [
+    "shubhanshu92",
+    "AbhinavXJ"
+   ],
+   "media": [],
+   "in_timelines": [
+    "conversation"
+   ],
+   "first_seen_utc": "2026-09-11T11:33:06Z",
+   "found_under": "2098291045301911894",
    "matches_keyword": false
   },
   {
@@ -25542,6 +26582,49 @@
    ],
    "first_seen_utc": "2026-09-11T11:26:13Z",
    "matches_keyword": true
+  },
+  {
+   "id": "2098373556497437175",
+   "url": "https://x.com/shancynix/status/2098373556497437175",
+   "author": {
+    "name": "shaan",
+    "handle": "shancynix",
+    "verified": false,
+    "followers": null,
+    "profile_image": "https://pbs.twimg.com/profile_images/1958165150898262016/l_aR-QHb_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-11T11:30:16Z",
+   "created_at_ist": "2026-09-11 17:00 IST",
+   "type": "reply",
+   "in_reply_to": {
+    "handle": "kdrvrtk",
+    "status_id": "2098290110806856149"
+   },
+   "quoted_status_id": null,
+   "text": "@kdrvrtk @xegan271 tf 😭",
+   "text_raw": "@kdrvrtk @xegan271 tf 😭",
+   "lang": "und",
+   "metrics": {
+    "likes": 0,
+    "reposts": null,
+    "replies": 0,
+    "quotes": null,
+    "bookmarks": null,
+    "views": null
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [
+    "kdrvrtk",
+    "xegan271"
+   ],
+   "media": [],
+   "in_timelines": [
+    "conversation"
+   ],
+   "first_seen_utc": "2026-09-11T11:33:06Z",
+   "found_under": "2098290110806856149",
+   "matches_keyword": false
   }
  ]
 }

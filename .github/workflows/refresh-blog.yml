@@ -57,6 +57,42 @@ jobs:
       - name: Add the replies X shows under saved posts
         run: python3 blog/tools/expand_x_archive.py --out blog/fable-5-1-build-days-bhopal --keyword bhopal --max-pages 40
 
+      # Once an hour: X search through a public Nitter mirror. The mirror sits
+      # behind a browser challenge and rate-limits fast, so this uses Scrapling's
+      # stealth browser, few pages, long pauses, and never fails the run.
+      - name: Is the hourly mirror search due?
+        id: search
+        run: |
+          python3 - >> "$GITHUB_OUTPUT" <<'PY'
+          import json, datetime as d
+          m = json.load(open("blog/fable-5-1-build-days-bhopal/tweets.json"))["meta"].get("search") or {}
+          due = True
+          if m.get("last_run_utc"):
+              t = d.datetime.strptime(m["last_run_utc"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=d.timezone.utc)
+              due = (d.datetime.now(d.timezone.utc) - t).total_seconds() > 3300
+          print("due=" + str(due).lower())
+          PY
+
+      - name: Cache the stealth browser
+        if: steps.search.outputs.due == 'true'
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/camoufox
+            ~/.cache/ms-playwright
+            ~/.cache/pip
+          key: scrapling-browsers-v1
+
+      - name: Install Scrapling and its browser
+        if: steps.search.outputs.due == 'true'
+        continue-on-error: true
+        run: pip install --quiet "scrapling[fetchers]" && scrapling install
+
+      - name: Search X through a Nitter mirror
+        if: steps.search.outputs.due == 'true'
+        continue-on-error: true
+        run: python3 blog/tools/harvest_x_search.py --out blog/fable-5-1-build-days-bhopal --keyword bhopal --queries "bhopal fable" "bhopal claude" "bhopal anthropic" "bhopal buildathon" --max-pages 2 --pause 10
+
       - name: Rebuild the post
         run: python3 blog/fable-5-1-build-days-bhopal/build.py
 

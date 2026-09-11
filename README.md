@@ -45,6 +45,8 @@ It pages through the trend's "Top" and "Latest" post timelines with a guest toke
 
 X's trend timelines leave out the replies under each post, and search needs an account, so `blog/tools/expand_x_archive.py` fills in what a logged-out visitor can still see: it opens the page of every saved post that has replies, collects the reply ids X renders there, fetches each one through X's syndication endpoint (the one embedded posts use), and merges the ones that belong to the conversation into `tweets.json`. Those posts carry `in_timelines: ["conversation"]`; X does not expose their repost or view counts. It runs after the capture in the workflow, a few dozen pages per run, so threads fill in over successive runs.
 
+A third source is X search itself, through a public Nitter mirror: `blog/tools/harvest_x_search.py` pages through a few queries, fetches each relevant result through the syndication endpoint and merges it (`in_timelines: ["search"]`). The mirrors sit behind a browser challenge and answer 429 to quick clients, so the script drives [Scrapling](https://github.com/D4Vinci/Scrapling)'s stealth browser (`pip install "scrapling[fetchers]" && scrapling install`), keeps one session for the run, and pauses between requests. The workflow runs it about once an hour with four queries and two pages each; failures never stop the refresh.
+
 Each post folder has a `build.py` that turns `tweets.json` into `index.html` (plus `tweets.csv`), fetching images and avatars into `media/` on first use. The shared page chrome, tweet cards and stylesheet live in `blog/tools/blogkit.py` and `blog/tools/blog.css`:
 
 ```
