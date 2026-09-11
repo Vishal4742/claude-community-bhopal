@@ -5,7 +5,9 @@ name: Refresh Bhopal trend archive
 
 on:
   schedule:
-    - cron: "*/10 * * * *"   # every 10 minutes (UTC); GitHub may delay or skip a slot under load
+    # Every 10 minutes, offset from :00 and :30: GitHub delays or drops scheduled
+    # runs at the start of the hour when Actions is busy, so avoid those minutes.
+    - cron: "4,14,24,34,44,54 * * * *"
   workflow_dispatch:
 
 permissions:
