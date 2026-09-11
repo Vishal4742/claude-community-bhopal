@@ -101,7 +101,13 @@ archive_html = "\n".join(bk.archive_card(p, i, MEDIA, tag_text=("about Bhopal" i
                                           tagged=not p["mentions_bhopal"], themes=p["themes"]) for i, p in enumerate(about, 1))
 bd_html = "".join(f'<li{" class=\"here\"" if c_ == "Bhopal" else ""}><b>{c_}</b><span>{d}</span></li>' for c_, d in BUILD_DAYS)
 tr = meta["trend"]
-renamed = (f' and later renamed <em>"{esc(tr["title"])}"</em>' if tr.get("title") and tr["title"] != tr.get("title_original") else "")
+titles = tr.get("title_history") or []
+renames = max(0, len(titles) - 1)
+renamed = (f' and retitled {bk.number_word(renames).lower()} times since, most recently to <em>"{esc(tr["title"])}"</em>' if renames else "")
+def _when(u):
+    t = datetime.datetime.fromisoformat(u.replace("Z", "+00:00")).astimezone(bk.IST)
+    return t.strftime("%-I:%M ") + t.strftime("%p").lower() + t.strftime(", %b %-d")
+headlines_html = ("".join(f'<li><span class="mono">{_when(t["seen_utc"])}</span> {esc(t["title"])}</li>' for t in titles))
 correction = ("<p>One correction to that summary. Luma still showed seats for the Impact Lab when this page was last built, "
               "so it was not sold out.</p>" if "sold" in (tr.get("summary_by_grok") or "") else "")
 x_count = tr.get("post_count")
@@ -156,8 +162,10 @@ body = f'''{bk.FILTERS}
     <p>At 1:27 am on Friday, <a href="https://x.com/claudeai" target="_blank" rel="noopener">@claudeai</a> posted a 30-second video. Fable 5.1 Build Days, a worldwide buildathon from September 11 to 25, with the Claude community hosting in cities across every continent. The video scrolls through the host cities. Nairobi. Stockholm. Cape Town. Oslo. Mexico City. Osaka. Miami. Then, in a clay-coloured box: <strong>Bhopal</strong>.</p>
     <p>Bhopal was the only Indian city on the list. No Bengaluru, no Delhi, no Mumbai, no Hyderabad. Within half an hour the quote-posts started, and they did not stop. By 5:37 am X's trending system had bundled the conversation into its own story page, first titled <em>"{esc(tr.get("title_original") or tr.get("title") or "")}"</em>{renamed}. That page is where this post comes from.</p>
     <p><strong>Update, 2 pm IST:</strong> Bengaluru is on the list now, and it got there after Bhopal trended. There was no Bengaluru event when the announcement went out at 1:27 am. The first word of one came at 1:44 pm, twelve hours later, from <a href="https://x.com/knowShubhangi" target="_blank" rel="noopener">@knowShubhangi</a>, who is hosting it: a <a href="https://luma.com/claude-x5dm" target="_blank" rel="noopener">Claude Fable Build Day in Bengaluru</a> on Friday, September 25, followed by a Claude Conversation in Mumbai on the 26th. Bhopal, on the 20th, was first on the list and is first on the calendar.</p>
-    <p><strong>Update, 10 pm IST:</strong> the story is still climbing. X has renamed it four times since the morning, and at the last refresh it counted {x_count:,} posts in the trend, with {fmt(anchor["metrics"]["views"])} views on the announcement. On X's trending page it now sits beside two larger India stories from the same day, Karnataka's partnership with Anthropic on public services and Anthropic's chief executive Dario Amodei meeting Prime Minister Narendra Modi. Bhopal's is the smallest of the three and the only one about a city nobody expected on the list.</p>
+    <p><strong>Update, 10 pm IST:</strong> the story is still climbing. X has renamed it {bk.number_word(renames).lower()} times since the morning, and at the last refresh it counted {x_count:,} posts in the trend, with {fmt(anchor["metrics"]["views"])} views on the announcement. On X's trending page it now sits beside two larger India stories from the same day, Karnataka's partnership with Anthropic on public services and Anthropic's chief executive Dario Amodei meeting Prime Minister Narendra Modi. Bhopal's is the smallest of the three and the only one about a city nobody expected on the list.</p>
+    <p><strong>Update, 1 am IST, September 12:</strong> past midnight the count crossed 3,400 posts, and X's newest headline calls it <em>India's only</em> Fable 5.1 buildathon again, Bengaluru's own date notwithstanding. Posts were still arriving at about fifty an hour late in the evening. The chapter's next event is the Claude Conversation on Saturday, September 12, at 6 pm, with the Impact Lab on Sunday and the Build Day the Sunday after.</p>
     {bk.card(anchor, posts, MEDIA)}
+    <details class="headlines"><summary>How X\'s headline changed, {bk.number_word(len(titles)).lower()} versions so far</summary><ol>{headlines_html}</ol></details>
     <p class="asof">Counts on this page are as of {esc(meta.get("captured_at_pretty") or meta.get("captured_at_ist") or "")}. They will have moved since.</p>
     <blockquote class="grok">
       <p>{esc(tr.get("summary_by_grok") or "")}</p>

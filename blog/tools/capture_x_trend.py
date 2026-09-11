@@ -264,12 +264,20 @@ def main():
     old_meta = (existing or {}).get("meta", {})
     old_trend = old_meta.get("trend", {})
     created = snowflake_utc(trend_id)
+    # X rewrites the story's headline as the trend evolves; keep every one we have seen.
+    history = list(old_trend.get("title_history") or [])
+    if not history and old_trend.get("title_original"):
+        history.append({"title": old_trend["title_original"], "seen_utc": created.isoformat().replace("+00:00", "Z")})
+    if title and (not history or history[-1]["title"] != title):
+        seen = (datetime.datetime.fromtimestamp(page["last_updated_at_ms"] / 1000, UTC) if page.get("last_updated_at_ms") else now)
+        history.append({"title": title, "seen_utc": seen.isoformat(timespec="seconds").replace("+00:00", "Z")})
     meta = {
         "trend": {"id": trend_id, "url": f"https://x.com/i/trending/{trend_id}",
                   "title": title, "title_original": old_trend.get("title_original") or title,
                   "summary_by_grok": summary, "summary_original": old_trend.get("summary_original") or summary,
                   "summary_disclaimer": page.get("disclaimer"),
                   "post_count": post_count if post_count is not None else old_trend.get("post_count"),
+                  "title_history": history,
                   "summary_last_updated_utc": (datetime.datetime.fromtimestamp(page["last_updated_at_ms"] / 1000, UTC).isoformat().replace("+00:00", "Z")
                                                if page.get("last_updated_at_ms") else None),
                   "created_at_utc": created.isoformat().replace("+00:00", "Z"),
