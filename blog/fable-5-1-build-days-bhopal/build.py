@@ -10,6 +10,7 @@ import csv
 import datetime
 import json
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -71,9 +72,16 @@ posts = {p["id"]: p for p in data["posts"]}
 for p in posts.values():
     p["mentions_bhopal"] = bool(p.get("matches_keyword", p.get("mentions_bhopal", False)))
     p["about_bhopal"] = p["mentions_bhopal"] or p["id"] in CONTEXT_IDS
+BENGALURU = re.compile(r"bengaluru|bangalore|bengalore|banglore|bangaluru|\bblr\b", re.I)
+BUILD_DAY = re.compile(r"build ?days?|buildathon|luma\.com/claude-z01j", re.I)
+for p in posts.values():
+    p["themes"] = [t for t, on in (("bhopal", p["about_bhopal"]), ("bengaluru", bool(BENGALURU.search(p["text"]))),
+                                   ("buildday", bool(BUILD_DAY.search(p["text"]))), ("reply", p["type"] == "reply")) if on]
 ordered = sorted(posts.values(), key=lambda p: p["created_at_utc"])
 anchor = posts[meta["anchor_post_id"]]
-about = [p for p in ordered if p["about_bhopal"] and p["id"] != anchor["id"]]
+about = [p for p in ordered if ("bhopal" in p["themes"] or "bengaluru" in p["themes"]) and p["id"] != anchor["id"]]
+theme_n = {t: sum(1 for p in about if t in p["themes"]) for t in ("bhopal", "bengaluru", "buildday", "reply")}
+theme_n["both"] = sum(1 for p in about if "bhopal" in p["themes"] and "bengaluru" in p["themes"])
 counts = {"posts_total": len(ordered), "posts_mentioning_bhopal": sum(1 for p in ordered if p["mentions_bhopal"]),
           "posts_about_bhopal": len(about)}
 featured_ids = [pid for _, _, ids in GROUPS for pid in ids if pid in posts]
@@ -89,8 +97,8 @@ groups_html = ""
 for title, lead, ids in GROUPS:
     cards = "".join(bk.card(posts[i], posts, MEDIA) for i in ids if i in posts)
     groups_html += f'<h3 class="kicker">{esc(title)}</h3><p class="lead">{lead}</p><div class="cards">{cards}</div>'
-archive_html = "\n".join(bk.archive_card(p, i, MEDIA, tagged=not p["mentions_bhopal"]) for i, p in enumerate(about, 1))
-context_n = counts["posts_about_bhopal"] - sum(1 for p in about if p["mentions_bhopal"])
+archive_html = "\n".join(bk.archive_card(p, i, MEDIA, tag_text=("about Bhopal" if "bhopal" in p["themes"] else "about Bengaluru"),
+                                          tagged=not p["mentions_bhopal"], themes=p["themes"]) for i, p in enumerate(about, 1))
 bd_html = "".join(f'<li{" class=\"here\"" if c_ == "Bhopal" else ""}><b>{c_}</b><span>{d}</span></li>' for c_, d in BUILD_DAYS)
 tr = meta["trend"]
 renamed = (f' and later renamed <em>"{esc(tr["title"])}"</em>' if tr.get("title") and tr["title"] != tr.get("title_original") else "")
@@ -194,14 +202,21 @@ body = f'''{bk.FILTERS}
 
 <section class="paper" id="archive">
   <div class="wrap">
-    <h2 class="kicker">Every post that named Bhopal</h2>
-    <p class="lead-wide">{counts["posts_about_bhopal"]} posts, exactly as their authors wrote them, salty bits included. Times are IST. {bk.number_word(context_n)} of them talk about Bhopal without using the word; those are marked.</p>
+    <h2 class="kicker">Every post that named Bhopal, or Bengaluru</h2>
+    <p class="lead-wide">{counts["posts_about_bhopal"]} posts, exactly as their authors wrote them, salty bits included. Times are IST. {theme_n["bhopal"]} name Bhopal, {theme_n["bengaluru"]} bring up Bengaluru, and {theme_n["both"]} do both. Posts marked <em>about Bhopal</em> talk about the city without using the word. The buttons narrow the wall by theme and change the order; the box filters by any word or handle.</p>
     <div class="ar-tools" hidden>
+      <div class="ar-sort" role="group" aria-label="Filter by theme">
+        <button type="button" data-theme="all" aria-pressed="true">All</button>
+        <button type="button" data-theme="bhopal" aria-pressed="false">Bhopal · {theme_n["bhopal"]}</button>
+        <button type="button" data-theme="bengaluru" aria-pressed="false">Bengaluru · {theme_n["bengaluru"]}</button>
+        <button type="button" data-theme="buildday" aria-pressed="false">Build Day · {theme_n["buildday"]}</button>
+        <button type="button" data-theme="reply" aria-pressed="false">Replies · {theme_n["reply"]}</button>
+      </div>
       <div class="ar-sort" role="group" aria-label="Sort posts">
-        <button type="button" data-sort="old" aria-pressed="true">Oldest first</button>
-        <button type="button" data-sort="new" aria-pressed="false">Newest first</button>
-        <button type="button" data-sort="views" aria-pressed="false">Most seen</button>
+        <button type="button" data-sort="views" aria-pressed="true">Most seen</button>
         <button type="button" data-sort="likes" aria-pressed="false">Most liked</button>
+        <button type="button" data-sort="new" aria-pressed="false">Newest first</button>
+        <button type="button" data-sort="old" aria-pressed="false">Oldest first</button>
       </div>
       <label class="ar-search"><span class="sr-only">Filter posts</span><input type="search" id="arFilter" placeholder="Filter by a word or @handle" autocomplete="off"></label>
       <span class="ar-count" id="arCount" aria-live="polite">{counts["posts_about_bhopal"]} posts</span>
@@ -226,9 +241,10 @@ with open(os.path.join(HERE, "index.html"), "w", encoding="utf-8") as f:
     f.write(page)
 with open(os.path.join(HERE, "tweets.csv"), "w", newline="", encoding="utf-8") as f:
     w = csv.writer(f)
-    w.writerow(["id", "url", "handle", "name", "created_at_ist", "type", "likes", "reposts", "replies", "views", "mentions_bhopal", "text"])
+    w.writerow(["id", "url", "handle", "name", "created_at_ist", "type", "likes", "reposts", "replies", "views", "mentions_bhopal", "themes", "text"])
     for p in about:
         w.writerow([p["id"], p["url"], p["author"]["handle"], p["author"]["name"], p["created_at_ist"], p["type"],
-                    p["metrics"]["likes"], p["metrics"]["reposts"], p["metrics"]["replies"], p["metrics"]["views"], p["mentions_bhopal"], p["text"]])
+                    p["metrics"]["likes"], p["metrics"]["reposts"], p["metrics"]["replies"], p["metrics"]["views"], p["mentions_bhopal"], " ".join(p["themes"]), p["text"]])
 print(f"built {SLUG}: {counts['posts_total']} posts, {counts['posts_mentioning_bhopal']} name Bhopal, "
-      f"{counts['posts_about_bhopal']} in the archive, {len(featured_ids)} featured, media files {len(os.listdir(MEDIA))}")
+      f"{counts['posts_about_bhopal']} on the wall (bhopal {theme_n['bhopal']}, bengaluru {theme_n['bengaluru']}, build day {theme_n['buildday']}, replies {theme_n['reply']}), "
+      f"{len(featured_ids)} featured, media files {len(os.listdir(MEDIA))}")

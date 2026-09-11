@@ -202,7 +202,7 @@ def card(post, posts, media_dir, note=None):
 </article>'''
 
 
-def archive_card(post, i, media_dir, tag_text="about Bhopal", tagged=False):
+def archive_card(post, i, media_dir, tag_text="about Bhopal", tagged=False, themes=()):
     p = post
     a = p["author"]
     av = ensure_avatar(p, media_dir)
@@ -217,7 +217,7 @@ def archive_card(post, i, media_dir, tag_text="about Bhopal", tagged=False):
             thumb = f'<a class="ar-thumb" href="{esc(p["url"])}" target="_blank" rel="noopener"><img src="{img}" alt="" loading="lazy"></a>'
             break
     search = esc((p["text"] + " " + a["handle"] + " " + (a["name"] or "")).lower())
-    return f'''<li class="ar-card" data-t="{epoch(p)}" data-views="{m["views"] or 0}" data-likes="{m["likes"] or 0}" data-s="{search}">
+    return f'''<li class="ar-card" data-t="{epoch(p)}" data-views="{m["views"] or 0}" data-likes="{m["likes"] or 0}" data-themes="{" ".join(themes)}" data-s="{search}">
   <div class="ar-head">{avatar}<div class="ar-who"><a class="ar-name" href="https://x.com/{esc(a["handle"])}" target="_blank" rel="noopener">{esc(a["name"] or a["handle"])}</a><span class="ar-handle">@{esc(a["handle"])}</span></div><span class="ar-n">{i:02d}</span></div>
   <p class="ar-text">{rich(p["text"])}</p>{thumb}
   <div class="ar-foot"><a class="ar-time" href="{esc(p["url"])}" target="_blank" rel="noopener">{when(p)} ↗</a>{tag}<span class="ar-stats">♥ {fmt(m["likes"])}{" · ◉ " + fmt(m["views"]) if m["views"] is not None else ""}</span></div>
@@ -276,14 +276,15 @@ matchMedia('(min-width:901px)').addEventListener('change',e=>{if(e.matches)setMe
   tools.hidden=false;
   const cards=Array.from(wall.children);
   const key={old:c=>+c.dataset.t,new:c=>-c.dataset.t,views:c=>-c.dataset.views,likes:c=>-c.dataset.likes};
-  let mode='old';
+  let mode='views',theme='all';
   function apply(){
     const q=(input.value||'').trim().toLowerCase();
     const sorted=cards.slice().sort((a,b)=>key[mode](a)-key[mode](b)||(+a.dataset.t-+b.dataset.t));
-    let n=0;sorted.forEach(c=>{const ok=!q||c.dataset.s.includes(q);c.hidden=!ok;if(ok)n++;wall.appendChild(c)});
+    let n=0;sorted.forEach(c=>{const ok=(!q||c.dataset.s.includes(q))&&(theme==='all'||(c.dataset.themes||'').split(' ').includes(theme));c.hidden=!ok;if(ok)n++;wall.appendChild(c)});
     count.textContent=n+(n===1?' post':' posts');empty.hidden=n>0;
   }
   tools.querySelectorAll('[data-sort]').forEach(b=>b.addEventListener('click',()=>{mode=b.dataset.sort;tools.querySelectorAll('[data-sort]').forEach(x=>x.setAttribute('aria-pressed',x===b));apply()}));
+  tools.querySelectorAll('[data-theme]').forEach(b=>b.addEventListener('click',()=>{theme=b.dataset.theme;tools.querySelectorAll('[data-theme]').forEach(x=>x.setAttribute('aria-pressed',x===b));apply()}));
   input.addEventListener('input',apply);
 })();
 </script>'''
