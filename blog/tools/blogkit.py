@@ -227,12 +227,12 @@ FILTERS = '''<svg width="0" height="0" style="position:absolute" aria-hidden="tr
 
 NAV = '''<nav>
   <div class="nav-inner">
-    <a href="{root}index.html" class="brand"><img src="{root}assets/claude-logo.png" alt="Claude" width="482" height="104"><span class="city">Bhopal</span></a>
+    <a href="{site}/" class="brand"><img src="{assets}claude-logo.png" alt="Claude" width="482" height="104"><span class="city">Bhopal</span></a>
     <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false" aria-controls="navLinks"><span></span><span></span><span></span></button>
     <div class="nav-links" id="navLinks">
-      <a href="{root}index.html#upcoming">Upcoming</a>
-      <a href="{root}index.html#join-roles">Join Roles</a>
-      <a href="{root}index.html#faq">FAQ</a>
+      <a href="{site}/#upcoming">Upcoming</a>
+      <a href="{site}/#join-roles">Join Roles</a>
+      <a href="{site}/#faq">FAQ</a>
       <a href="{blogroot}" {blogcur}>Blog</a>
       <a href="{cta_url}" class="nav-cta" target="_blank" rel="noopener">{cta_text}</a>
     </div>
@@ -241,11 +241,11 @@ NAV = '''<nav>
 
 FOOT = '''<footer>
   <div class="wrap foot">
-    <a href="{root}index.html" class="brand" style="gap:10px"><img src="{root}assets/claude-logo.png" alt="Claude" width="482" height="104"><span class="foot-tag">Bhopal</span></a>
+    <a href="{site}/" class="brand" style="gap:10px"><img src="{assets}claude-logo.png" alt="Claude" width="482" height="104"><span class="foot-tag">Bhopal</span></a>
     <div class="foot-links">
-      <a href="{root}index.html#upcoming">Upcoming</a>
-      <a href="{root}index.html#join-roles">Open Calls</a>
-      <a href="{root}index.html#faq">FAQ</a>
+      <a href="{site}/#upcoming">Upcoming</a>
+      <a href="{site}/#join-roles">Open Calls</a>
+      <a href="{site}/#faq">FAQ</a>
       <a href="{blogroot}">Blog</a>
       <a href="https://t.me/tog_guild" target="_blank" rel="noopener">Telegram</a>
       <a href="https://www.instagram.com/theoriginguild" target="_blank" rel="noopener">Instagram</a>
@@ -290,8 +290,8 @@ HEAD = '''<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{title}</title>
 <meta name="description" content="{desc}">
-<link rel="icon" type="image/png" sizes="64x64" href="{root}assets/favicon.png">
-<link rel="apple-touch-icon" href="{root}assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="64x64" href="{assets}favicon.png">
+<link rel="apple-touch-icon" href="{assets}apple-touch-icon.png">
 <meta name="theme-color" content="#D97757">
 <link rel="canonical" href="{url}">
 <meta property="og:type" content="{ogtype}">
@@ -324,10 +324,11 @@ def head(**kw):
     return tpl(HEAD, **kw)
 
 
-def nav(root, blogroot, current=False, cta_url="https://luma.com/claude-z01j", cta_text="Build Day · Sep 20 ↗"):
-    return tpl(NAV, root=root, blogroot=blogroot, blogcur='aria-current="page"' if current else 'aria-current="false"',
+def nav(assets, blogroot, current=False, cta_url="https://luma.com/claude-z01j", cta_text="Build Day · Sep 20 ↗"):
+    """assets: path from the page to blog/assets/ (e.g. "../assets/" from a post, "assets/" from the index)."""
+    return tpl(NAV, site=SITE, assets=assets, blogroot=blogroot, blogcur='aria-current="page"' if current else 'aria-current="false"',
                cta_url=cta_url, cta_text=cta_text)
 
 
-def foot(root, blogroot):
-    return tpl(FOOT, root=root, blogroot=blogroot)
+def foot(assets, blogroot):
+    return tpl(FOOT, site=SITE, assets=assets, blogroot=blogroot)

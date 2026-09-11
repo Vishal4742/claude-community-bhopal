@@ -16,3 +16,6 @@
 
 # generated on every run of tally/create_forms.py
 tally/payloads/
+
+# Python bytecode caches (blog build scripts)
+__pycache__/

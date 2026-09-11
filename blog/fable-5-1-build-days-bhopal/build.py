@@ -111,7 +111,7 @@ jsonld = json.dumps({
 }, ensure_ascii=False, indent=1)
 
 body = f'''{bk.FILTERS}
-{bk.nav("../../", "../index.html")}
+{bk.nav("../assets/", "../index.html")}
 <header class="hero">
   <div class="wrap hero-grid">
     <div>
@@ -200,11 +200,11 @@ body = f'''{bk.FILTERS}
 </section>
 
 </main>
-{bk.foot("../../", "../index.html")}
+{bk.foot("../assets/", "../index.html")}
 </body>
 </html>
 '''
-page = bk.head(title=f"{TITLE} · Claude Community Bhopal", desc=esc(DESC), root="../../", url=POST_URL, ogtype="article",
+page = bk.head(title=f"{TITLE} · Claude Community Bhopal", desc=esc(DESC), assets="../assets/", url=POST_URL, ogtype="article",
                ogtitle=esc(TITLE), ogimg=f"{POST_URL}og.jpg",
                ogalt="The night Bhopal trended on X. Fable 5.1 Build Days, Sunday September 20.",
                jsonld=f'<script type="application/ld+json">\n{jsonld}\n</script>') + body

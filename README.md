@@ -9,7 +9,7 @@ Then: Claude Conversation · Sat, Sep 12 · [Luma](https://luma.com/claude-6khk)
 
 - `index.html` — the whole site: markup, styles, and scripts in one file, no build step
 - `assets/` — photos, icons, and the social share card, committed to the repo so a clone deploys as-is
-- `blog/` — the blog. `blog/index.html` lists the posts; each post lives in its own folder (`blog/<slug>/index.html` plus its `media/`, `og.jpg` and any data files). `blog/tools/` holds the scripts used to build posts
+- `blog/` — the blog. `blog/index.html` lists the posts; each post lives in its own folder (`blog/<slug>/index.html` plus its `media/`, `og.jpg`, `build.py` and data files). `blog/tools/` holds the shared build code, `blog/assets/` the logo and icons the blog needs, so the folder also works as a site of its own (see below)
 
 Everything is hand-rolled. The rough borders are SVG turbulence filters, the mascots are inline SVG (animated with GSAP, loaded from a CDN with a pinned version and integrity hash; the Tally popup embed is the only other external script), and the rest is plain HTML, CSS, and JavaScript. The page works with JavaScript disabled.
 
@@ -33,7 +33,7 @@ If the site ever moves to a custom domain, update the absolute URLs in `<head>` 
 
 Posts are plain HTML pages that reuse the site's styles, so they work with JavaScript disabled and need no build step. To add one, copy the folder of an existing post, replace the content, and add a card to `blog/index.html`.
 
-**First post:** [The night Bhopal trended on X](https://claude-community-bhopal.netlify.app/blog/fable-5-1-build-days-bhopal/) (`blog/fable-5-1-build-days-bhopal/`). It archives X's trend "Claude Fable 5.1 Build Days Launch Worldwide with Bhopal Spotlight" from September 11, 2026: every post in the trend is saved in `tweets.json` (243 posts, with author, time, text, media and engagement counts as of 12:42 pm IST) and the 131 posts about Bhopal in `tweets.csv`, with images and avatars in `media/`.
+**First post:** [The night Bhopal trended on X](https://claude-community-bhopal.netlify.app/blog/fable-5-1-build-days-bhopal/) (`blog/fable-5-1-build-days-bhopal/`). It archives X's trend "Claude Fable 5.1 Build Days Launch Worldwide with Bhopal Spotlight" from September 11, 2026: every post in the trend is saved in `tweets.json` (author, time, text, media and engagement counts, refreshed every few hours) and the posts about Bhopal in `tweets.csv`, with images and avatars in `media/`.
 
 The archive was made with `blog/tools/capture_x_trend.py`, which needs no X account and no third-party packages:
 
@@ -47,6 +47,7 @@ Each post folder has a `build.py` that turns `tweets.json` into `index.html` (pl
 
 ```
 python3 blog/fable-5-1-build-days-bhopal/build.py
+python3 blog/tools/build_index.py          # the post list; add new posts to POSTS in that file
 ```
 
 ### Automatic refresh
@@ -54,6 +55,18 @@ python3 blog/fable-5-1-build-days-bhopal/build.py
 `.github/workflows/refresh-blog.yml` runs every 3 hours (and on demand from the Actions tab, or with `gh workflow run refresh-blog.yml`). It fetches new posts, rebuilds the post, and commits the result to `main` as `github-actions[bot]`; Netlify then deploys it. When nothing changed, it commits nothing. Pillow is installed in the job so images are resized; without it the scripts still run and just copy files as they are.
 
 To stop the refreshes, disable the workflow in the Actions tab (or delete the `schedule` block). To point it at another trend, change the trend id and `--keyword` in the workflow and add a matching post folder with its own `build.py`.
+
+### The blog as its own project
+
+`blog/` is self-contained: it carries its own `assets/`, `netlify.toml`, and `404.html`, and its links back to the main site are absolute. So the same folder can be published as a second Netlify project at its own URL, fed by the same repo and the same refresh commits. Live at **https://claude-bhopal-blog.netlify.app** (Netlify project `claude-bhopal-blog`, base directory `blog`).
+
+To recreate it: in Netlify, add a project from the GitHub repo, set the base directory to `blog`, leave the build command empty (the folder's own `netlify.toml` publishes it). Or from the CLI, logged in as the team owner:
+
+```
+netlify api createSiteInTeam --data '{"account_slug":"vishal4742","body":{"name":"claude-bhopal-blog","repo":{"provider":"github","repo_path":"Vishal4742/claude-community-bhopal","repo_url":"https://github.com/Vishal4742/claude-community-bhopal","repo_branch":"main","base":"blog","dir":"blog","cmd":"","installation_id":60811761,"public_repo":true}}}'
+```
+
+The pages keep the main site as their canonical URL, so search engines treat the standalone copy as a mirror.
 
 ## Tally forms for the "pick your role" section
 

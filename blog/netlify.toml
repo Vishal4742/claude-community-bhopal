@@ -1,0 +1,14 @@
+# The blog can also be deployed on its own: a Netlify project with base
+# directory "blog" reads this file and publishes this folder as a site.
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/*/media/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
