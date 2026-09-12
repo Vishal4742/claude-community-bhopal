@@ -8,7 +8,7 @@
    "summary_by_grok": "Anthropic's Claude community launches Fable 5.1 Build Days from September 11–25, with hands-on events in cities like Nairobi, Stockholm, Cape Town, and Bhopal. Released on September 1, the new model excels in coding, agentic tasks, and knowledge work with a 1M-token context window. In Bhopal, Ambassador Aniket Sahu hosts a full-day session on September 20 featuring build sprints, demos, networking, and $100 API credits per attendee, while Bangalore runs its own on September 25. Reactions celebrate Bhopal's active AI scene earning the spot through community strength.",
    "summary_original": "The Claude community kicked off Fable 5.1 Build Days, a worldwide buildathon from September 11 to 25, inviting people to experiment with Anthropic's new model for coding and complex tasks in cities like Cape Town, Nairobi, Stockholm, Singapore, Tokyo, and Bhopal. Bhopal's selection drew light-hearted reactions, with users joking about Bengaluru folks' surprise while others celebrated the city's rising profile and even quipped about poha stocks soaring. In Bhopal, the sold-out Claude Code Impact Lab focuses on prototyping AI ideas to improve the city, with similar hands-on events planned elsewhere via the Claude Community calendar on Luma.",
    "summary_disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
-   "post_count": 3825,
+   "post_count": 3826,
    "title_history": [
     {
      "title": "Claude Fable 5.1 Build Days Launch Worldwide with Bhopal Spotlight",
@@ -46,34 +46,37 @@
   "anchor_post_id": "2098138736642933143",
   "keyword": "bhopal",
   "first_captured_at_utc": "2026-09-11T07:12:00Z",
-  "captured_at_utc": "2026-09-12T01:22:00Z",
-  "captured_at_ist": "2026-09-12 06:52 IST",
-  "captured_at_pretty": "6:52 am IST on September 12",
+  "captured_at_utc": "2026-09-12T01:32:00Z",
+  "captured_at_ist": "2026-09-12 07:02 IST",
+  "captured_at_pretty": "7:02 am IST on September 12",
   "counts": {
-   "posts_total": 1514,
-   "posts_matching_keyword": 575,
-   "authors": 972,
+   "posts_total": 1515,
+   "posts_matching_keyword": 576,
+   "authors": 973,
    "posts_from_conversations": 735,
    "posts_from_search": 45
   },
   "expand": {
-   "last_run_utc": "2026-09-12T01:22:13Z",
-   "pages_opened": 8,
+   "last_run_utc": "2026-09-12T01:32:21Z",
+   "pages_opened": 11,
    "pages_left": 0,
    "blocked": false,
    "not_posts": [
     "2098138556468490240",
     "2098148039500365824",
-    "2098267942333161472",
-    "2098308943785115655",
-    "2098362774967681024",
+    "2098229293872820224",
+    "2098258106711179264",
+    "2098324275740708864",
+    "2098362431164895232",
+    "2098369664594432000",
     "2098383727311429632",
+    "2098397089386647552",
     "2098472879121912164",
-    "2098581388987637760"
+    "2098523309172563969"
    ]
   },
   "search": {
-   "last_run_utc": "2026-09-12T01:22:48Z",
+   "last_run_utc": "2026-09-12T01:33:02Z",
    "instance": "nitter.tiekoetter.com",
    "queries": {
     "bhopal fable": {
@@ -103,7 +106,7 @@
     "name": "Claude",
     "handle": "claudeai",
     "verified": true,
-    "followers": 1779690,
+    "followers": 1779700,
     "profile_image": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ_400x400.jpg"
    },
    "created_at_utc": "2026-09-10T19:57:11Z",
@@ -115,12 +118,12 @@
    "text_raw": "Fable 5.1 Build Days start this week. The Claude community is hosting buildathons in cities all around the world from September 11–25. Bring a problem, an idea, or just show up and see what's possible.\n\nRSVP at https://t.co/AjMK4OHHBV https://t.co/0U8lcqsdrq",
    "lang": "en",
    "metrics": {
-    "likes": 4361,
+    "likes": 4365,
     "reposts": 303,
     "replies": 517,
     "quotes": 473,
     "bookmarks": 1192,
-    "views": 1449998
+    "views": 1453899
    },
    "urls": [
     "https://luma.com/claudecommunity?tag=build%20day"
@@ -683,7 +686,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 317
+    "views": 319
    },
    "urls": [],
    "hashtags": [],
@@ -1228,7 +1231,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 2,
-    "views": 2997
+    "views": 3012
    },
    "urls": [],
    "hashtags": [],
@@ -1273,7 +1276,7 @@
     "replies": 12,
     "quotes": 0,
     "bookmarks": 10,
-    "views": 15253
+    "views": 15254
    },
    "urls": [],
    "hashtags": [],
@@ -1394,7 +1397,7 @@
     "name": "RUI rui",
     "handle": "rui_e77o",
     "verified": false,
-    "followers": 521,
+    "followers": 522,
     "profile_image": "https://pbs.twimg.com/profile_images/2072853684955099136/FSA3HBPO_400x400.jpg"
    },
    "created_at_utc": "2026-09-10T20:21:47Z",
@@ -1486,7 +1489,7 @@
     "replies": 72,
     "quotes": 14,
     "bookmarks": 202,
-    "views": 193048
+    "views": 193098
    },
    "urls": [],
    "hashtags": [],
@@ -1892,12 +1895,12 @@
    "text_raw": "The Anthropic team is brilliant! Out of all the places in India, they decided to host the Fable buildathon only in Bhopal https://t.co/u8Gv2r4ugd",
    "lang": "en",
    "metrics": {
-    "likes": 4740,
+    "likes": 4743,
     "reposts": 77,
     "replies": 224,
     "quotes": 89,
     "bookmarks": 329,
-    "views": 276469
+    "views": 277002
    },
    "urls": [],
    "hashtags": [],
@@ -2041,7 +2044,7 @@
     "replies": 1,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 1591
+    "views": 1595
    },
    "urls": [],
    "hashtags": [],
@@ -2126,7 +2129,7 @@
     "replies": 29,
     "quotes": 1,
     "bookmarks": 6,
-    "views": 10902
+    "views": 10905
    },
    "urls": [],
    "hashtags": [],
@@ -2151,7 +2154,7 @@
     "name": "Doug",
     "handle": "DougStandley",
     "verified": true,
-    "followers": 1178,
+    "followers": 1179,
     "profile_image": "https://pbs.twimg.com/profile_images/2074218838330421248/dGJidozc_400x400.jpg"
    },
    "created_at_utc": "2026-09-10T20:53:00Z",
@@ -2341,7 +2344,7 @@
     "replies": 7,
     "quotes": 0,
     "bookmarks": 3,
-    "views": 27536
+    "views": 27561
    },
    "urls": [],
    "hashtags": [],
@@ -2520,7 +2523,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 149
+    "views": 151
    },
    "urls": [],
    "hashtags": [],
@@ -2718,7 +2721,7 @@
     "name": "言语是你的拥吻",
     "handle": "Ugui3u",
     "verified": false,
-    "followers": 645,
+    "followers": 644,
     "profile_image": "https://pbs.twimg.com/profile_images/2086498680480346112/GNlkxKM2_400x400.jpg"
    },
    "created_at_utc": "2026-09-10T21:27:55Z",
@@ -2934,7 +2937,7 @@
     "replies": 1,
     "quotes": 2,
     "bookmarks": 1,
-    "views": 3203
+    "views": 3205
    },
    "urls": [
     "https://luma.com/claude-oec1"
@@ -3064,7 +3067,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 2075
+    "views": 2077
    },
    "urls": [],
    "hashtags": [],
@@ -3211,7 +3214,7 @@
     "replies": 1,
     "quotes": 0,
     "bookmarks": 1,
-    "views": 198
+    "views": 200
    },
    "urls": [],
    "hashtags": [],
@@ -3580,7 +3583,7 @@
     "replies": 2,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 3901
+    "views": 3909
    },
    "urls": [],
    "hashtags": [],
@@ -3862,7 +3865,7 @@
     "replies": 48,
     "quotes": 7,
     "bookmarks": 108,
-    "views": 90690
+    "views": 90719
    },
    "urls": [],
    "hashtags": [],
@@ -5332,7 +5335,7 @@
     "replies": 4,
     "quotes": 2,
     "bookmarks": 3,
-    "views": 3615
+    "views": 3618
    },
    "urls": [],
    "hashtags": [],
@@ -5350,7 +5353,7 @@
    "first_seen_utc": "2026-09-11T07:25:33Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-09-11T19:25:39Z",
+    "at": "2026-09-12T01:32:21Z",
     "replies": 4,
     "found": 0
    }
@@ -5565,7 +5568,7 @@
     "replies": 6,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 1594
+    "views": 1597
    },
    "urls": [],
    "hashtags": [],
@@ -5892,7 +5895,7 @@
     "replies": 11,
     "quotes": 0,
     "bookmarks": 2,
-    "views": 6297
+    "views": 6300
    },
    "urls": [],
    "hashtags": [],
@@ -5934,7 +5937,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 180
+    "views": 182
    },
    "urls": [],
    "hashtags": [],
@@ -6597,7 +6600,7 @@
     "replies": 18,
     "quotes": 3,
     "bookmarks": 15,
-    "views": 30966
+    "views": 31015
    },
    "urls": [],
    "hashtags": [],
@@ -6727,7 +6730,7 @@
     "replies": 11,
     "quotes": 0,
     "bookmarks": 7,
-    "views": 3945
+    "views": 3950
    },
    "urls": [],
    "hashtags": [],
@@ -7128,7 +7131,7 @@
     "name": "Zaeon Gao",
     "handle": "ZetsubosenseiG",
     "verified": true,
-    "followers": 706,
+    "followers": 707,
     "profile_image": "https://pbs.twimg.com/profile_images/1874497335893377024/KHsF8Xa-_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T03:59:22Z",
@@ -7489,7 +7492,7 @@
     "replies": 7,
     "quotes": 3,
     "bookmarks": 0,
-    "views": 1846
+    "views": 1848
    },
    "urls": [
     "https://luma.com/claude-z01j"
@@ -7871,7 +7874,7 @@
     "name": "로그 Logue",
     "handle": "AlexZio00",
     "verified": true,
-    "followers": 9960,
+    "followers": 9959,
     "profile_image": "https://pbs.twimg.com/profile_images/2041438062471979008/Z95yInax_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T04:24:43Z",
@@ -7888,7 +7891,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 777
+    "views": 781
    },
    "urls": [],
    "hashtags": [],
@@ -7924,7 +7927,7 @@
     "replies": 4,
     "quotes": 0,
     "bookmarks": 1,
-    "views": 524
+    "views": 526
    },
    "urls": [],
    "hashtags": [],
@@ -7965,7 +7968,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 128
+    "views": 136
    },
    "urls": [],
    "hashtags": [],
@@ -8051,12 +8054,12 @@
    "text_raw": "bhopal is the only indian city in the list,\n\nblr tech bros right now: https://t.co/9noqDGgAiN",
    "lang": "en",
    "metrics": {
-    "likes": 2979,
+    "likes": 2985,
     "reposts": 100,
     "replies": 54,
     "quotes": 13,
-    "bookmarks": 189,
-    "views": 147588
+    "bookmarks": 190,
+    "views": 147982
    },
    "urls": [],
    "hashtags": [],
@@ -8273,7 +8276,7 @@
     "replies": 23,
     "quotes": 0,
     "bookmarks": 2,
-    "views": 3589
+    "views": 3596
    },
    "urls": [],
    "hashtags": [],
@@ -9087,7 +9090,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 99
+    "views": 100
    },
    "urls": [],
    "hashtags": [],
@@ -10016,7 +10019,7 @@
    "first_seen_utc": "2026-09-11T07:25:33Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-09-11T19:25:39Z",
+    "at": "2026-09-12T01:32:21Z",
     "replies": 3,
     "found": 0
    }
@@ -10473,7 +10476,7 @@
     "replies": 2,
     "quotes": 0,
     "bookmarks": 1,
-    "views": 741
+    "views": 742
    },
    "urls": [],
    "hashtags": [],
@@ -11164,7 +11167,7 @@
     "replies": 4,
     "quotes": 0,
     "bookmarks": 1,
-    "views": 778
+    "views": 781
    },
    "urls": [],
    "hashtags": [
@@ -11314,7 +11317,7 @@
     "replies": 5,
     "quotes": 0,
     "bookmarks": 3,
-    "views": 5264
+    "views": 5265
    },
    "urls": [],
    "hashtags": [],
@@ -12014,7 +12017,7 @@
     "replies": 1,
     "quotes": 1,
     "bookmarks": 0,
-    "views": 5981
+    "views": 5984
    },
    "urls": [],
    "hashtags": [],
@@ -12804,7 +12807,7 @@
     "replies": 1,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 2042
+    "views": 2045
    },
    "urls": [],
    "hashtags": [],
@@ -13024,7 +13027,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 1504
+    "views": 1506
    },
    "urls": [],
    "hashtags": [],
@@ -13481,7 +13484,7 @@
     "replies": 1,
     "quotes": 0,
     "bookmarks": 1,
-    "views": 1274
+    "views": 1275
    },
    "urls": [],
    "hashtags": [],
@@ -13522,7 +13525,7 @@
     "replies": 1,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 642
+    "views": 646
    },
    "urls": [],
    "hashtags": [],
@@ -14476,7 +14479,7 @@
     "replies": 1,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 782
+    "views": 784
    },
    "urls": [],
    "hashtags": [],
@@ -14985,7 +14988,7 @@
     "replies": 1,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 418
+    "views": 420
    },
    "urls": [],
    "hashtags": [],
@@ -15223,7 +15226,7 @@
     "name": "PK 🐢 👩🏻‍💻",
     "handle": "PKodmad",
     "verified": true,
-    "followers": 11460,
+    "followers": 11461,
     "profile_image": "https://pbs.twimg.com/profile_images/2077242127541743616/AJIqqL-q_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T06:48:14Z",
@@ -15356,7 +15359,7 @@
     "replies": 12,
     "quotes": 1,
     "bookmarks": 4,
-    "views": 1749
+    "views": 1750
    },
    "urls": [],
    "hashtags": [],
@@ -15481,7 +15484,7 @@
     "replies": 6,
     "quotes": 0,
     "bookmarks": 1,
-    "views": 935
+    "views": 936
    },
    "urls": [],
    "hashtags": [],
@@ -15578,7 +15581,7 @@
    "first_seen_utc": "2026-09-11T07:25:33Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-09-11T19:25:39Z",
+    "at": "2026-09-12T01:32:21Z",
     "replies": 12,
     "found": 0
    }
@@ -16316,7 +16319,7 @@
     "name": "Shubham Soni",
     "handle": "ShubhhSoni",
     "verified": true,
-    "followers": 983,
+    "followers": 984,
     "profile_image": "https://pbs.twimg.com/profile_images/2083183632462802944/vtAGtmqg_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T07:03:31Z",
@@ -16444,7 +16447,7 @@
     "replies": 24,
     "quotes": 2,
     "bookmarks": 12,
-    "views": 11830
+    "views": 11835
    },
    "urls": [],
    "hashtags": [],
@@ -16909,7 +16912,7 @@
     "replies": 4,
     "quotes": 0,
     "bookmarks": 7,
-    "views": 12860
+    "views": 12868
    },
    "urls": [],
    "hashtags": [],
@@ -17531,7 +17534,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 814
+    "views": 815
    },
    "urls": [],
    "hashtags": [],
@@ -17740,7 +17743,7 @@
     "replies": 22,
     "quotes": 1,
     "bookmarks": 18,
-    "views": 18737
+    "views": 18743
    },
    "urls": [],
    "hashtags": [],
@@ -17999,7 +18002,7 @@
     "replies": 0,
     "quotes": 1,
     "bookmarks": 2,
-    "views": 1031
+    "views": 1036
    },
    "urls": [],
    "hashtags": [],
@@ -18088,7 +18091,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 1085
+    "views": 1088
    },
    "urls": [],
    "hashtags": [],
@@ -19420,7 +19423,7 @@
     "replies": 16,
     "quotes": 4,
     "bookmarks": 5,
-    "views": 2596
+    "views": 2602
    },
    "urls": [],
    "hashtags": [],
@@ -19784,7 +19787,7 @@
     "replies": 2,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 545
+    "views": 546
    },
    "urls": [],
    "hashtags": [],
@@ -20383,7 +20386,7 @@
     "replies": 1,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 184
+    "views": 187
    },
    "urls": [],
    "hashtags": [],
@@ -21210,7 +21213,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 14
+    "views": 15
    },
    "urls": [],
    "hashtags": [],
@@ -21271,7 +21274,7 @@
     "name": "Shubhangi Gupta",
     "handle": "knowShubhangi",
     "verified": true,
-    "followers": 7885,
+    "followers": 7886,
     "profile_image": "https://pbs.twimg.com/profile_images/2026717870798098432/VCJ_0c_7_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T08:14:28Z",
@@ -21288,7 +21291,7 @@
     "replies": 16,
     "quotes": 2,
     "bookmarks": 26,
-    "views": 11067
+    "views": 11083
    },
    "urls": [],
    "hashtags": [],
@@ -21564,7 +21567,7 @@
    "first_seen_utc": "2026-09-11T08:52:15Z",
    "matches_keyword": false,
    "conversation_scan": {
-    "at": "2026-09-11T19:25:39Z",
+    "at": "2026-09-12T01:32:21Z",
     "replies": 2,
     "found": 0
    }
@@ -21874,7 +21877,7 @@
     "replies": 11,
     "quotes": 1,
     "bookmarks": 9,
-    "views": 10903
+    "views": 10912
    },
    "urls": [],
    "hashtags": [],
@@ -22032,7 +22035,7 @@
     "name": "Shubhangi Gupta",
     "handle": "knowShubhangi",
     "verified": true,
-    "followers": 7885,
+    "followers": 7886,
     "profile_image": "https://pbs.twimg.com/profile_images/2026717870798098432/VCJ_0c_7_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T08:19:31Z",
@@ -22052,7 +22055,7 @@
     "replies": 1,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 413
+    "views": 415
    },
    "urls": [
     "https://x.com/knowshubhangi/status/2098324283143700669?s=46"
@@ -22487,7 +22490,7 @@
     "replies": 12,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 2263
+    "views": 2264
    },
    "urls": [],
    "hashtags": [],
@@ -22511,7 +22514,7 @@
     "name": "Shubhangi Gupta",
     "handle": "knowShubhangi",
     "verified": true,
-    "followers": 7885,
+    "followers": 7886,
     "profile_image": "https://pbs.twimg.com/profile_images/2026717870798098432/VCJ_0c_7_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T08:24:13Z",
@@ -22528,7 +22531,7 @@
     "replies": 8,
     "quotes": 1,
     "bookmarks": 3,
-    "views": 1717
+    "views": 1721
    },
    "urls": [],
    "hashtags": [],
@@ -22848,7 +22851,7 @@
     "name": "Shubhangi Gupta",
     "handle": "knowShubhangi",
     "verified": true,
-    "followers": 7885,
+    "followers": 7886,
     "profile_image": "https://pbs.twimg.com/profile_images/2026717870798098432/VCJ_0c_7_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T08:29:20Z",
@@ -22865,7 +22868,7 @@
     "replies": 15,
     "quotes": 2,
     "bookmarks": 44,
-    "views": 20792
+    "views": 20839
    },
    "urls": [
     "https://luma.com/claude-x5dm"
@@ -22892,7 +22895,7 @@
     "name": "Shubhangi Gupta",
     "handle": "knowShubhangi",
     "verified": true,
-    "followers": 7885,
+    "followers": 7886,
     "profile_image": "https://pbs.twimg.com/profile_images/2026717870798098432/VCJ_0c_7_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T08:29:31Z",
@@ -23102,7 +23105,7 @@
     "name": "Shubhangi Gupta",
     "handle": "knowShubhangi",
     "verified": true,
-    "followers": 7885,
+    "followers": 7886,
     "profile_image": "https://pbs.twimg.com/profile_images/2026717870798098432/VCJ_0c_7_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T08:32:02Z",
@@ -23784,7 +23787,7 @@
     "replies": 7,
     "quotes": 0,
     "bookmarks": 1,
-    "views": 1997
+    "views": 1999
    },
    "urls": [],
    "hashtags": [],
@@ -24338,7 +24341,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 177
+    "views": 178
    },
    "urls": [],
    "hashtags": [],
@@ -24378,7 +24381,7 @@
     "replies": 1,
     "quotes": 0,
     "bookmarks": 1,
-    "views": 261
+    "views": 262
    },
    "urls": [],
    "hashtags": [],
@@ -24600,7 +24603,7 @@
     "replies": 3,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 576
+    "views": 578
    },
    "urls": [],
    "hashtags": [],
@@ -24642,7 +24645,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 786
+    "views": 788
    },
    "urls": [],
    "hashtags": [],
@@ -25315,7 +25318,7 @@
     "name": "Sreeraj Thayyil 🇮🇳",
     "handle": "astro_sreeraj",
     "verified": false,
-    "followers": 965,
+    "followers": 966,
     "profile_image": "https://pbs.twimg.com/profile_images/1899330969720737792/YB7xAnNx_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T08:59:54Z",
@@ -25679,7 +25682,7 @@
     "replies": 4,
     "quotes": 1,
     "bookmarks": 3,
-    "views": 985
+    "views": 987
    },
    "urls": [],
    "hashtags": [],
@@ -25725,12 +25728,12 @@
    "text_raw": "Miami \nSeoul \nTokyo\nNew YORK \nMexico\nand then our diva Bhopal??? \n\nBaddie Bhopal indeed",
    "lang": "en",
    "metrics": {
-    "likes": 413,
+    "likes": 414,
     "reposts": 9,
     "replies": 19,
     "quotes": 1,
     "bookmarks": 22,
-    "views": 25314
+    "views": 25352
    },
    "urls": [],
    "hashtags": [],
@@ -25772,7 +25775,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 21
+    "views": 22
    },
    "urls": [],
    "hashtags": [],
@@ -26319,7 +26322,7 @@
     "replies": 5,
     "quotes": 2,
     "bookmarks": 5,
-    "views": 1975
+    "views": 1976
    },
    "urls": [],
    "hashtags": [],
@@ -27358,7 +27361,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 197
+    "views": 199
    },
    "urls": [
     "https://luma.com/claude-x5dm"
@@ -28085,7 +28088,7 @@
     "replies": 6,
     "quotes": 0,
     "bookmarks": 1,
-    "views": 987
+    "views": 989
    },
    "urls": [],
    "hashtags": [],
@@ -28711,7 +28714,7 @@
     "replies": 1,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 195
+    "views": 198
    },
    "urls": [],
    "hashtags": [],
@@ -29187,7 +29190,7 @@
     "replies": 6,
     "quotes": 2,
     "bookmarks": 2,
-    "views": 785
+    "views": 789
    },
    "urls": [
     "https://claude-bhopal-blog.netlify.app/fable-5-1-build-days-bhopal/"
@@ -29650,7 +29653,7 @@
     "replies": 10,
     "quotes": 0,
     "bookmarks": 2,
-    "views": 3614
+    "views": 3615
    },
    "urls": [],
    "hashtags": [],
@@ -30254,7 +30257,7 @@
     "replies": 3,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 319
+    "views": 321
    },
    "urls": [],
    "hashtags": [],
@@ -30338,7 +30341,7 @@
     "replies": 3,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 868
+    "views": 875
    },
    "urls": [],
    "hashtags": [],
@@ -30921,7 +30924,7 @@
     "replies": 4,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 544
+    "views": 545
    },
    "urls": [],
    "hashtags": [],
@@ -31999,7 +32002,7 @@
     "replies": 12,
     "quotes": 0,
     "bookmarks": 10,
-    "views": 3229
+    "views": 3231
    },
    "urls": [],
    "hashtags": [],
@@ -32533,7 +32536,7 @@
     "replies": 11,
     "quotes": 0,
     "bookmarks": 1,
-    "views": 3307
+    "views": 3310
    },
    "urls": [],
    "hashtags": [],
@@ -32926,7 +32929,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 227
+    "views": 228
    },
    "urls": [],
    "hashtags": [],
@@ -33799,7 +33802,7 @@
     "replies": 6,
     "quotes": 1,
     "bookmarks": 0,
-    "views": 1778
+    "views": 1779
    },
    "urls": [],
    "hashtags": [],
@@ -33812,7 +33815,7 @@
    "first_seen_utc": "2026-09-11T11:05:56Z",
    "matches_keyword": false,
    "conversation_scan": {
-    "at": "2026-09-11T19:25:39Z",
+    "at": "2026-09-12T01:32:21Z",
     "replies": 6,
     "found": 0
    }
@@ -34011,7 +34014,7 @@
     "replies": 5,
     "quotes": 1,
     "bookmarks": 0,
-    "views": 932
+    "views": 933
    },
    "urls": [],
    "hashtags": [],
@@ -34230,7 +34233,7 @@
     "name": "Shubhangi Gupta",
     "handle": "knowShubhangi",
     "verified": true,
-    "followers": 7885,
+    "followers": 7886,
     "profile_image": "https://pbs.twimg.com/profile_images/2026717870798098432/VCJ_0c_7_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T11:04:57Z",
@@ -34266,7 +34269,7 @@
    "first_seen_utc": "2026-09-11T13:18:18Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-09-11T19:25:39Z",
+    "at": "2026-09-12T01:32:21Z",
     "replies": 1,
     "found": 0
    }
@@ -35011,7 +35014,7 @@
     "replies": 2,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 399
+    "views": 400
    },
    "urls": [],
    "hashtags": [],
@@ -35563,7 +35566,7 @@
     "replies": 1,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 222
+    "views": 223
    },
    "urls": [],
    "hashtags": [],
@@ -36230,7 +36233,7 @@
     "replies": 0,
     "quotes": 1,
     "bookmarks": 0,
-    "views": 112
+    "views": 115
    },
    "urls": [],
    "hashtags": [],
@@ -36511,7 +36514,7 @@
     "replies": 4,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 1047
+    "views": 1048
    },
    "urls": [],
    "hashtags": [],
@@ -36745,7 +36748,7 @@
     "replies": 16,
     "quotes": 5,
     "bookmarks": 11,
-    "views": 7191
+    "views": 7216
    },
    "urls": [],
    "hashtags": [],
@@ -37160,7 +37163,7 @@
     "replies": 1,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 1414
+    "views": 1415
    },
    "urls": [],
    "hashtags": [],
@@ -38453,7 +38456,7 @@
     "replies": 1,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 1693
+    "views": 1694
    },
    "urls": [],
    "hashtags": [],
@@ -38589,7 +38592,7 @@
     "replies": 2,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 1270
+    "views": 1282
    },
    "urls": [],
    "hashtags": [],
@@ -39059,7 +39062,7 @@
     "replies": 11,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 675
+    "views": 677
    },
    "urls": [],
    "hashtags": [],
@@ -39195,7 +39198,7 @@
     "replies": 8,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 742
+    "views": 746
    },
    "urls": [],
    "hashtags": [],
@@ -39321,7 +39324,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 728
+    "views": 732
    },
    "urls": [],
    "hashtags": [],
@@ -39361,7 +39364,7 @@
     "replies": 1,
     "quotes": 1,
     "bookmarks": 0,
-    "views": 292
+    "views": 294
    },
    "urls": [],
    "hashtags": [],
@@ -39827,7 +39830,7 @@
     "replies": 1,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 204
+    "views": 206
    },
    "urls": [],
    "hashtags": [],
@@ -40118,7 +40121,7 @@
     "replies": 4,
     "quotes": 1,
     "bookmarks": 1,
-    "views": 1073
+    "views": 1075
    },
    "urls": [],
    "hashtags": [],
@@ -41178,7 +41181,7 @@
    "first_seen_utc": "2026-09-11T13:18:18Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-09-11T19:25:39Z",
+    "at": "2026-09-12T01:32:21Z",
     "replies": 1,
     "found": 0
    }
@@ -41253,7 +41256,7 @@
     "replies": 1,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 2271
+    "views": 2273
    },
    "urls": [],
    "hashtags": [],
@@ -41868,12 +41871,12 @@
    "text_raw": "Bhopal &gt;&gt;&gt;&gt;&gt; Bangalore https://t.co/54LR9PHgeC",
    "lang": "in",
    "metrics": {
-    "likes": 4,
+    "likes": 5,
     "reposts": 1,
     "replies": 2,
     "quotes": 0,
     "bookmarks": 1,
-    "views": 178
+    "views": 179
    },
    "urls": [],
    "hashtags": [],
@@ -42024,7 +42027,7 @@
    "found_under": "2098358482554745150",
    "matches_keyword": false,
    "conversation_scan": {
-    "at": "2026-09-11T19:25:39Z",
+    "at": "2026-09-12T01:32:21Z",
     "replies": 1,
     "found": 0
    }
@@ -42214,7 +42217,7 @@
     "replies": 2,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 509
+    "views": 511
    },
    "urls": [],
    "hashtags": [],
@@ -42818,7 +42821,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 158
+    "views": 159
    },
    "urls": [],
    "hashtags": [],
@@ -43233,7 +43236,7 @@
     "replies": 1,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 84
+    "views": 86
    },
    "urls": [],
    "hashtags": [],
@@ -43428,9 +43431,9 @@
    "found_under": "2098386597779853716",
    "matches_keyword": false,
    "conversation_scan": {
-    "at": "2026-09-11T19:25:39Z",
+    "at": "2026-09-12T01:32:21Z",
     "replies": 1,
-    "found": 1
+    "found": 0
    }
   },
   {
@@ -43460,7 +43463,7 @@
     "replies": 3,
     "quotes": 0,
     "bookmarks": 1,
-    "views": 4803
+    "views": 4826
    },
    "urls": [],
    "hashtags": [],
@@ -44023,7 +44026,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 57
+    "views": 58
    },
    "urls": [],
    "hashtags": [],
@@ -44101,7 +44104,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 201
+    "views": 202
    },
    "urls": [],
    "hashtags": [],
@@ -44776,7 +44779,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 155
+    "views": 156
    },
    "urls": [],
    "hashtags": [],
@@ -44921,7 +44924,7 @@
     "replies": 2,
     "quotes": 1,
     "bookmarks": 5,
-    "views": 4339
+    "views": 4347
    },
    "urls": [],
    "hashtags": [],
@@ -44968,7 +44971,7 @@
     "replies": 3,
     "quotes": 0,
     "bookmarks": 1,
-    "views": 1236
+    "views": 1238
    },
    "urls": [],
    "hashtags": [],
@@ -45848,7 +45851,7 @@
     "replies": 2,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 914
+    "views": 919
    },
    "urls": [],
    "hashtags": [],
@@ -46050,7 +46053,7 @@
     "name": "Aryaman",
     "handle": "AryamanBharat",
     "verified": true,
-    "followers": 14370,
+    "followers": 14371,
     "profile_image": "https://pbs.twimg.com/profile_images/1755524400114499584/Rzr2hRNQ_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T13:48:26Z",
@@ -46067,7 +46070,7 @@
     "replies": 3,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 1299
+    "views": 1300
    },
    "urls": [],
    "hashtags": [],
@@ -46241,7 +46244,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 182
+    "views": 183
    },
    "urls": [],
    "hashtags": [],
@@ -47302,7 +47305,7 @@
     "name": "jun",
     "handle": "jun1228909",
     "verified": true,
-    "followers": 1179,
+    "followers": 1182,
     "profile_image": "https://pbs.twimg.com/profile_images/1990731679229693952/mpwr8tUC_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T14:15:49Z",
@@ -47319,7 +47322,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 176
+    "views": 177
    },
    "urls": [],
    "hashtags": [],
@@ -47605,7 +47608,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 1,
-    "views": 192
+    "views": 194
    },
    "urls": [],
    "hashtags": [],
@@ -48767,7 +48770,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 100
+    "views": 102
    },
    "urls": [],
    "hashtags": [],
@@ -48830,7 +48833,7 @@
     "name": "Priyanshu Priyank",
     "handle": "PriyanshuP1405",
     "verified": true,
-    "followers": 13311,
+    "followers": 13312,
     "profile_image": "https://pbs.twimg.com/profile_images/2075146134495137792/xenm3txG_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T14:46:51Z",
@@ -48847,7 +48850,7 @@
     "replies": 3,
     "quotes": 1,
     "bookmarks": 3,
-    "views": 3673
+    "views": 3677
    },
    "urls": [],
    "hashtags": [],
@@ -48995,7 +48998,7 @@
     "name": "Priyanshu Priyank",
     "handle": "PriyanshuP1405",
     "verified": true,
-    "followers": 13311,
+    "followers": 13312,
     "profile_image": "https://pbs.twimg.com/profile_images/2075146134495137792/xenm3txG_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T14:50:38Z",
@@ -49007,12 +49010,12 @@
    "text_raw": "Indian tech bros after seeing Bhopal in the list https://t.co/8OZ6y313EU",
    "lang": "en",
    "metrics": {
-    "likes": 865,
-    "reposts": 17,
+    "likes": 870,
+    "reposts": 18,
     "replies": 11,
     "quotes": 1,
-    "bookmarks": 95,
-    "views": 74802
+    "bookmarks": 97,
+    "views": 75149
    },
    "urls": [],
    "hashtags": [],
@@ -49175,7 +49178,7 @@
     "replies": 3,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 1448
+    "views": 1450
    },
    "urls": [],
    "hashtags": [],
@@ -49261,7 +49264,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 370
+    "views": 371
    },
    "urls": [],
    "hashtags": [],
@@ -49882,12 +49885,12 @@
    "text_raw": "This is a great idea if you don’t want people to think your company will kill everyone.",
    "lang": "en",
    "metrics": {
-    "likes": 27,
+    "likes": 28,
     "reposts": 3,
     "replies": 2,
     "quotes": 0,
     "bookmarks": 4,
-    "views": 4768
+    "views": 4854
    },
    "urls": [],
    "hashtags": [],
@@ -49964,7 +49967,7 @@
     "replies": 1,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 131
+    "views": 133
    },
    "urls": [],
    "hashtags": [],
@@ -50364,7 +50367,7 @@
     "replies": 4,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 657
+    "views": 661
    },
    "urls": [],
    "hashtags": [],
@@ -50461,7 +50464,7 @@
     "replies": 1,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 93
+    "views": 94
    },
    "urls": [],
    "hashtags": [],
@@ -50822,12 +50825,12 @@
    "text_raw": "bhopal is the only city which is listed there. how blr tech bro will explain this? https://t.co/NGMP4vtSdY",
    "lang": "en",
    "metrics": {
-    "likes": 105,
+    "likes": 106,
     "reposts": 1,
     "replies": 11,
     "quotes": 0,
     "bookmarks": 2,
-    "views": 4530
+    "views": 4553
    },
    "urls": [],
    "hashtags": [],
@@ -50923,7 +50926,7 @@
     "replies": 1,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 493
+    "views": 497
    },
    "urls": [],
    "hashtags": [],
@@ -50970,7 +50973,7 @@
     "replies": 2,
     "quotes": 0,
     "bookmarks": 1,
-    "views": 463
+    "views": 464
    },
    "urls": [],
    "hashtags": [],
@@ -51741,7 +51744,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 23
+    "views": 25
    },
    "urls": [],
    "hashtags": [],
@@ -52612,7 +52615,7 @@
     "replies": 2,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 186
+    "views": 187
    },
    "urls": [],
    "hashtags": [],
@@ -53395,7 +53398,7 @@
     "replies": 1,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 75
+    "views": 76
    },
    "urls": [],
    "hashtags": [],
@@ -53821,7 +53824,7 @@
     "replies": 2,
     "quotes": 0,
     "bookmarks": 1,
-    "views": 4255
+    "views": 4417
    },
    "urls": [],
    "hashtags": [],
@@ -54142,7 +54145,7 @@
     "replies": 2,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 477
+    "views": 479
    },
    "urls": [],
    "hashtags": [],
@@ -54247,7 +54250,7 @@
     "name": "Priyanshu Priyank",
     "handle": "PriyanshuP1405",
     "verified": true,
-    "followers": 13311,
+    "followers": 13312,
     "profile_image": "https://pbs.twimg.com/profile_images/2075146134495137792/xenm3txG_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T16:49:34Z",
@@ -54267,7 +54270,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 5,
-    "views": 830
+    "views": 838
    },
    "urls": [
     "https://quantmemo.com/"
@@ -54307,7 +54310,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 250
+    "views": 251
    },
    "urls": [],
    "hashtags": [],
@@ -54422,7 +54425,7 @@
     "replies": 1,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 114
+    "views": 121
    },
    "urls": [],
    "hashtags": [],
@@ -54506,7 +54509,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 57
+    "views": 58
    },
    "urls": [],
    "hashtags": [],
@@ -54585,7 +54588,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 37
+    "views": 38
    },
    "urls": [],
    "hashtags": [],
@@ -55001,7 +55004,7 @@
     "replies": 1,
     "quotes": 0,
     "bookmarks": 1,
-    "views": 732
+    "views": 737
    },
    "urls": [],
    "hashtags": [],
@@ -55514,7 +55517,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 84
+    "views": 85
    },
    "urls": [],
    "hashtags": [],
@@ -55732,7 +55735,7 @@
     "replies": 4,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 887
+    "views": 894
    },
    "urls": [],
    "hashtags": [],
@@ -55853,7 +55856,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 115
+    "views": 117
    },
    "urls": [],
    "hashtags": [],
@@ -56908,7 +56911,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 6
+    "views": 8
    },
    "urls": [],
    "hashtags": [],
@@ -57080,7 +57083,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 74
+    "views": 75
    },
    "urls": [],
    "hashtags": [],
@@ -57117,7 +57120,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 127
+    "views": 129
    },
    "urls": [],
    "hashtags": [],
@@ -57439,7 +57442,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 173
+    "views": 175
    },
    "urls": [],
    "hashtags": [],
@@ -57617,7 +57620,7 @@
     "replies": 1,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 60
+    "views": 63
    },
    "urls": [],
    "hashtags": [],
@@ -58138,7 +58141,7 @@
     "replies": 1,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 102
+    "views": 105
    },
    "urls": [],
    "hashtags": [],
@@ -58652,7 +58655,7 @@
     "replies": 1,
     "quotes": 1,
     "bookmarks": 2,
-    "views": 7349
+    "views": 7424
    },
    "urls": [],
    "hashtags": [],
@@ -58735,7 +58738,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 117
+    "views": 119
    },
    "urls": [],
    "hashtags": [],
@@ -58775,7 +58778,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 74
+    "views": 75
    },
    "urls": [],
    "hashtags": [],
@@ -58890,7 +58893,7 @@
     "replies": 1,
     "quotes": 0,
     "bookmarks": 3,
-    "views": 168
+    "views": 172
    },
    "urls": [],
    "hashtags": [],
@@ -58932,7 +58935,7 @@
     "replies": 1,
     "quotes": 0,
     "bookmarks": 4,
-    "views": 986
+    "views": 993
    },
    "urls": [],
    "hashtags": [],
@@ -59209,12 +59212,12 @@
    "text_raw": "It is due to this man that Bhopal is there in that list. https://t.co/KUmRnUn2OJ",
    "lang": "en",
    "metrics": {
-    "likes": 14,
+    "likes": 15,
     "reposts": 2,
     "replies": 1,
     "quotes": 0,
     "bookmarks": 2,
-    "views": 631
+    "views": 649
    },
    "urls": [],
    "hashtags": [],
@@ -59631,7 +59634,7 @@
     "replies": 1,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 247
+    "views": 249
    },
    "urls": [],
    "hashtags": [],
@@ -59645,9 +59648,9 @@
    "first_seen_utc": "2026-09-11T19:25:39Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-09-11T19:25:39Z",
+    "at": "2026-09-12T01:32:21Z",
     "replies": 1,
-    "found": 1
+    "found": 0
    }
   },
   {
@@ -60074,7 +60077,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 37
+    "views": 39
    },
    "urls": [],
    "hashtags": [],
@@ -60419,7 +60422,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 49
+    "views": 50
    },
    "urls": [],
    "hashtags": [],
@@ -60850,7 +60853,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 43
+    "views": 45
    },
    "urls": [],
    "hashtags": [],
@@ -60971,7 +60974,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 25
+    "views": 26
    },
    "urls": [],
    "hashtags": [],
@@ -61007,7 +61010,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 71
+    "views": 72
    },
    "urls": [],
    "hashtags": [],
@@ -61159,12 +61162,12 @@
    "text_raw": "Indian tech bros after seeing Bhopal in the list",
    "lang": "en",
    "metrics": {
-    "likes": 8,
+    "likes": 9,
     "reposts": 0,
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 109
+    "views": 111
    },
    "urls": [],
    "hashtags": [],
@@ -61183,7 +61186,7 @@
     "name": "Sumeet 🎒",
     "handle": "TheCoderShow",
     "verified": true,
-    "followers": 2691,
+    "followers": 2693,
     "profile_image": "https://pbs.twimg.com/profile_images/2074455020951801856/A7L3gDFr_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T20:56:25Z",
@@ -61203,7 +61206,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 1,
-    "views": 217
+    "views": 219
    },
    "urls": [
     "https://luma.com/claude-Fable5.1"
@@ -61360,7 +61363,7 @@
     "name": "ClaudeDevs",
     "handle": "ClaudeDevs",
     "verified": true,
-    "followers": 686348,
+    "followers": 686357,
     "profile_image": "https://pbs.twimg.com/profile_images/2044472418815893504/xf14RxM8_400x400.png"
    },
    "created_at_utc": "2026-09-11T21:11:43Z",
@@ -61372,12 +61375,12 @@
    "text_raw": "Join a Fable 5.1 Build Day near you! We'd love to see what you're building.",
    "lang": "en",
    "metrics": {
-    "likes": 533,
+    "likes": 539,
     "reposts": 32,
-    "replies": 97,
+    "replies": 98,
     "quotes": 6,
-    "bookmarks": 80,
-    "views": 104693
+    "bookmarks": 81,
+    "views": 106526
    },
    "urls": [],
    "hashtags": [],
@@ -61390,8 +61393,8 @@
    "first_seen_utc": "2026-09-11T21:18:16Z",
    "matches_keyword": false,
    "conversation_scan": {
-    "at": "2026-09-12T01:12:13Z",
-    "replies": 97,
+    "at": "2026-09-12T01:32:21Z",
+    "replies": 98,
     "found": 0
    }
   },
@@ -61465,7 +61468,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 147
+    "views": 149
    },
    "urls": [],
    "hashtags": [],
@@ -61678,7 +61681,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 229
+    "views": 234
    },
    "urls": [],
    "hashtags": [],
@@ -61719,7 +61722,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 98
+    "views": 100
    },
    "urls": [],
    "hashtags": [],
@@ -61760,7 +61763,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 23
+    "views": 24
    },
    "urls": [],
    "hashtags": [],
@@ -61887,7 +61890,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 6
+    "views": 7
    },
    "urls": [],
    "hashtags": [],
@@ -62092,7 +62095,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 104
+    "views": 108
    },
    "urls": [],
    "hashtags": [],
@@ -62132,7 +62135,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 14
+    "views": 16
    },
    "urls": [],
    "hashtags": [],
@@ -62153,7 +62156,7 @@
     "name": "Sumeet 🎒",
     "handle": "TheCoderShow",
     "verified": true,
-    "followers": 2691,
+    "followers": 2693,
     "profile_image": "https://pbs.twimg.com/profile_images/2074455020951801856/A7L3gDFr_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T21:48:32Z",
@@ -62302,7 +62305,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 89
+    "views": 92
    },
    "urls": [],
    "hashtags": [],
@@ -62385,7 +62388,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 42
+    "views": 45
    },
    "urls": [],
    "hashtags": [],
@@ -62677,7 +62680,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 30
+    "views": 32
    },
    "urls": [],
    "hashtags": [],
@@ -62716,7 +62719,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 26
+    "views": 27
    },
    "urls": [],
    "hashtags": [],
@@ -62754,7 +62757,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 1,
-    "views": 516
+    "views": 545
    },
    "urls": [],
    "hashtags": [],
@@ -62815,7 +62818,7 @@
     "name": "Sumeet 🎒",
     "handle": "TheCoderShow",
     "verified": true,
-    "followers": 2691,
+    "followers": 2693,
     "profile_image": "https://pbs.twimg.com/profile_images/2074455020951801856/A7L3gDFr_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T22:20:06Z",
@@ -62827,12 +62830,12 @@
    "text_raw": "Ahem ahem..!!\n\nAlr chat I hear you, Sorry for being late to the party but lessgoo!!\n\nRsvp 👇 : \nhttps://t.co/cdiTs5xepN\n\n@claudeai @AnthropicAI @ClaudeDevs https://t.co/8KOIwuN6vP",
    "lang": "en",
    "metrics": {
-    "likes": 2,
+    "likes": 3,
     "reposts": 0,
     "replies": 1,
     "quotes": 0,
     "bookmarks": 1,
-    "views": 106
+    "views": 121
    },
    "urls": [
     "https://luma.com/claude-Fable5.1"
@@ -62958,12 +62961,12 @@
    "text_raw": "Bhopal has the best aeo among all Indian cities",
    "lang": "en",
    "metrics": {
-    "likes": 0,
+    "likes": 1,
     "reposts": 0,
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 30
+    "views": 34
    },
    "urls": [],
    "hashtags": [],
@@ -63110,7 +63113,7 @@
     "name": "みぞい",
     "handle": "mizoiAI",
     "verified": true,
-    "followers": 1030,
+    "followers": 1029,
     "profile_image": "https://pbs.twimg.com/profile_images/2079774054568132608/yMX2ynlb_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T23:06:08Z",
@@ -63127,7 +63130,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 39
+    "views": 41
    },
    "urls": [],
    "hashtags": [],
@@ -63327,7 +63330,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 97
+    "views": 100
    },
    "urls": [],
    "hashtags": [],
@@ -63369,7 +63372,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 76
+    "views": 80
    },
    "urls": [],
    "hashtags": [],
@@ -63684,7 +63687,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 14
+    "views": 19
    },
    "urls": [],
    "hashtags": [],
@@ -63860,6 +63863,42 @@
    "first_seen_utc": "2026-09-12T01:22:13Z",
    "found_under": "2098545772489023965",
    "matches_keyword": false
+  },
+  {
+   "id": "2098582317287772294",
+   "url": "https://x.com/ayush_tomar8/status/2098582317287772294",
+   "author": {
+    "name": "Ayush Tomar",
+    "handle": "ayush_tomar8",
+    "verified": true,
+    "followers": 4194,
+    "profile_image": "https://pbs.twimg.com/profile_images/1904473209195630592/69o44g-Z_400x400.jpg"
+   },
+   "created_at_utc": "2026-09-12T01:19:48Z",
+   "created_at_ist": "2026-09-12 06:49 IST",
+   "type": "quote",
+   "in_reply_to": null,
+   "quoted_status_id": "2098138736642933143",
+   "text": "Bhopal in the list but not Bengaluru 😳",
+   "text_raw": "Bhopal in the list but not Bengaluru 😳",
+   "lang": "in",
+   "metrics": {
+    "likes": 0,
+    "reposts": 0,
+    "replies": 0,
+    "quotes": 0,
+    "bookmarks": 0,
+    "views": 4
+   },
+   "urls": [],
+   "hashtags": [],
+   "mentions": [],
+   "media": [],
+   "in_timelines": [
+    "latest"
+   ],
+   "first_seen_utc": "2026-09-12T01:32:20Z",
+   "matches_keyword": true
   }
  ]
 }
