@@ -47,10 +47,12 @@ GROUPS = [
     ("Still going at 10 pm", "The trend did not stop with the workday. Posts kept coming at about a hundred an hour through the afternoon and evening; these are the ones that travelled furthest.",
      ["2098336832681603212", "2098363119378768035", "2098351586179473864", "2098362446985711722", "2098375938782503062",
       "2098423982576001036", "2098387045496295851", "2098408329018257582"]),
+    ("The morning after", "Overnight the flow slowed to a trickle, single digits an hour by dawn. The last arrivals included Claude's own developer account, at 2:41 am, and the hometown crowd getting the last word.",
+     ["2098519883214643227", "2098481196946862511", "2098459312515592312", "2098585274993541315", "2098454080507314320", "2098536917457367053"]),
     ("Wait, why Bhopal?", 'Fair question. The answer is a few scrolls up, under <a href="#why-bhopal">Why Bhopal?</a>',
      ["2098186648357843343", "2098148907704520830", "2098142420416512215", "2098230260051693859", "2098195509014106121",
       "2098251137153691990", "2098221619965768021", "2098289813732626887", "2098288267221520554", "2098291317088657818",
-      "2098273574322831854", "2098228434443162050", "2098336801832460795", "2098375009110810817", "2098405090067710236"]),
+      "2098273574322831854", "2098228434443162050", "2098336801832460795", "2098375009110810817", "2098405090067710236", "2098487456211583458"]),
     ("The memes", "Poha stocks are up.",
      ["2098191966525874523", "2098158341524738408", "2098182461754839131", "2098292489627292141", "2098289796829380654",
       "2098180941483323446", "2098305414035075521"]),
@@ -164,6 +166,7 @@ body = f'''{bk.FILTERS}
     <p><strong>Update, 2 pm IST:</strong> Bengaluru is on the list now, and it got there after Bhopal trended. There was no Bengaluru event when the announcement went out at 1:27 am. The first word of one came at 1:44 pm, twelve hours later, from <a href="https://x.com/knowShubhangi" target="_blank" rel="noopener">@knowShubhangi</a>, who is hosting it: a <a href="https://luma.com/claude-x5dm" target="_blank" rel="noopener">Claude Fable Build Day in Bengaluru</a> on Friday, September 25, followed by a Claude Conversation in Mumbai on the 26th. Bhopal, on the 20th, was first on the list and is first on the calendar.</p>
     <p><strong>Update, 10 pm IST:</strong> the story is still climbing. X has renamed it {bk.number_word(renames).lower()} times since the morning, and at the last refresh it counted {x_count:,} posts in the trend, with {fmt(anchor["metrics"]["views"])} views on the announcement. On X's trending page it now sits beside two larger India stories from the same day, Karnataka's partnership with Anthropic on public services and Anthropic's chief executive Dario Amodei meeting Prime Minister Narendra Modi. Bhopal's is the smallest of the three and the only one about a city nobody expected on the list.</p>
     <p><strong>Update, 1 am IST, September 12:</strong> past midnight the count passed 3,300 posts, and X's newest headline calls it <em>India's only</em> Fable 5.1 buildathon again, Bengaluru's own date notwithstanding. Posts were still arriving at about fifty an hour late in the evening. The chapter's next event is the Claude Conversation on Saturday, September 12, at 6 pm, with the Impact Lab on Sunday and the Build Day the Sunday after.</p>
+    <p><strong>Update, 9 am IST, September 12:</strong> by morning the count stood past 3,800 posts and the announcement past 1.4 million views. X rewrote the headline twice more overnight, {bk.number_word(len(titles)).lower()} versions in all, the latest circling back almost to the original wording. The flow slowed to about thirty posts an hour after midnight and single digits after 4 am; the trend is winding down. Claude's developer account, <a href="https://x.com/ClaudeDevs" target="_blank" rel="noopener">@ClaudeDevs</a>, joined at 2:41 am with a quote seen 120,000 times. The Claude Conversation is this evening at 6 pm.</p>
     {bk.card(anchor, posts, MEDIA)}
     <details class="headlines"><summary>How X\'s headline changed, {bk.number_word(len(titles)).lower()} versions so far</summary><ol>{headlines_html}</ol></details>
     <p class="asof">Counts on this page are as of {esc(meta.get("captured_at_pretty") or meta.get("captured_at_ist") or "")}. They will have moved since.</p>
