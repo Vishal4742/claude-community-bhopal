@@ -244,8 +244,14 @@ def main():
 
     merged = {p["id"]: p for p in (existing or {}).get("posts", [])}
     added = 0
+    skipped = 0
     for rid, f in fresh.items():
-        row = normalise(f["tweet"])
+        try:
+            row = normalise(f["tweet"])
+        except (KeyError, ValueError, TypeError) as e:  # a withheld or deleted post comes back without its fields
+            skipped += 1
+            print(f"  skipping {rid}: {type(e).__name__} {e}", file=sys.stderr)
+            continue
         old = merged.get(rid)
         if old is None:
             added += 1
@@ -295,7 +301,7 @@ def main():
     os.makedirs(a.out, exist_ok=True)
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump({"meta": meta, "posts": posts}, f, ensure_ascii=False, indent=1)
-    print(f"saved {len(posts)} posts to {out_path} ({added} new"
+    print(f"saved {len(posts)} posts to {out_path} ({added} new" + (f", {skipped} skipped" if skipped else "")
           + (f", {meta['counts']['posts_matching_keyword']} match '{kw}'" if kw else "") + ")")
 
 
