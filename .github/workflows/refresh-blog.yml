@@ -81,12 +81,15 @@ jobs:
             ~/.cache/camoufox
             ~/.cache/ms-playwright
             ~/.cache/pip
-          key: scrapling-browsers-v1
+          key: scrapling-browsers-v2
 
       - name: Install Scrapling and its browser
         if: steps.search.outputs.due == 'true'
         continue-on-error: true
-        run: pip install --quiet "scrapling[fetchers]" && scrapling install
+        # `scrapling install` fetches Camoufox but not the Chromium that the
+        # stealth session launches through patchright; without it every search
+        # run died with "Executable doesn't exist at ~/.cache/ms-playwright/chromium-…".
+        run: pip install --quiet "scrapling[fetchers]" && scrapling install && python -m patchright install --with-deps chromium
 
       - name: Search X through a Nitter mirror
         if: steps.search.outputs.due == 'true'
