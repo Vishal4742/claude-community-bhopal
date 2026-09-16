@@ -51,6 +51,13 @@ GROUPS = [
      ["2098519883214643227", "2098481196946862511", "2098459312515592312", "2098585274993541315", "2098454080507314320", "2098536917457367053"]),
     ("Saturday's second wind", "Winding down turned out to be premature. Late on Saturday morning the posts picked up again, forty an hour at ten, most of them from people in Madhya Pradesh who had just found out.",
      ["2098674757499834743", "2098631799912178117", "2098630788510289928", "2098654678968054161", "2098637732683841666", "2098628563478233439", "2098624218745520329"]),
+    ("The long tail", "From Saturday afternoon the trend thinned out: 410 posts on Saturday, 70 on Sunday, 39 on Monday, a dozen on Tuesday, a handful on Wednesday. Mumbai got a Build Day of its own on Saturday night, other states put in their requests, and two people started selling advertising space on what they will wear to the Bhopal one.",
+     ["2098800002911093146", "2098807272642400739", "2098716133654454551", "2098991700261929178", "2099024380705788216", "2099244654143365482",
+      "2098744321826824325", "2099126840858419415", "2099517452304744669", "2098965092172026256", "2098789315979653569", "2100101555278217312",
+      "2098865489527353621", "2098697224486310357", "2099119189059649728", "2099051850519728380"]),
+    ("Meanwhile, in the room", "While the timeline argued, the chapter held two of its three September events: the Claude Conversation on Saturday evening and the Impact Lab, a full day of building, on Tuesday. These are the posts from the people who were there, plus a local Hindi news outlet and a blog asking the question everyone else was asking.",
+     ["2099167053798342813", "2099012515669897347", "2099534165121360001", "2099027342576198098", "2099021268209258803", "2099392626642563459",
+      "2099269735267586468", "2099729459922489505", "2099784047325220934", "2099331189073138003", "2099051234292650000"]),
     ("Wait, why Bhopal?", 'Fair question. The answer is a few scrolls up, under <a href="#why-bhopal">Why Bhopal?</a>',
      ["2098186648357843343", "2098148907704520830", "2098142420416512215", "2098230260051693859", "2098195509014106121",
       "2098251137153691990", "2098221619965768021", "2098289813732626887", "2098288267221520554", "2098291317088657818",
@@ -66,7 +73,7 @@ BUILD_DAYS = [("Cape Town", "Sat, Sep 12"), ("Oslo", "Mon, Sep 14"), ("Brisbane"
               ("Sydney", "Thu, Sep 17"), ("New York", "Thu, Sep 17"), ("Tel Aviv", "Thu, Sep 17"), ("Mexico City", "Thu, Sep 17"), ("Singapore", "Fri, Sep 18"),
               ("Osaka", "Sat, Sep 19"), ("Medellín", "Sat, Sep 19"), ("Nairobi", "Sat, Sep 19"), ("San Francisco", "Sat, Sep 19"),
               ("Austin", "Sat, Sep 19"), ("Bhopal", "Sun, Sep 20"), ("Taipei", "Sun, Sep 20"), ("Miami", "Sun, Sep 20"),
-              ("Seoul", "Wed, Sep 23"), ("Barcelona", "Wed, Sep 23"), ("Melbourne", "Thu, Sep 24"), ("Bengaluru", "Fri, Sep 25")]
+              ("Seoul", "Wed, Sep 23"), ("Barcelona", "Wed, Sep 23"), ("Mumbai", "Wed, Sep 23"), ("Melbourne", "Thu, Sep 24"), ("Bengaluru", "Fri, Sep 25")]
 
 # ---------------------------------------------------------------- data
 with open(os.path.join(HERE, "tweets.json"), encoding="utf-8") as f:
@@ -112,8 +119,7 @@ def _when(u):
     t = datetime.datetime.fromisoformat(u.replace("Z", "+00:00")).astimezone(bk.IST)
     return t.strftime("%-I:%M ") + t.strftime("%p").lower() + t.strftime(", %b %-d")
 headlines_html = ("".join(f'<li><span class="mono">{_when(t["seen_utc"])}</span> {esc(t["title"])}</li>' for t in titles))
-correction = ("<p>One correction to that summary. Luma still showed seats for the Impact Lab when this page was last built, "
-              "so it was not sold out.</p>" if "sold" in (tr.get("summary_by_grok") or "") else "")
+correction = ""
 x_count = tr.get("post_count")
 proof_html = (f'<li>{x_count:,} posts in the trend, by X\'s count</li><li>{counts["posts_total"]} saved here, readable without an account</li>'
               if x_count else f'<li>{counts["posts_total"]} posts in the trend</li>')
@@ -145,7 +151,7 @@ body = f'''{bk.FILTERS}
 <header class="hero">
   <div class="wrap hero-grid">
     <div>
-      <p class="label">Blog · Friday, September 11, 2026 · 8 min read</p>
+      <p class="label">Blog · Friday, September 11, 2026 · updated Wednesday, September 16 · 9 min read</p>
       <h1>The night Bhopal <em>trended</em> on X</h1>
       <p class="deck">Claude announced Fable 5.1 Build Days in cities around the world. One Indian city made the list. The timeline had opinions. All of them are saved here.</p>
       <ul class="proof">{proof_html}<li>{counts["posts_mentioning_bhopal"]} name Bhopal</li><li>{fmt(anchor["metrics"]["views"])} views on the announcement</li></ul>
@@ -170,6 +176,7 @@ body = f'''{bk.FILTERS}
     <p><strong>Update, 1 am IST, September 12:</strong> past midnight the count passed 3,300 posts, and X's newest headline calls it <em>India's only</em> Fable 5.1 buildathon again, Bengaluru's own date notwithstanding. Posts were still arriving at about fifty an hour late in the evening. The chapter's next event is the Claude Conversation on Saturday, September 12, at 6 pm, with the Impact Lab on Sunday and the Build Day the Sunday after.</p>
     <p><strong>Update, 9 am IST, September 12:</strong> by morning the count stood past 3,800 posts and the announcement past 1.4 million views. X rewrote the headline twice more overnight, {bk.number_word(len(titles)).lower()} versions in all, the latest circling back almost to the original wording. The flow slowed to about thirty posts an hour after midnight and single digits after 4 am; the trend is winding down. Claude's developer account, <a href="https://x.com/ClaudeDevs" target="_blank" rel="noopener">@ClaudeDevs</a>, joined at 2:41 am with a quote seen 120,000 times. The Claude Conversation is this evening at 6 pm.</p>
     <p><strong>Update, 1 pm IST, September 12:</strong> winding down was premature. The posts picked up again late on Saturday morning, forty an hour at ten o\'clock, and X's count passed 4,200 with the announcement past 1.6 million views. X is still editing the story: a ninth headline appeared at 12:19 pm, <em>"{esc(tr["title"])}"</em>. Most of the new posts come from Madhya Pradesh, from people who had just heard.</p>
+    <p><strong>Update, Wednesday, September 16:</strong> the trend has run its course. Of the posts X shows to readers without an account, 410 arrived on Saturday, 70 on Sunday, 39 on Monday, a dozen on Tuesday and a handful today; X's own count stopped at {x_count:,}, and the announcement sits at {fmt(anchor["metrics"]["views"])} views. X rewrote the headline {bk.number_word(renames).lower()} times in all; the last change, at 3:04 pm on Saturday, is the one it has kept since: <em>"{esc(tr["title"])}"</em>. Two more Indian cities got Build Days out of the week: Bengaluru on the 25th and Mumbai on Wednesday the 23rd, announced by its host <a href="https://x.com/TheCoderShow" target="_blank" rel="noopener">@TheCoderShow</a> in the small hours of Saturday and live on Luma by that night. In Bhopal, two of the chapter's three events have now happened. The Claude Conversation ran on Saturday evening; people from Razorpay, Cisco, TCS and WordPress were in the room, by the host's account, and one attendee counted more than a thousand registrations for a hundred-odd seats. The Impact Lab moved from Sunday to Tuesday, September 15, sold out, and spent the day building on a real problem statement. The Build Day on Sunday the 20th is the one left, and seats were still open on Luma on Wednesday evening.</p>
     {bk.card(anchor, posts, MEDIA)}
     <details class="headlines"><summary>How X\'s headline changed, {bk.number_word(len(titles)).lower()} versions so far</summary><ol>{headlines_html}</ol></details>
     <p class="asof">Counts on this page are as of {esc(meta.get("captured_at_pretty") or meta.get("captured_at_ist") or "")}. They will have moved since.</p>
@@ -185,16 +192,16 @@ body = f'''{bk.FILTERS}
   <div class="wrap narrow">
     <h2 class="kicker cream">Why Bhopal?</h2>
     <p>Because the local chapter put an event on the calendar. Build Days are hosted by Claude community chapters in each city, and Bhopal has one: a volunteer-run group, hosted by The Origin Guild, that has held nine free meetups since March, from Claude Code workshops to a full-day Impact Lab in August. When the Fable 5.1 Build Days went up on the global calendar, Bhopal was on it.</p>
-    <p>Three events are on the chapter's calendar for September, and the Build Day is the one the whole timeline was arguing about.</p>
+    <p>Three events were on the chapter's calendar for September. Two have happened. The Build Day, the one the whole timeline was arguing about, is on Sunday.</p>
     <div class="ev-grid">
-      <a class="ev" href="https://luma.com/claude-6khk" target="_blank" rel="noopener"><span class="ev-date">Sat, Sep 12 · 6:00–8:30 pm</span><span class="ev-title">Claude Conversation</span><span class="ev-desc">A small room, one question: what does AI mean for the future of building startups? The problem the room picks becomes Sunday's build.</span><span class="ev-cta">Reserve a seat ↗</span></a>
-      <a class="ev" href="https://luma.com/claude-r61u" target="_blank" rel="noopener"><span class="ev-date">Sun, Sep 13 · 10 am–7 pm</span><span class="ev-title">Claude Impact Lab</span><span class="ev-desc">A full day of building on Saturday's problem, in teams, with demos by evening.</span><span class="ev-cta">Reserve a seat ↗</span></a>
-      <a class="ev hot" href="https://luma.com/claude-z01j" target="_blank" rel="noopener"><span class="ev-date">Sun, Sep 20 · 11 am–6 pm</span><span class="ev-title">Claude Code Build Day · Fable 5.1</span><span class="ev-desc">The Build Day everyone was posting about. Three tracks: Delight, Breakthrough, Everyday. Solo or teams of 2–4. Hosted by Aniket Sahu, who runs the chapter's events.</span><span class="ev-cta">Register, it's free ↗</span></a>
+      <a class="ev" href="https://luma.com/claude-6khk" target="_blank" rel="noopener"><span class="ev-date">Sat, Sep 12 · happened</span><span class="ev-title">Claude Conversation</span><span class="ev-desc">A small room, one question: what does AI mean for the future of building startups? Sold out, with a waitlist. The problem the room picked became the Impact Lab's build.</span><span class="ev-cta">See the posts ↗</span></a>
+      <a class="ev" href="https://luma.com/claude-r61u" target="_blank" rel="noopener"><span class="ev-date">Tue, Sep 15 · happened</span><span class="ev-title">Claude Impact Lab</span><span class="ev-desc">Moved from the Sunday to Tuesday. A full day of building on Saturday's problem, in teams, with demos by evening. Sold out.</span><span class="ev-cta">See the posts ↗</span></a>
+      <a class="ev hot" href="https://luma.com/claude-z01j" target="_blank" rel="noopener"><span class="ev-date">Sun, Sep 20 · 11 am–6 pm</span><span class="ev-title">Claude Code Build Day · Fable 5.1</span><span class="ev-desc">The Build Day everyone was posting about. Three tracks: Delight, Breakthrough, Everyday. Solo or teams of 2–4. Hosted by Aniket Sahu, who runs the chapter's events.</span><span class="ev-cta">Register, it's free. Seats left ↗</span></a>
     </div>
-    <p class="fine">All three are free and approval-based. Register early on Luma. The venue is shared with confirmed registrants.</p>
+    <p class="fine">All three are free and approval-based. The first two filled up; register for the Build Day early on Luma. The venue is shared with confirmed registrants.</p>
     <h3 class="kicker cream small">Where else Build Days are happening</h3>
     <ul class="bd-list">{bd_html}</ul>
-    <p class="fine">From the <a href="https://luma.com/claudecommunity?tag=build%20day" target="_blank" rel="noopener">Claude Community calendar</a> on Luma, as of September 11. More cities keep getting added.</p>
+    <p class="fine">From the <a href="https://luma.com/claudecommunity?tag=build%20day" target="_blank" rel="noopener">Claude Community calendar</a> on Luma, as of September 11, plus Mumbai, added on the 12th. More cities keep getting added.</p>
   </div>
 </section>
 
@@ -209,7 +216,7 @@ body = f'''{bk.FILTERS}
 <section class="clay-section" id="the-reply">
   <div class="wrap narrow">
     <h2 class="kicker">The reply from Bhopal</h2>
-    <p class="big">The chapter's answer to the jokes is a date. On Sunday, September 20, the people who signed up will spend the day building with the newest model there is, in the city the whole timeline was posting about. Anyone travelling from Bengaluru has already been offered a couch by at least one person on X. And since Bengaluru got a date of its own out of all this, Friday the 25th, the couch offers can go both ways.</p>
+    <p class="big">The chapter's answer to the jokes is a date. Two of its three September events have already happened, sold out, while the timeline was still deciding whether Bhopal was real. On Sunday, September 20, the people who signed up will spend the day building with the newest model there is, in the city the whole timeline was posting about. Anyone travelling from Bengaluru has already been offered a couch by at least one person on X. And since Bengaluru got a date of its own out of all this, Friday the 25th, the couch offers can go both ways.</p>
     <p><a class="btn btn-dark" href="https://luma.com/claude-z01j" target="_blank" rel="noopener"><span>Register for the Bhopal Build Day</span><span class="arrow">↗</span></a></p>
   </div>
 </section>
