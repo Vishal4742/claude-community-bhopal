@@ -58,9 +58,9 @@
   "anchor_post_id": "2098138736642933143",
   "keyword": "bhopal",
   "first_captured_at_utc": "2026-09-11T07:12:00Z",
-  "captured_at_utc": "2026-10-26T17:44:00Z",
-  "captured_at_ist": "2026-10-26 23:14 IST",
-  "captured_at_pretty": "11:14 pm IST on October 26",
+  "captured_at_utc": "2026-10-26T20:45:00Z",
+  "captured_at_ist": "2026-10-27 02:15 IST",
+  "captured_at_pretty": "2:15 am IST on October 27",
   "counts": {
    "posts_total": 2505,
    "posts_matching_keyword": 961,
@@ -68,59 +68,72 @@
    "posts_from_conversations": 1388
   },
   "expand": {
-   "last_run_utc": "2026-10-26T17:44:33Z",
+   "last_run_utc": "2026-10-26T20:45:22Z",
    "pages_opened": 40,
    "pages_left": 622,
    "blocked": false,
    "not_posts": [
     "2098138556468490240",
     "2098148039500365824",
+    "2098251987045548032",
+    "2098253857021407232",
+    "2098259212774395905",
     "2098267942333161472",
-    "2098289183123214336",
+    "2098275528507822080",
+    "2098303539386986497",
+    "2098306513379209216",
+    "2098316200732479488",
+    "2098316213856448512",
+    "2098320564406669312",
     "2098324275740708864",
-    "2098342056062279680",
-    "2098356188601843713",
-    "2098370007730405378",
-    "2098374998541180928",
-    "2098374998566334465",
-    "2098374998570504192",
-    "2098374998578868225",
-    "2098380855412764672",
+    "2098325311792488448",
+    "2098326723624603648",
+    "2098330277286391808",
+    "2098362431164895232",
     "2098383727311429632",
-    "2098423011338862592",
-    "2098475051993665536",
+    "2098385845795663873",
+    "2098401769152036864",
+    "2098402148510015489",
+    "2098416845883932672",
+    "2098423959012454400",
+    "2098428227236900865",
+    "2098439290019811328",
+    "2098467279667347456",
+    "2098472678864904192",
+    "2098523309172563969",
     "2098529840320438272",
-    "2098646914950647809",
-    "2098657904916332544",
-    "2099572823429627905",
-    "2099573580224679936",
+    "2098537083493294080",
+    "2098544367787216896",
+    "2098631756291493888",
+    "2098668311668293632",
+    "2098717965743276032",
     "2100562685821865984",
-    "2100948652193992705",
     "2100992130722533377",
-    "2101506498186846208",
-    "2101512404127698944",
-    "2101539475897892864",
-    "2101540399672377344",
-    "2101701226878615552",
-    "2102111915287961600",
-    "2103084426502758400",
-    "2103711591707684864",
-    "2104144585656311808",
+    "2101601087816134657",
+    "2101695294786375680",
+    "2101745127714942976",
+    "2101762367927578624",
+    "2103281251356643328",
+    "2104573358616530944",
     "2104971704221171712",
-    "2105372162299420672",
-    "2106442537858912256",
-    "2107558441778900992",
-    "2108234478271545345",
-    "2110506723773677568",
-    "2110893181445550080",
-    "2112957636597743616",
-    "2113201546389577729",
+    "2106384695252623360",
+    "2108226850707435522",
+    "2109065910200012800",
+    "2109213210146705408",
+    "2109595560764481536",
+    "2109613392898240513",
+    "2109702153376022528",
+    "2111495722936008704",
+    "2111901709001961472",
+    "2111932086760382464",
+    "2112626291463847937",
+    "2112887377865981952",
     "2113482487812747264",
     "2113750914465206272",
-    "2113757965018632193",
     "2113918043332218880",
+    "2114043392078561280",
     "2114216382330204160",
-    "2114562937696530432"
+    "2114608418476744704"
    ]
   }
  },
@@ -132,7 +145,7 @@
     "name": "Claude",
     "handle": "claudeai",
     "verified": true,
-    "followers": 1956034,
+    "followers": 1956475,
     "profile_image": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ_400x400.jpg"
    },
    "created_at_utc": "2026-09-10T19:57:11Z",
@@ -148,8 +161,8 @@
     "reposts": 381,
     "replies": 672,
     "quotes": 566,
-    "bookmarks": 1335,
-    "views": 2136960
+    "bookmarks": 1334,
+    "views": 2136998
    },
    "urls": [
     "https://luma.com/claudecommunity?tag=build%20day"
@@ -171,7 +184,7 @@
    "first_seen_utc": "2026-09-11T07:25:33Z",
    "matches_keyword": false,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 672,
     "found": 0
    }
@@ -417,7 +430,7 @@
     "name": "Badr",
     "handle": "badranium",
     "verified": false,
-    "followers": 318,
+    "followers": 319,
     "profile_image": "https://pbs.twimg.com/profile_images/2026362900709847040/vqhnODEg_400x400.jpg"
    },
    "created_at_utc": "2026-09-10T20:01:42Z",
@@ -453,7 +466,7 @@
     "name": "sam",
     "handle": "brainzcode",
     "verified": true,
-    "followers": 2133,
+    "followers": 2132,
     "profile_image": "https://pbs.twimg.com/profile_images/2105778821479735297/L00BrkTO_400x400.jpg"
    },
    "created_at_utc": "2026-09-10T20:01:45Z",
@@ -808,7 +821,7 @@
     "name": "Veritas Libertas",
     "handle": "VeritasLiberta8",
     "verified": true,
-    "followers": 2203,
+    "followers": 2204,
     "profile_image": "https://pbs.twimg.com/profile_images/2108330418143473665/2VFZl3Vx_400x400.jpg"
    },
    "created_at_utc": "2026-09-10T20:08:57Z",
@@ -921,7 +934,7 @@
    "first_seen_utc": "2026-09-11T07:25:33Z",
    "matches_keyword": false,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 8,
     "found": 0
    }
@@ -933,7 +946,7 @@
     "name": "Peter Dedene",
     "handle": "dedene",
     "verified": true,
-    "followers": 10010,
+    "followers": 10014,
     "profile_image": "https://pbs.twimg.com/profile_images/1965356634265231360/uuA7GM-q_400x400.jpg"
    },
    "created_at_utc": "2026-09-10T20:11:25Z",
@@ -1290,7 +1303,7 @@
     "name": "Ado",
     "handle": "adocomplete",
     "verified": true,
-    "followers": 35949,
+    "followers": 35953,
     "profile_image": "https://pbs.twimg.com/profile_images/2006485392326004737/EMUfrfo8_400x400.jpg"
    },
    "created_at_utc": "2026-09-10T20:18:46Z",
@@ -1320,7 +1333,7 @@
    "first_seen_utc": "2026-09-11T07:25:33Z",
    "matches_keyword": false,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 12,
     "found": 0
    }
@@ -1428,7 +1441,7 @@
     "name": "RUNA rui",
     "handle": "rui_e77o",
     "verified": false,
-    "followers": 629,
+    "followers": 630,
     "profile_image": "https://pbs.twimg.com/profile_images/2113540839742074880/3eATL8aQ_400x400.jpg"
    },
    "created_at_utc": "2026-09-10T20:21:47Z",
@@ -1503,7 +1516,7 @@
     "name": "Dr. Datta M.D. (Radiology) building CRASHLab.in",
     "handle": "DrDatta_AIIMS",
     "verified": true,
-    "followers": 34267,
+    "followers": 34270,
     "profile_image": "https://pbs.twimg.com/profile_images/1997843893107539968/0idfWvcj_400x400.jpg"
    },
    "created_at_utc": "2026-09-10T20:22:53Z",
@@ -1533,7 +1546,7 @@
    "first_seen_utc": "2026-09-11T07:25:33Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 72,
     "found": 0
    }
@@ -1701,7 +1714,7 @@
     "name": "Crushed Between",
     "handle": "CrushedBetween",
     "verified": true,
-    "followers": 501,
+    "followers": 498,
     "profile_image": "https://pbs.twimg.com/profile_images/2032861921964339202/qhrzG3vK_400x400.jpg"
    },
    "created_at_utc": "2026-09-10T20:27:43Z",
@@ -1872,7 +1885,7 @@
     "name": "Farouk",
     "handle": "0xgodi",
     "verified": false,
-    "followers": 1939,
+    "followers": 1940,
     "profile_image": "https://pbs.twimg.com/profile_images/2085160545829683201/vDI4ers0_400x400.jpg"
    },
    "created_at_utc": "2026-09-10T20:30:47Z",
@@ -1956,7 +1969,7 @@
     "name": "Kedar Vartak",
     "handle": "kdrvrtk",
     "verified": true,
-    "followers": 506,
+    "followers": 507,
     "profile_image": "https://pbs.twimg.com/profile_images/2098383727311429632/kYgE5iq3_400x400.jpg"
    },
    "created_at_utc": "2026-09-10T20:34:10Z",
@@ -1968,12 +1981,12 @@
    "text_raw": "The Anthropic team is brilliant! Out of all the places in India, they decided to host the Fable buildathon only in Bhopal https://t.co/u8Gv2r4ugd",
    "lang": "en",
    "metrics": {
-    "likes": 4996,
+    "likes": 4994,
     "reposts": 82,
-    "replies": 241,
+    "replies": 240,
     "quotes": 95,
-    "bookmarks": 342,
-    "views": 316068
+    "bookmarks": 343,
+    "views": 316072
    },
    "urls": [],
    "hashtags": [],
@@ -1991,8 +2004,8 @@
    "first_seen_utc": "2026-09-11T07:25:33Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
-    "replies": 241,
+    "at": "2026-10-26T20:45:22Z",
+    "replies": 240,
     "found": 0
    }
   },
@@ -2143,7 +2156,7 @@
     "name": "سامي المحيميد | مستشار تطوير أعمال",
     "handle": "SamiBizConsult",
     "verified": true,
-    "followers": 10497,
+    "followers": 10504,
     "profile_image": "https://pbs.twimg.com/profile_images/2083343047983587329/7fCESyIt_400x400.jpg"
    },
    "created_at_utc": "2026-09-10T20:37:56Z",
@@ -2185,7 +2198,7 @@
     "name": "Kedar Vartak",
     "handle": "kdrvrtk",
     "verified": true,
-    "followers": 506,
+    "followers": 507,
     "profile_image": "https://pbs.twimg.com/profile_images/2098383727311429632/kYgE5iq3_400x400.jpg"
    },
    "created_at_utc": "2026-09-10T20:39:42Z",
@@ -2215,7 +2228,7 @@
    "first_seen_utc": "2026-09-11T07:25:33Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 29,
     "found": 0
    }
@@ -2227,7 +2240,7 @@
     "name": "Doug Standley",
     "handle": "DougStandley",
     "verified": true,
-    "followers": 2146,
+    "followers": 2154,
     "profile_image": "https://pbs.twimg.com/profile_images/2074218838330421248/dGJidozc_400x400.jpg"
    },
    "created_at_utc": "2026-09-10T20:53:00Z",
@@ -2268,7 +2281,7 @@
     "name": "Johnny Nel | AI for Founders",
     "handle": "johnnynelai",
     "verified": true,
-    "followers": 2620,
+    "followers": 2621,
     "profile_image": "https://pbs.twimg.com/profile_images/2097010746953506816/qEMfG6P8_400x400.jpg"
    },
    "created_at_utc": "2026-09-10T20:53:44Z",
@@ -2397,7 +2410,7 @@
     "name": "Vishal Anton",
     "handle": "vishalanton_",
     "verified": true,
-    "followers": 315,
+    "followers": 316,
     "profile_image": "https://pbs.twimg.com/profile_images/1891090895086477312/CeNSObDQ_400x400.jpg"
    },
    "created_at_utc": "2026-09-10T21:02:39Z",
@@ -2432,7 +2445,7 @@
    "first_seen_utc": "2026-09-11T07:25:33Z",
    "matches_keyword": false,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 8,
     "found": 0
    }
@@ -2576,7 +2589,7 @@
     "name": "Steven Cheng",
     "handle": "stevencheng",
     "verified": true,
-    "followers": 9358,
+    "followers": 9362,
     "profile_image": "https://pbs.twimg.com/profile_images/2111627348323999744/bkFpiCUy_400x400.jpg"
    },
    "created_at_utc": "2026-09-10T21:13:37Z",
@@ -2996,7 +3009,7 @@
     "name": "kocer",
     "handle": "kocer_eth",
     "verified": true,
-    "followers": 3285,
+    "followers": 3290,
     "profile_image": "https://pbs.twimg.com/profile_images/2032871571161853952/55jBUS9r_400x400.jpg"
    },
    "created_at_utc": "2026-09-10T21:50:23Z",
@@ -3164,7 +3177,7 @@
     "name": "Mikhail Rogov",
     "handle": "i_mika_el",
     "verified": true,
-    "followers": 5659,
+    "followers": 5662,
     "profile_image": "https://pbs.twimg.com/profile_images/2050227160665755648/4AnHQWn__400x400.jpg"
    },
    "created_at_utc": "2026-09-10T21:59:05Z",
@@ -3205,7 +3218,7 @@
     "name": "Kartik Vikram",
     "handle": "krtkvkrm",
     "verified": true,
-    "followers": 62739,
+    "followers": 62737,
     "profile_image": "https://pbs.twimg.com/profile_images/2080284342761443328/KzQosCry_400x400.jpg"
    },
    "created_at_utc": "2026-09-10T22:19:15Z",
@@ -3560,7 +3573,7 @@
     "name": "shriyansh",
     "handle": "shriy4nsh",
     "verified": false,
-    "followers": 27,
+    "followers": 28,
     "profile_image": "https://pbs.twimg.com/profile_images/2098860215525691392/g0ceIDoH_400x400.jpg"
    },
    "created_at_utc": "2026-09-10T22:44:53Z",
@@ -3924,7 +3937,7 @@
     "name": "Tribhuvan Bisen",
     "handle": "tribhu1bisen",
     "verified": true,
-    "followers": 1236,
+    "followers": 1235,
     "profile_image": "https://pbs.twimg.com/profile_images/2084347291021066240/XAZGGoGW_400x400.jpg"
    },
    "created_at_utc": "2026-09-10T23:15:05Z",
@@ -4044,7 +4057,7 @@
     "name": "lifeiscrazy",
     "handle": "IamNotTheDoer",
     "verified": false,
-    "followers": 1288,
+    "followers": 1289,
     "profile_image": "https://pbs.twimg.com/profile_images/1866725381308383232/eM6NAWO6_400x400.jpg"
    },
    "created_at_utc": "2026-09-10T23:19:49Z",
@@ -4085,7 +4098,7 @@
     "name": "abhinav",
     "handle": "AbhinavXJ",
     "verified": true,
-    "followers": 16146,
+    "followers": 16161,
     "profile_image": "https://pbs.twimg.com/profile_images/1998929325962457088/W98D3IpW_400x400.jpg"
    },
    "created_at_utc": "2026-09-10T23:23:16Z",
@@ -4097,7 +4110,7 @@
    "text_raw": "They chose Bhopal omfg lmaoo\nblr peeps will not be able to digest this",
    "lang": "en",
    "metrics": {
-    "likes": 1379,
+    "likes": 1378,
     "reposts": 20,
     "replies": 49,
     "quotes": 8,
@@ -4115,7 +4128,7 @@
    "first_seen_utc": "2026-09-11T07:25:33Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 49,
     "found": 0
    }
@@ -4127,7 +4140,7 @@
     "name": "Vineeth",
     "handle": "vineeth_agi",
     "verified": true,
-    "followers": 2611,
+    "followers": 2620,
     "profile_image": "https://pbs.twimg.com/profile_images/2109666740741509120/Sk9ZmxO-_400x400.jpg"
    },
    "created_at_utc": "2026-09-10T23:27:20Z",
@@ -4164,7 +4177,7 @@
     "name": "Vedant🥀",
     "handle": "vedant_twts",
     "verified": true,
-    "followers": 1316,
+    "followers": 1315,
     "profile_image": "https://pbs.twimg.com/profile_images/2111151509820026880/5fOnIkHr_400x400.jpg"
    },
    "created_at_utc": "2026-09-10T23:28:41Z",
@@ -4742,7 +4755,7 @@
     "name": "Harish",
     "handle": "harish3912",
     "verified": true,
-    "followers": 828,
+    "followers": 827,
     "profile_image": "https://pbs.twimg.com/profile_images/633258506/Image0102_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T00:19:08Z",
@@ -5025,7 +5038,7 @@
     "name": "SETI Park",
     "handle": "seti_park",
     "verified": true,
-    "followers": 22379,
+    "followers": 22381,
     "profile_image": "https://pbs.twimg.com/profile_images/1995779157624766464/YivWTqFm_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T01:10:38Z",
@@ -5223,7 +5236,7 @@
     "name": "Aaditya Aanand",
     "handle": "biased_human",
     "verified": true,
-    "followers": 2416,
+    "followers": 2417,
     "profile_image": "https://pbs.twimg.com/profile_images/2039736964119957504/zOG-svEN_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T01:25:20Z",
@@ -5264,7 +5277,7 @@
     "name": "Naman Shah",
     "handle": "mojilo_manas",
     "verified": false,
-    "followers": 1433,
+    "followers": 1432,
     "profile_image": "https://pbs.twimg.com/profile_images/1763866558604980224/yETU3fKx_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T01:26:31Z",
@@ -5435,7 +5448,7 @@
     "name": "Anis Ahmed Chohan",
     "handle": "anicho",
     "verified": true,
-    "followers": 259,
+    "followers": 260,
     "profile_image": "https://pbs.twimg.com/profile_images/2112887377865981952/S2VrFLFf_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T01:46:43Z",
@@ -5871,7 +5884,7 @@
     "name": "陈嘉欣",
     "handle": "QQAI2778",
     "verified": false,
-    "followers": 504,
+    "followers": 503,
     "profile_image": "https://pbs.twimg.com/profile_images/2057901839941808128/TEdZ3C3a_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T02:18:41Z",
@@ -6031,7 +6044,7 @@
     "name": "深漂川仔蛋蛋后",
     "handle": "sirHe12",
     "verified": true,
-    "followers": 3679,
+    "followers": 3683,
     "profile_image": "https://pbs.twimg.com/profile_images/2089289918698901504/1Go6snuo_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T02:39:05Z",
@@ -6275,7 +6288,7 @@
    "first_seen_utc": "2026-09-11T07:25:33Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 12,
     "found": 0
    }
@@ -6287,7 +6300,7 @@
     "name": "LOSS GOBBLER",
     "handle": "loss_gobbler",
     "verified": true,
-    "followers": 752,
+    "followers": 751,
     "profile_image": "https://pbs.twimg.com/profile_images/1810507698221580288/G2MD0flG_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T02:56:17Z",
@@ -6360,7 +6373,7 @@
     "name": "Dr.Chetanya Malhotra",
     "handle": "DrMalhotra28",
     "verified": false,
-    "followers": 4,
+    "followers": 5,
     "profile_image": "https://pbs.twimg.com/profile_images/2086148600950845440/Ty5SQdTs_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T02:56:59Z",
@@ -6377,7 +6390,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 37
+    "views": 39
    },
    "urls": [],
    "hashtags": [],
@@ -6746,7 +6759,7 @@
     "name": "Srini",
     "handle": "shamelesslymean",
     "verified": true,
-    "followers": 688,
+    "followers": 689,
     "profile_image": "https://pbs.twimg.com/profile_images/1955175403557138432/NdPkdynd_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T03:17:29Z",
@@ -6986,7 +6999,7 @@
     "name": "Indra",
     "handle": "IndraVahan",
     "verified": true,
-    "followers": 18147,
+    "followers": 18153,
     "profile_image": "https://pbs.twimg.com/profile_images/1877984704357638145/rYvB-c5s_400x400.png"
    },
    "created_at_utc": "2026-09-11T03:27:15Z",
@@ -7021,7 +7034,7 @@
    "first_seen_utc": "2026-09-11T07:25:33Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 18,
     "found": 0
    }
@@ -7116,7 +7129,7 @@
     "name": "Oxygen 💨",
     "handle": "WhateverVishal",
     "verified": true,
-    "followers": 16786,
+    "followers": 16784,
     "profile_image": "https://pbs.twimg.com/profile_images/2106384695252623360/t7X5q9Xr_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T03:34:39Z",
@@ -7151,7 +7164,7 @@
    "first_seen_utc": "2026-09-11T07:25:33Z",
    "matches_keyword": false,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 11,
     "found": 0
    }
@@ -7629,7 +7642,7 @@
     "name": "Claude Community India",
     "handle": "Claude_In_",
     "verified": false,
-    "followers": 45,
+    "followers": 46,
     "profile_image": "https://pbs.twimg.com/profile_images/2086944119092551680/o-OfMT6u_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T04:01:26Z",
@@ -7826,7 +7839,7 @@
     "name": "Uttkarsh Singh",
     "handle": "Uttupaaji",
     "verified": true,
-    "followers": 25099,
+    "followers": 25094,
     "profile_image": "https://pbs.twimg.com/profile_images/1813666151026794497/0YElysjF_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T04:05:47Z",
@@ -7914,7 +7927,7 @@
     "name": "Aniket Sahu",
     "handle": "aniketsahu_115",
     "verified": true,
-    "followers": 2654,
+    "followers": 2655,
     "profile_image": "https://pbs.twimg.com/profile_images/1960408714571042816/9T5YQFG4_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T04:06:57Z",
@@ -8068,7 +8081,7 @@
     "name": "Dhaniyalu",
     "handle": "dhaniyaluu",
     "verified": false,
-    "followers": 1048,
+    "followers": 1047,
     "profile_image": "https://pbs.twimg.com/profile_images/2094489173399126016/V0Soyr2o_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T04:13:01Z",
@@ -8188,7 +8201,7 @@
     "name": "Ayush Agrawal",
     "handle": "iMicrocap",
     "verified": true,
-    "followers": 30711,
+    "followers": 30714,
     "profile_image": "https://pbs.twimg.com/profile_images/2096106550708625408/yHMPzvfk_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T04:16:05Z",
@@ -8349,7 +8362,7 @@
     "name": "priyansh",
     "handle": "priyazsh",
     "verified": true,
-    "followers": 1601,
+    "followers": 1602,
     "profile_image": "https://pbs.twimg.com/profile_images/2092665174683729920/fmXuYySo_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T04:26:31Z",
@@ -8498,7 +8511,7 @@
     "replies": 71,
     "quotes": 17,
     "bookmarks": 237,
-    "views": 189953
+    "views": 189956
    },
    "urls": [],
    "hashtags": [],
@@ -8518,7 +8531,7 @@
    "first_seen_utc": "2026-09-11T07:25:33Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 71,
     "found": 0
    }
@@ -8530,7 +8543,7 @@
     "name": "Yetkin BELAZEN",
     "handle": "YetkinBelasan",
     "verified": true,
-    "followers": 196,
+    "followers": 197,
     "profile_image": "https://pbs.twimg.com/profile_images/2104245012737265664/LedKFt4b_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T04:32:44Z",
@@ -8698,7 +8711,7 @@
     "name": "Saksham",
     "handle": "Saxam_",
     "verified": true,
-    "followers": 936,
+    "followers": 937,
     "profile_image": "https://pbs.twimg.com/profile_images/2090850036171358208/JDiw5tUp_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T04:37:58Z",
@@ -8728,7 +8741,7 @@
    "first_seen_utc": "2026-09-11T07:25:33Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 24,
     "found": 0
    }
@@ -8787,7 +8800,7 @@
     "name": "Aj",
     "handle": "AIFuturenama",
     "verified": true,
-    "followers": 41317,
+    "followers": 41316,
     "profile_image": "https://pbs.twimg.com/profile_images/2073054922015436800/dHQtnW7q_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T04:42:09Z",
@@ -9051,7 +9064,7 @@
     "name": "Tanu singh",
     "handle": "enoughtanu",
     "verified": true,
-    "followers": 1503,
+    "followers": 1501,
     "profile_image": "https://pbs.twimg.com/profile_images/2088334126768427008/BCbYnNhY_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T04:52:58Z",
@@ -9332,7 +9345,7 @@
     "name": "Satyam",
     "handle": "sattyyouneed",
     "verified": true,
-    "followers": 6068,
+    "followers": 6069,
     "profile_image": "https://pbs.twimg.com/profile_images/1979217915208507392/t91bjPTI_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T05:00:46Z",
@@ -9369,7 +9382,7 @@
    "first_seen_utc": "2026-09-11T07:25:33Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 10,
     "found": 0
    }
@@ -10094,7 +10107,7 @@
     "name": "Rock",
     "handle": "Rock4754",
     "verified": false,
-    "followers": 1926,
+    "followers": 1927,
     "profile_image": "https://pbs.twimg.com/profile_images/2109971255990648832/BDhTUe8V_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T05:14:14Z",
@@ -10224,7 +10237,7 @@
     "name": "Kritika Kabra",
     "handle": "Kritika_Kabra",
     "verified": true,
-    "followers": 2948,
+    "followers": 2951,
     "profile_image": "https://pbs.twimg.com/profile_images/2087943017353318404/hZqpYBeo_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T05:18:26Z",
@@ -10356,7 +10369,7 @@
     "name": "Rajat",
     "handle": "rajatsandeepsen",
     "verified": true,
-    "followers": 1673,
+    "followers": 1674,
     "profile_image": "https://pbs.twimg.com/profile_images/1994312429157928961/vKCxw-08_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T05:21:18Z",
@@ -10487,7 +10500,7 @@
     "name": "Gaurav Swaroop",
     "handle": "swaroop_g1",
     "verified": true,
-    "followers": 822,
+    "followers": 821,
     "profile_image": "https://pbs.twimg.com/profile_images/1201620722604490756/eEn4XYYy_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T05:26:17Z",
@@ -10565,7 +10578,7 @@
     "name": "dhruv",
     "handle": "dhruvmakes",
     "verified": true,
-    "followers": 5543,
+    "followers": 5544,
     "profile_image": "https://pbs.twimg.com/profile_images/1927725778659311616/ZtJPBJdz_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T05:30:03Z",
@@ -11034,7 +11047,7 @@
     "name": "श्रेया 🇮🇳",
     "handle": "HCL250202",
     "verified": true,
-    "followers": 923,
+    "followers": 924,
     "profile_image": "https://pbs.twimg.com/profile_images/2078747659607937024/VE3vchBU_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T05:42:03Z",
@@ -11076,7 +11089,7 @@
     "name": "ShaatirBanda (Blackpilled Arc)",
     "handle": "ShaatirBanda",
     "verified": false,
-    "followers": 4589,
+    "followers": 4587,
     "profile_image": "https://pbs.twimg.com/profile_images/1879888285452980224/1yhFDSM6_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T05:43:05Z",
@@ -11408,7 +11421,7 @@
     "name": "Bharat Vijay",
     "handle": "ViratBharat",
     "verified": false,
-    "followers": 7055,
+    "followers": 7054,
     "profile_image": "https://pbs.twimg.com/profile_images/1332577112872501255/w8J2y-Ee_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T05:46:11Z",
@@ -12749,7 +12762,7 @@
     "name": "Vexxter",
     "handle": "Vexxter4sure",
     "verified": false,
-    "followers": 2880,
+    "followers": 2879,
     "profile_image": "https://pbs.twimg.com/profile_images/2067280705420406784/VcEkUDnC_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T06:03:54Z",
@@ -13795,7 +13808,7 @@
     "name": "Abhinav",
     "handle": "krabstronaut",
     "verified": false,
-    "followers": 483,
+    "followers": 482,
     "profile_image": "https://pbs.twimg.com/profile_images/1906390909748690944/Y52pcRz3_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T06:13:23Z",
@@ -14088,7 +14101,7 @@
     "name": "Pavan GK",
     "handle": "ItsPavanGK",
     "verified": true,
-    "followers": 1603,
+    "followers": 1606,
     "profile_image": "https://pbs.twimg.com/profile_images/2082122492441976832/kfjDrX4k_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T06:15:55Z",
@@ -14743,7 +14756,7 @@
     "name": "Zid",
     "handle": "_zidkim",
     "verified": true,
-    "followers": 535,
+    "followers": 534,
     "profile_image": "https://pbs.twimg.com/profile_images/2083451081867292672/ZFll1HqA_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T06:25:04Z",
@@ -15100,7 +15113,7 @@
     "name": "बैरागी",
     "handle": "AndFragment",
     "verified": false,
-    "followers": 209,
+    "followers": 208,
     "profile_image": "https://pbs.twimg.com/profile_images/1330445106227232768/3Teh20i5_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T06:28:02Z",
@@ -15136,7 +15149,7 @@
     "name": "Om",
     "handle": "piunknown043",
     "verified": true,
-    "followers": 805,
+    "followers": 807,
     "profile_image": "https://pbs.twimg.com/profile_images/1937806759235592192/GnO77Tkz_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T06:28:37Z",
@@ -15296,7 +15309,7 @@
     "name": "Ayush Agrawal",
     "handle": "iMicrocap",
     "verified": true,
-    "followers": 30711,
+    "followers": 30714,
     "profile_image": "https://pbs.twimg.com/profile_images/2096106550708625408/yHMPzvfk_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T06:35:10Z",
@@ -15518,7 +15531,7 @@
     "name": "Pratyaksh Patel",
     "handle": "baldwin_IVth",
     "verified": true,
-    "followers": 2193,
+    "followers": 2190,
     "profile_image": "https://pbs.twimg.com/profile_images/2060743878488322048/yQAUCWvI_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T06:38:41Z",
@@ -15784,7 +15797,7 @@
     "name": "Abhimanyu Rao",
     "handle": "abhimanyuraorj",
     "verified": false,
-    "followers": 3792,
+    "followers": 3793,
     "profile_image": "https://pbs.twimg.com/profile_images/1750773550330593280/jBN8M4Mn_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T06:40:09Z",
@@ -15857,7 +15870,7 @@
     "name": "Ayush Soni",
     "handle": "ayysoni",
     "verified": true,
-    "followers": 3803,
+    "followers": 3802,
     "profile_image": "https://pbs.twimg.com/profile_images/1893687111603081216/SfYqXaEY_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T06:41:59Z",
@@ -16122,7 +16135,7 @@
     "name": "Divyansh Kulshreshtha",
     "handle": "divyanshkul",
     "verified": true,
-    "followers": 479,
+    "followers": 480,
     "profile_image": "https://pbs.twimg.com/profile_images/1878851042777145346/g6jsk3g4_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T06:47:06Z",
@@ -16163,7 +16176,7 @@
     "name": "PK 🐢 👩🏻‍💻",
     "handle": "PKodmad",
     "verified": true,
-    "followers": 11698,
+    "followers": 11697,
     "profile_image": "https://pbs.twimg.com/profile_images/2077242127541743616/AJIqqL-q_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T06:48:14Z",
@@ -16321,7 +16334,7 @@
     "name": "priyansh",
     "handle": "priyazsh",
     "verified": true,
-    "followers": 1601,
+    "followers": 1602,
     "profile_image": "https://pbs.twimg.com/profile_images/2092665174683729920/fmXuYySo_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T06:52:05Z",
@@ -16356,7 +16369,7 @@
    "first_seen_utc": "2026-09-11T07:25:33Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 11,
     "found": 0
    }
@@ -16604,7 +16617,7 @@
    "first_seen_utc": "2026-09-11T07:25:33Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 13,
     "found": 0
    }
@@ -17091,7 +17104,7 @@
     "name": "Shubham Ranga",
     "handle": "ShubhamRanga_",
     "verified": true,
-    "followers": 399,
+    "followers": 398,
     "profile_image": "https://pbs.twimg.com/profile_images/2092294999941812224/-q8jjoBV_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T06:59:18Z",
@@ -17342,7 +17355,7 @@
     "name": "Shubhh",
     "handle": "ShubhhSoni",
     "verified": true,
-    "followers": 1541,
+    "followers": 1546,
     "profile_image": "https://pbs.twimg.com/profile_images/2114246771291594753/oza2Nooi_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T07:03:31Z",
@@ -17379,7 +17392,7 @@
     "name": "Tribhuvan Bisen",
     "handle": "tribhu1bisen",
     "verified": true,
-    "followers": 1236,
+    "followers": 1235,
     "profile_image": "https://pbs.twimg.com/profile_images/2084347291021066240/XAZGGoGW_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T07:03:34Z",
@@ -17416,7 +17429,7 @@
     "name": "Madhurya Mishra",
     "handle": "with_maddy_",
     "verified": false,
-    "followers": 665,
+    "followers": 664,
     "profile_image": "https://pbs.twimg.com/profile_images/2092176321078308865/rSNwAALf_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T07:03:44Z",
@@ -17453,7 +17466,7 @@
     "name": "Vyom",
     "handle": "HelloVyom",
     "verified": true,
-    "followers": 11878,
+    "followers": 11875,
     "profile_image": "https://pbs.twimg.com/profile_images/2069292012042698752/VXfKHEUa_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T07:03:52Z",
@@ -17483,7 +17496,7 @@
    "first_seen_utc": "2026-09-11T07:25:33Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 25,
     "found": 0
    }
@@ -17698,7 +17711,7 @@
     "name": "abhinav",
     "handle": "AbhinavXJ",
     "verified": true,
-    "followers": 16146,
+    "followers": 16161,
     "profile_image": "https://pbs.twimg.com/profile_images/1998929325962457088/W98D3IpW_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T07:08:30Z",
@@ -18705,7 +18718,7 @@
     "name": "John",
     "handle": "JohnJoseph11271",
     "verified": true,
-    "followers": 1578,
+    "followers": 1580,
     "profile_image": "https://pbs.twimg.com/profile_images/2073844376166440960/d3JIeQOb_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T07:16:34Z",
@@ -18873,7 +18886,7 @@
     "name": "Arnav Srivastava",
     "handle": "MUTD_Arnav",
     "verified": false,
-    "followers": 509,
+    "followers": 512,
     "profile_image": "https://pbs.twimg.com/profile_images/1670638564592455681/ZzTTvzW7_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T07:19:35Z",
@@ -18917,7 +18930,7 @@
     "name": "simran sachdeva",
     "handle": "simranrambles",
     "verified": true,
-    "followers": 21415,
+    "followers": 21407,
     "profile_image": "https://pbs.twimg.com/profile_images/2082459908461768704/sVEtBBtg_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T07:19:46Z",
@@ -18947,7 +18960,7 @@
    "first_seen_utc": "2026-09-11T07:25:33Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 25,
     "found": 0
    }
@@ -19312,7 +19325,7 @@
     "name": "りん / Project Rin投資fireチャンネル",
     "handle": "rinpro_btc",
     "verified": true,
-    "followers": 11727,
+    "followers": 11725,
     "profile_image": "https://pbs.twimg.com/profile_images/1740768543166414848/3U9hSzCf_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T07:24:53Z",
@@ -19432,7 +19445,7 @@
     "name": "Tanmay",
     "handle": "imnottanmay",
     "verified": true,
-    "followers": 1522,
+    "followers": 1521,
     "profile_image": "https://pbs.twimg.com/profile_images/1950906009373069313/Sn2zjjtu_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T07:28:26Z",
@@ -19474,7 +19487,7 @@
     "name": "Saksham",
     "handle": "Saxam_",
     "verified": true,
-    "followers": 936,
+    "followers": 937,
     "profile_image": "https://pbs.twimg.com/profile_images/2090850036171358208/JDiw5tUp_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T07:28:39Z",
@@ -19644,7 +19657,7 @@
     "name": "aviral",
     "handle": "aviralgarg05",
     "verified": true,
-    "followers": 188,
+    "followers": 189,
     "profile_image": "https://pbs.twimg.com/profile_images/2039775893636386816/m81aeht9_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T07:29:37Z",
@@ -20008,7 +20021,7 @@
     "name": "Polash Khan",
     "handle": "polash_ai",
     "verified": true,
-    "followers": 13936,
+    "followers": 13932,
     "profile_image": "https://pbs.twimg.com/profile_images/2076415612491018240/xxWExbAA_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T07:32:57Z",
@@ -20091,7 +20104,7 @@
     "name": "Venkyy",
     "handle": "venky_gg",
     "verified": false,
-    "followers": 560,
+    "followers": 561,
     "profile_image": "https://pbs.twimg.com/profile_images/2092837248123469824/0lzD0n19_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T07:33:56Z",
@@ -20424,7 +20437,7 @@
     "name": "Aniket Sahu",
     "handle": "aniketsahu_115",
     "verified": true,
-    "followers": 2654,
+    "followers": 2655,
     "profile_image": "https://pbs.twimg.com/profile_images/1960408714571042816/9T5YQFG4_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T07:37:03Z",
@@ -20944,7 +20957,7 @@
     "name": "Eden",
     "handle": "WowSahab",
     "verified": true,
-    "followers": 271,
+    "followers": 275,
     "profile_image": "https://pbs.twimg.com/profile_images/2109319307423625216/I4ULa0zl_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T07:41:53Z",
@@ -20980,7 +20993,7 @@
     "name": "Aniket Sahu",
     "handle": "aniketsahu_115",
     "verified": true,
-    "followers": 2654,
+    "followers": 2655,
     "profile_image": "https://pbs.twimg.com/profile_images/1960408714571042816/9T5YQFG4_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T07:42:24Z",
@@ -21015,7 +21028,7 @@
    "first_seen_utc": "2026-09-11T08:52:15Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 27,
     "found": 0
    }
@@ -21264,7 +21277,7 @@
     "name": "Deconstruct",
     "handle": "spydenator",
     "verified": true,
-    "followers": 14626,
+    "followers": 14624,
     "profile_image": "https://pbs.twimg.com/profile_images/1705496128165429249/3JMUeU_C_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T07:44:54Z",
@@ -21301,7 +21314,7 @@
     "name": "prw",
     "handle": "prathaments",
     "verified": false,
-    "followers": 172,
+    "followers": 173,
     "profile_image": "https://pbs.twimg.com/profile_images/2041944487447162882/lw-ZXDcF_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T07:45:01Z",
@@ -21427,7 +21440,7 @@
     "name": "Esnupi",
     "handle": "sastaanakin",
     "verified": false,
-    "followers": 3157,
+    "followers": 3156,
     "profile_image": "https://pbs.twimg.com/profile_images/2104521588473573376/hAcWYP1E_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T07:46:56Z",
@@ -21439,7 +21452,7 @@
    "text_raw": "9/11 for BLR peeps. BHOPAL FTW! 🫶🏻🫶🏻",
    "lang": "en",
    "metrics": {
-    "likes": 19,
+    "likes": 18,
     "reposts": 2,
     "replies": 2,
     "quotes": 0,
@@ -21506,7 +21519,7 @@
     "name": "cornball.dev 🐳",
     "handle": "dixiidev",
     "verified": false,
-    "followers": 385,
+    "followers": 386,
     "profile_image": "https://pbs.twimg.com/profile_images/2080571070403485696/HzhJiRjR_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T07:50:38Z",
@@ -21550,7 +21563,7 @@
     "name": "Aryan",
     "handle": "imzenooo",
     "verified": false,
-    "followers": 266,
+    "followers": 265,
     "profile_image": "https://pbs.twimg.com/profile_images/1609918976687214592/uGFWIm4k_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T07:50:45Z",
@@ -22863,7 +22876,7 @@
     "name": "Anishi",
     "handle": "Otodidakt_20",
     "verified": true,
-    "followers": 2879,
+    "followers": 2878,
     "profile_image": "https://pbs.twimg.com/profile_images/2016951609033732096/Ro-EKAfc_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T08:09:52Z",
@@ -22945,8 +22958,8 @@
    "author": {
     "name": "Divyanshu",
     "handle": "trydiv",
-    "verified": false,
-    "followers": 1526,
+    "verified": true,
+    "followers": 1530,
     "profile_image": "https://pbs.twimg.com/profile_images/1822981594753425408/tRUmDrZm_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T08:12:26Z",
@@ -23117,7 +23130,7 @@
     "name": "Shubhangi Gupta",
     "handle": "knowShubhangi",
     "verified": true,
-    "followers": 8206,
+    "followers": 8207,
     "profile_image": "https://pbs.twimg.com/profile_images/2026717870798098432/VCJ_0c_7_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T08:14:28Z",
@@ -23152,7 +23165,7 @@
    "first_seen_utc": "2026-09-11T08:52:15Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 18,
     "found": 0
    }
@@ -23782,7 +23795,7 @@
    "first_seen_utc": "2026-09-11T08:52:15Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 12,
     "found": 0
    }
@@ -23927,7 +23940,7 @@
     "name": "Shubhangi Gupta",
     "handle": "knowShubhangi",
     "verified": true,
-    "followers": 8206,
+    "followers": 8207,
     "profile_image": "https://pbs.twimg.com/profile_images/2026717870798098432/VCJ_0c_7_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T08:19:31Z",
@@ -24411,7 +24424,7 @@
     "name": "Shashank Dixit",
     "handle": "ShashankDixit_x",
     "verified": true,
-    "followers": 1755,
+    "followers": 1762,
     "profile_image": "https://pbs.twimg.com/profile_images/2000514134446907394/E9kqPiUP_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T08:23:21Z",
@@ -24428,7 +24441,7 @@
     "replies": 14,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 2618
+    "views": 2620
    },
    "urls": [],
    "hashtags": [],
@@ -24440,7 +24453,7 @@
    "first_seen_utc": "2026-09-11T08:52:15Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 14,
     "found": 0
    }
@@ -24452,7 +24465,7 @@
     "name": "Shubhangi Gupta",
     "handle": "knowShubhangi",
     "verified": true,
-    "followers": 8206,
+    "followers": 8207,
     "profile_image": "https://pbs.twimg.com/profile_images/2026717870798098432/VCJ_0c_7_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T08:24:13Z",
@@ -24487,7 +24500,7 @@
    "first_seen_utc": "2026-09-11T08:52:15Z",
    "matches_keyword": false,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 10,
     "found": 0
    }
@@ -24789,7 +24802,7 @@
     "name": "Shubhangi Gupta",
     "handle": "knowShubhangi",
     "verified": true,
-    "followers": 8206,
+    "followers": 8207,
     "profile_image": "https://pbs.twimg.com/profile_images/2026717870798098432/VCJ_0c_7_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T08:29:20Z",
@@ -24821,7 +24834,7 @@
    "first_seen_utc": "2026-09-11T08:52:15Z",
    "matches_keyword": false,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 15,
     "found": 0
    }
@@ -24833,7 +24846,7 @@
     "name": "Shubhangi Gupta",
     "handle": "knowShubhangi",
     "verified": true,
-    "followers": 8206,
+    "followers": 8207,
     "profile_image": "https://pbs.twimg.com/profile_images/2026717870798098432/VCJ_0c_7_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T08:29:31Z",
@@ -24961,7 +24974,7 @@
     "name": "Shubhu",
     "handle": "positronx_",
     "verified": true,
-    "followers": 1755,
+    "followers": 1766,
     "profile_image": "https://pbs.twimg.com/profile_images/1973450523237031939/pS5ChEIW_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T08:31:11Z",
@@ -25090,7 +25103,7 @@
     "name": "Shubhangi Gupta",
     "handle": "knowShubhangi",
     "verified": true,
-    "followers": 8206,
+    "followers": 8207,
     "profile_image": "https://pbs.twimg.com/profile_images/2026717870798098432/VCJ_0c_7_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T08:32:02Z",
@@ -25176,7 +25189,7 @@
     "name": "Kaif",
     "handle": "kaif9998",
     "verified": true,
-    "followers": 8210,
+    "followers": 8209,
     "profile_image": "https://pbs.twimg.com/profile_images/2012834364862705664/hWdVyUJE_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T08:33:46Z",
@@ -25797,7 +25810,7 @@
     "name": "Aniket Sahu",
     "handle": "aniketsahu_115",
     "verified": true,
-    "followers": 2654,
+    "followers": 2655,
     "profile_image": "https://pbs.twimg.com/profile_images/1960408714571042816/9T5YQFG4_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T08:38:17Z",
@@ -25829,7 +25842,7 @@
    "first_seen_utc": "2026-09-11T08:52:15Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 10,
     "found": 0
    }
@@ -25841,7 +25854,7 @@
     "name": "Brown Geeky kid",
     "handle": "shigma_male",
     "verified": false,
-    "followers": 553,
+    "followers": 552,
     "profile_image": "https://pbs.twimg.com/profile_images/1942988240442576897/pFvR8iZq_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T08:39:12Z",
@@ -26655,7 +26668,7 @@
     "name": "Dora",
     "handle": "doraa_101",
     "verified": false,
-    "followers": 1416,
+    "followers": 1413,
     "profile_image": "https://pbs.twimg.com/profile_images/2110506723773677568/VQU_TlA__400x400.jpg"
    },
    "created_at_utc": "2026-09-11T08:50:56Z",
@@ -27128,7 +27141,7 @@
     "name": "Alisha Nanda",
     "handle": "alishananda08",
     "verified": true,
-    "followers": 1244,
+    "followers": 1243,
     "profile_image": "https://pbs.twimg.com/profile_images/2108977628619460608/B40SCvba_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T08:57:30Z",
@@ -27470,7 +27483,7 @@
     "name": "Aditya Kumar Saroj",
     "handle": "AdiKumarSaroj",
     "verified": true,
-    "followers": 3022,
+    "followers": 3024,
     "profile_image": "https://pbs.twimg.com/profile_images/2007438051136679939/FPlFcb-Y_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T08:59:57Z",
@@ -27832,7 +27845,7 @@
     "name": "Naina",
     "handle": "Naina_2728",
     "verified": true,
-    "followers": 31505,
+    "followers": 31500,
     "profile_image": "https://pbs.twimg.com/profile_images/1991117496787861504/CF_nzeWl_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T09:04:20Z",
@@ -27862,7 +27875,7 @@
    "first_seen_utc": "2026-09-11T09:14:34Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 24,
     "found": 0
    }
@@ -28481,7 +28494,7 @@
    "text_raw": "agar koi buildathon ke liye bhopal jaa raha hai toh pls meri mummy ke haath ka khana pack kara ke le aana🥹",
    "lang": "hi",
    "metrics": {
-    "likes": 13,
+    "likes": 12,
     "reposts": 0,
     "replies": 2,
     "quotes": 0,
@@ -28548,7 +28561,7 @@
     "name": "Aniket Sahu",
     "handle": "aniketsahu_115",
     "verified": true,
-    "followers": 2654,
+    "followers": 2655,
     "profile_image": "https://pbs.twimg.com/profile_images/1960408714571042816/9T5YQFG4_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T09:14:33Z",
@@ -28590,7 +28603,7 @@
     "name": "catman",
     "handle": "catmanyau",
     "verified": true,
-    "followers": 2226,
+    "followers": 2227,
     "profile_image": "https://pbs.twimg.com/profile_images/2052441127328837635/_OTGbd86_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T09:15:08Z",
@@ -29207,7 +29220,7 @@
     "name": "Comrade Rudra📿",
     "handle": "arthasutram",
     "verified": false,
-    "followers": 438,
+    "followers": 437,
     "profile_image": "https://pbs.twimg.com/profile_images/2113201546389577729/d09BMCEQ_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T09:20:46Z",
@@ -29438,7 +29451,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 61
+    "views": 62
    },
    "urls": [],
    "hashtags": [],
@@ -29681,7 +29694,7 @@
     "name": "shaan",
     "handle": "shancynix",
     "verified": false,
-    "followers": 863,
+    "followers": 861,
     "profile_image": "https://pbs.twimg.com/profile_images/1958165150898262016/l_aR-QHb_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T09:26:45Z",
@@ -29711,7 +29724,7 @@
    "first_seen_utc": "2026-09-11T10:25:11Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 11,
     "found": 0
    }
@@ -29978,7 +29991,7 @@
     "name": "Tribhuvan Bisen",
     "handle": "tribhu1bisen",
     "verified": true,
-    "followers": 1236,
+    "followers": 1235,
     "profile_image": "https://pbs.twimg.com/profile_images/2084347291021066240/XAZGGoGW_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T09:28:06Z",
@@ -30705,7 +30718,7 @@
     "name": "Amaan",
     "handle": "amaan8429",
     "verified": true,
-    "followers": 10766,
+    "followers": 10764,
     "profile_image": "https://pbs.twimg.com/profile_images/2004476749791600640/t-Ah82dN_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T09:37:28Z",
@@ -31729,7 +31742,7 @@
     "name": "Pratyaksh Patel",
     "handle": "baldwin_IVth",
     "verified": true,
-    "followers": 2193,
+    "followers": 2190,
     "profile_image": "https://pbs.twimg.com/profile_images/2060743878488322048/yQAUCWvI_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T09:50:09Z",
@@ -32478,7 +32491,7 @@
    "first_seen_utc": "2026-09-11T10:25:11Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 9,
     "found": 0
    }
@@ -32755,7 +32768,7 @@
     "name": "abhineet",
     "handle": "abhineet_baghel",
     "verified": false,
-    "followers": 772,
+    "followers": 771,
     "profile_image": "https://pbs.twimg.com/profile_images/1985334327803330560/lzgWpgZp_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T10:10:39Z",
@@ -33052,7 +33065,7 @@
     "name": "Meet Jain",
     "handle": "Meetjain_100",
     "verified": false,
-    "followers": 1114,
+    "followers": 1113,
     "profile_image": "https://pbs.twimg.com/profile_images/2103711591707684864/VbICUEYp_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T10:16:33Z",
@@ -33136,7 +33149,7 @@
     "name": "Dr. Datta M.D. (Radiology) building CRASHLab.in",
     "handle": "DrDatta_AIIMS",
     "verified": true,
-    "followers": 34267,
+    "followers": 34270,
     "profile_image": "https://pbs.twimg.com/profile_images/1997843893107539968/0idfWvcj_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T10:18:50Z",
@@ -33763,7 +33776,7 @@
     "name": "Aditya",
     "handle": "adityadotdev",
     "verified": true,
-    "followers": 6802,
+    "followers": 6800,
     "profile_image": "https://pbs.twimg.com/profile_images/1997358608544317440/H1V2Y-Ok_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T10:30:22Z",
@@ -34883,7 +34896,7 @@
     "name": "Shubhangi Tiwari",
     "handle": "ShubhangiYaps",
     "verified": true,
-    "followers": 3509,
+    "followers": 3507,
     "profile_image": "https://pbs.twimg.com/profile_images/2045236989356834816/O2gB29j1_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T10:46:07Z",
@@ -34920,7 +34933,7 @@
    "found_via": "nitter.tiekoetter.com search: bhopal buildathon",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 17,
     "found": 0
    }
@@ -35489,7 +35502,7 @@
    "first_seen_utc": "2026-09-11T10:52:33Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 13,
     "found": 0
    }
@@ -35631,7 +35644,7 @@
     "name": "Sneha",
     "handle": "snehanomics",
     "verified": false,
-    "followers": 846,
+    "followers": 847,
     "profile_image": "https://pbs.twimg.com/profile_images/1940677181035646976/3EbkT_jX_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T10:50:09Z",
@@ -36767,7 +36780,7 @@
     "name": "ānucintana",
     "handle": "sadist_2003",
     "verified": false,
-    "followers": 3155,
+    "followers": 3154,
     "profile_image": "https://pbs.twimg.com/profile_images/1907084000247574528/1O6hBC1o_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T10:58:02Z",
@@ -37166,7 +37179,7 @@
     "name": "Venkyy",
     "handle": "venky_gg",
     "verified": false,
-    "followers": 560,
+    "followers": 561,
     "profile_image": "https://pbs.twimg.com/profile_images/2092837248123469824/0lzD0n19_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T11:03:44Z",
@@ -37257,7 +37270,7 @@
     "name": "Shubhangi Gupta",
     "handle": "knowShubhangi",
     "verified": true,
-    "followers": 8206,
+    "followers": 8207,
     "profile_image": "https://pbs.twimg.com/profile_images/2026717870798098432/VCJ_0c_7_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T11:04:57Z",
@@ -37305,7 +37318,7 @@
     "name": "Divyansh Kulshreshtha",
     "handle": "divyanshkul",
     "verified": true,
-    "followers": 479,
+    "followers": 480,
     "profile_image": "https://pbs.twimg.com/profile_images/1878851042777145346/g6jsk3g4_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T11:05:12Z",
@@ -38103,7 +38116,7 @@
     "name": "Demolisher",
     "handle": "ImDemolisher",
     "verified": true,
-    "followers": 115,
+    "followers": 114,
     "profile_image": "https://pbs.twimg.com/profile_images/2095031957872930816/Kj726YoV_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T11:16:10Z",
@@ -38981,7 +38994,7 @@
     "name": "NR",
     "handle": "ChennaiNr",
     "verified": false,
-    "followers": 581,
+    "followers": 580,
     "profile_image": "https://pbs.twimg.com/profile_images/1388702890458456074/H3eopQAW_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T11:29:04Z",
@@ -39107,7 +39120,7 @@
     "name": "Ashish Mishra | Building WIMNE",
     "handle": "join2ashish",
     "verified": true,
-    "followers": 906,
+    "followers": 910,
     "profile_image": "https://pbs.twimg.com/profile_images/2079220326530273281/KV1u9_cv_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T11:30:09Z",
@@ -39228,7 +39241,7 @@
     "name": "Harsh.",
     "handle": "freshlimesofa",
     "verified": true,
-    "followers": 1685,
+    "followers": 1684,
     "profile_image": "https://pbs.twimg.com/profile_images/2076199450717138944/5zXAJHoZ_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T11:30:32Z",
@@ -39270,7 +39283,7 @@
     "name": "Devendra Rathore 🇮🇳",
     "handle": "iamofficialdev",
     "verified": true,
-    "followers": 1616,
+    "followers": 1624,
     "profile_image": "https://pbs.twimg.com/profile_images/2108234478271545345/XIPBUFuP_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T11:30:35Z",
@@ -39520,7 +39533,7 @@
     "name": "navya choudhari",
     "handle": "nachoyaps",
     "verified": true,
-    "followers": 1515,
+    "followers": 1519,
     "profile_image": "https://pbs.twimg.com/profile_images/1979661715865280512/bCLJOgTS_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T11:35:45Z",
@@ -39601,7 +39614,7 @@
     "name": "Aviraj",
     "handle": "avirajkhare00",
     "verified": false,
-    "followers": 1244,
+    "followers": 1245,
     "profile_image": "https://pbs.twimg.com/profile_images/2098646914950647809/HV8yRvH6_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T11:36:02Z",
@@ -39835,7 +39848,7 @@
     "name": "R2",
     "handle": "r2minusd2",
     "verified": false,
-    "followers": 973,
+    "followers": 974,
     "profile_image": "https://pbs.twimg.com/profile_images/1825220338747154432/Tpa2JiFX_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T11:39:44Z",
@@ -39852,7 +39865,7 @@
     "replies": 23,
     "quotes": 7,
     "bookmarks": 12,
-    "views": 12410
+    "views": 12411
    },
    "urls": [],
    "hashtags": [],
@@ -39865,7 +39878,7 @@
    "first_seen_utc": "2026-09-11T16:01:03Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 23,
     "found": 0
    }
@@ -40214,7 +40227,7 @@
     "name": "Vagarth",
     "handle": "vagxrth",
     "verified": true,
-    "followers": 707,
+    "followers": 706,
     "profile_image": "https://pbs.twimg.com/profile_images/1941121875502931968/AVTFQ1VE_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T11:47:14Z",
@@ -40294,7 +40307,7 @@
     "name": "Devendra Rathore 🇮🇳",
     "handle": "iamofficialdev",
     "verified": true,
-    "followers": 1616,
+    "followers": 1624,
     "profile_image": "https://pbs.twimg.com/profile_images/2108234478271545345/XIPBUFuP_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T11:47:41Z",
@@ -40347,7 +40360,7 @@
     "name": "Himalayan Malt гималайский",
     "handle": "HimalayanMaltt",
     "verified": false,
-    "followers": 764,
+    "followers": 762,
     "profile_image": "https://pbs.twimg.com/profile_images/2101738441642029056/e4ypW01o_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T11:47:49Z",
@@ -41187,7 +41200,7 @@
     "name": "nerd with adhd",
     "handle": "sidinkd",
     "verified": false,
-    "followers": 3533,
+    "followers": 3532,
     "profile_image": "https://pbs.twimg.com/profile_images/2101601087816134657/gbX73R3n_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T11:58:04Z",
@@ -41228,7 +41241,7 @@
     "name": "Pratts.sol",
     "handle": "ShreyasUdavant",
     "verified": false,
-    "followers": 841,
+    "followers": 842,
     "profile_image": "https://pbs.twimg.com/profile_images/2016870551466516480/2tZlSV_u_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T11:58:14Z",
@@ -41317,7 +41330,7 @@
    "author": {
     "name": "Adwait ✈️ DEVCON MUMBAI 🇮🇳",
     "handle": "AdwaitKeshari",
-    "verified": false,
+    "verified": true,
     "followers": 790,
     "profile_image": "https://pbs.twimg.com/profile_images/2112957636597743616/iKZkN7_J_400x400.jpg"
    },
@@ -41458,7 +41471,7 @@
     "name": "techno sapien",
     "handle": "techn0_sap1en",
     "verified": false,
-    "followers": 1125,
+    "followers": 1124,
     "profile_image": "https://pbs.twimg.com/profile_images/2052990459648282624/9H5LktED_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T12:03:29Z",
@@ -41672,7 +41685,7 @@
     "name": "Vedanth ♦︎ App Builder & Designer",
     "handle": "vedanthk_",
     "verified": true,
-    "followers": 1016,
+    "followers": 1017,
     "profile_image": "https://pbs.twimg.com/profile_images/2088046996535812096/QCHZjbDY_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T12:08:32Z",
@@ -41806,7 +41819,7 @@
     "name": "Vishal Singh",
     "handle": "vishalsingh2972",
     "verified": true,
-    "followers": 14185,
+    "followers": 14199,
     "profile_image": "https://pbs.twimg.com/profile_images/1647082070542528512/cw4eyk7v_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T12:12:11Z",
@@ -41852,7 +41865,7 @@
     "name": "Sujay.",
     "handle": "Sujay__Raj",
     "verified": true,
-    "followers": 5564,
+    "followers": 5565,
     "profile_image": "https://pbs.twimg.com/profile_images/2101053805504974848/OhVNpeC8_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T12:12:18Z",
@@ -42024,7 +42037,7 @@
     "name": "Tribhuvan Bisen",
     "handle": "tribhu1bisen",
     "verified": true,
-    "followers": 1236,
+    "followers": 1235,
     "profile_image": "https://pbs.twimg.com/profile_images/2084347291021066240/XAZGGoGW_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T12:14:44Z",
@@ -42321,7 +42334,7 @@
     "name": "Shreyansh",
     "handle": "shreyanshmalviy",
     "verified": true,
-    "followers": 1071,
+    "followers": 1072,
     "profile_image": "https://pbs.twimg.com/profile_images/2111932086760382464/f9oTLCBf_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T12:19:08Z",
@@ -42356,7 +42369,7 @@
    "first_seen_utc": "2026-09-11T12:27:15Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 12,
     "found": 0
    }
@@ -42457,7 +42470,7 @@
     "name": "Shivangi",
     "handle": "shivangitwt",
     "verified": false,
-    "followers": 2848,
+    "followers": 2847,
     "profile_image": "https://pbs.twimg.com/profile_images/2111463315054743552/CT1eVlqK_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T12:22:05Z",
@@ -42499,7 +42512,7 @@
     "name": "ronnie",
     "handle": "synthascesis",
     "verified": false,
-    "followers": 3875,
+    "followers": 3874,
     "profile_image": "https://pbs.twimg.com/profile_images/2106670967363981312/7ekGQjAa_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T12:22:31Z",
@@ -42583,7 +42596,7 @@
     "name": "Nivedita",
     "handle": "Nivivacious",
     "verified": true,
-    "followers": 9404,
+    "followers": 9405,
     "profile_image": "https://pbs.twimg.com/profile_images/2109291552149581824/AzbSPI4J_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T12:23:52Z",
@@ -42620,7 +42633,7 @@
     "name": "Saksham",
     "handle": "Saxam_",
     "verified": true,
-    "followers": 936,
+    "followers": 937,
     "profile_image": "https://pbs.twimg.com/profile_images/2090850036171358208/JDiw5tUp_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T12:24:25Z",
@@ -43380,7 +43393,7 @@
     "name": "krupali || chai",
     "handle": "chai_really",
     "verified": true,
-    "followers": 3826,
+    "followers": 3827,
     "profile_image": "https://pbs.twimg.com/profile_images/2069375036113428480/vlMeuOVh_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T12:31:16Z",
@@ -43661,7 +43674,7 @@
     "name": "SleeplessDev",
     "handle": "SleeplessDev3",
     "verified": false,
-    "followers": 1723,
+    "followers": 1721,
     "profile_image": "https://pbs.twimg.com/profile_images/2100189247215124480/_X_LN5Gh_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T12:33:07Z",
@@ -44503,7 +44516,7 @@
     "name": "Jigyasa Devcon 08 🇮🇳",
     "handle": "jigyasa_0203",
     "verified": true,
-    "followers": 1997,
+    "followers": 2004,
     "profile_image": "https://pbs.twimg.com/profile_images/1975823803289616384/jIkog8e3_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T12:43:52Z",
@@ -45476,7 +45489,7 @@
     "name": "isagi",
     "handle": "encrypt_ap",
     "verified": false,
-    "followers": 449,
+    "followers": 450,
     "profile_image": "https://pbs.twimg.com/profile_images/1981668440671662080/tmnzIm4F_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T12:53:08Z",
@@ -45649,7 +45662,7 @@
     "name": "Harsha Palegar",
     "handle": "hpx1107",
     "verified": true,
-    "followers": 40,
+    "followers": 41,
     "profile_image": "https://pbs.twimg.com/profile_images/2053454375071465472/gERsUwEw_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T12:55:16Z",
@@ -45685,7 +45698,7 @@
     "name": "Shubhangi Tiwari",
     "handle": "ShubhangiYaps",
     "verified": true,
-    "followers": 3509,
+    "followers": 3507,
     "profile_image": "https://pbs.twimg.com/profile_images/2045236989356834816/O2gB29j1_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T12:55:16Z",
@@ -45773,7 +45786,7 @@
     "name": "Jatin",
     "handle": "jatinprajapat29",
     "verified": true,
-    "followers": 5864,
+    "followers": 5866,
     "profile_image": "https://pbs.twimg.com/profile_images/2099398052301975552/9h7dDJO8_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T12:55:43Z",
@@ -45904,7 +45917,7 @@
     "name": "@CtrlAltDefeat",
     "handle": "daway_W3",
     "verified": false,
-    "followers": 1317,
+    "followers": 1318,
     "profile_image": "https://pbs.twimg.com/profile_images/2100562685821865984/lvlVHkLl_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T12:57:33Z",
@@ -45988,7 +46001,7 @@
     "name": "@CtrlAltDefeat",
     "handle": "daway_W3",
     "verified": false,
-    "followers": 1317,
+    "followers": 1318,
     "profile_image": "https://pbs.twimg.com/profile_images/2100562685821865984/lvlVHkLl_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T12:58:49Z",
@@ -46419,7 +46432,7 @@
     "name": "Shawm | Xento Waale Bro",
     "handle": "thatnewactor",
     "verified": true,
-    "followers": 3586,
+    "followers": 3588,
     "profile_image": "https://pbs.twimg.com/profile_images/2076323972787171329/-W1G8KdM_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T13:05:08Z",
@@ -46576,7 +46589,7 @@
     "name": "@CtrlAltDefeat",
     "handle": "daway_W3",
     "verified": false,
-    "followers": 1317,
+    "followers": 1318,
     "profile_image": "https://pbs.twimg.com/profile_images/2100562685821865984/lvlVHkLl_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T13:07:05Z",
@@ -47057,7 +47070,7 @@
     "name": "Aniket Sahu",
     "handle": "aniketsahu_115",
     "verified": true,
-    "followers": 2654,
+    "followers": 2655,
     "profile_image": "https://pbs.twimg.com/profile_images/1960408714571042816/9T5YQFG4_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T13:15:19Z",
@@ -47195,7 +47208,7 @@
     "name": "lab rat",
     "handle": "sh4mcore",
     "verified": false,
-    "followers": 399,
+    "followers": 398,
     "profile_image": "https://pbs.twimg.com/profile_images/2093576902841868289/VjK-8OGt_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T13:15:55Z",
@@ -48181,7 +48194,7 @@
     "name": "@CtrlAltDefeat",
     "handle": "daway_W3",
     "verified": false,
-    "followers": 1317,
+    "followers": 1318,
     "profile_image": "https://pbs.twimg.com/profile_images/2100562685821865984/lvlVHkLl_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T13:25:37Z",
@@ -48263,7 +48276,7 @@
     "name": "Ashutosh Mishra",
     "handle": "caashutosh22",
     "verified": false,
-    "followers": 1571,
+    "followers": 1570,
     "profile_image": "https://pbs.twimg.com/profile_images/2090810709701791745/Px4Wq2UD_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T13:26:23Z",
@@ -48598,7 +48611,7 @@
     "name": "Punit Pal 🔜 Devcon VIII🇮🇳",
     "handle": "its_punit05",
     "verified": true,
-    "followers": 1776,
+    "followers": 1777,
     "profile_image": "https://pbs.twimg.com/profile_images/2076703835838726144/sd6_OBmd_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T13:31:08Z",
@@ -48790,7 +48803,7 @@
     "name": "anks",
     "handle": "AnkitaxPriya",
     "verified": true,
-    "followers": 3965,
+    "followers": 3962,
     "profile_image": "https://pbs.twimg.com/profile_images/2090008228495282176/CxE5-AH5_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T13:35:34Z",
@@ -49477,8 +49490,8 @@
     "name": "Pranami Hayaran",
     "handle": "pranamify",
     "verified": true,
-    "followers": 199,
-    "profile_image": "https://pbs.twimg.com/profile_images/2114694128814751744/z1H6x62x_400x400.jpg"
+    "followers": 200,
+    "profile_image": "https://pbs.twimg.com/profile_images/2114793651713064960/ihee_AiO_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T13:44:29Z",
    "created_at_ist": "2026-09-11 19:14 IST",
@@ -49676,7 +49689,7 @@
     "name": "Rohan | Nundina Finance",
     "handle": "Roan0i",
     "verified": true,
-    "followers": 484,
+    "followers": 485,
     "profile_image": "https://pbs.twimg.com/profile_images/2089063463461253121/mVIYuct-_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T13:45:41Z",
@@ -50618,7 +50631,7 @@
     "name": "King Maximus",
     "handle": "Pe4seve9ra5ceup",
     "verified": true,
-    "followers": 3218,
+    "followers": 3215,
     "profile_image": "https://pbs.twimg.com/profile_images/2107273983032995842/TPy8cpi2_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T13:56:29Z",
@@ -50696,7 +50709,7 @@
     "name": "@CtrlAltDefeat",
     "handle": "daway_W3",
     "verified": false,
-    "followers": 1317,
+    "followers": 1318,
     "profile_image": "https://pbs.twimg.com/profile_images/2100562685821865984/lvlVHkLl_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T13:56:44Z",
@@ -50875,7 +50888,7 @@
     "name": "Mohan",
     "handle": "Mohanlodhi_",
     "verified": true,
-    "followers": 1007,
+    "followers": 1006,
     "profile_image": "https://pbs.twimg.com/profile_images/2013298059556311043/koJ6YRLZ_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T14:00:14Z",
@@ -50958,7 +50971,7 @@
     "name": "Parth Joshi",
     "handle": "RotenKiwi",
     "verified": false,
-    "followers": 171,
+    "followers": 170,
     "profile_image": "https://pbs.twimg.com/profile_images/1792182656219967488/rmWx7RYd_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T14:02:18Z",
@@ -51770,7 +51783,7 @@
     "name": "jun",
     "handle": "jun1228909",
     "verified": true,
-    "followers": 2554,
+    "followers": 2555,
     "profile_image": "https://pbs.twimg.com/profile_images/2104024537184829440/6RW1iNmo_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T14:15:49Z",
@@ -51926,7 +51939,7 @@
     "name": "@CtrlAltDefeat",
     "handle": "daway_W3",
     "verified": false,
-    "followers": 1317,
+    "followers": 1318,
     "profile_image": "https://pbs.twimg.com/profile_images/2100562685821865984/lvlVHkLl_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T14:18:04Z",
@@ -52056,7 +52069,7 @@
     "name": "Manoj Ahirwar",
     "handle": "manoj_ahi",
     "verified": true,
-    "followers": 14254,
+    "followers": 14255,
     "profile_image": "https://pbs.twimg.com/profile_images/2000812346642718726/kmLQvI1W_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T14:21:43Z",
@@ -52192,7 +52205,7 @@
     "name": "aashuu ✦",
     "handle": "warrioraashuu",
     "verified": true,
-    "followers": 2347,
+    "followers": 2349,
     "profile_image": "https://pbs.twimg.com/profile_images/2079642631416786944/Sz1_o4A9_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T14:23:22Z",
@@ -53477,7 +53490,7 @@
     "name": "Priyanshu Priyank",
     "handle": "PriyanshuP1405",
     "verified": true,
-    "followers": 13811,
+    "followers": 13847,
     "profile_image": "https://pbs.twimg.com/profile_images/2075146134495137792/xenm3txG_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T14:46:51Z",
@@ -53642,7 +53655,7 @@
     "name": "Priyanshu Priyank",
     "handle": "PriyanshuP1405",
     "verified": true,
-    "followers": 13811,
+    "followers": 13847,
     "profile_image": "https://pbs.twimg.com/profile_images/2075146134495137792/xenm3txG_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T14:50:38Z",
@@ -53659,7 +53672,7 @@
     "replies": 26,
     "quotes": 3,
     "bookmarks": 206,
-    "views": 151964
+    "views": 151966
    },
    "urls": [],
    "hashtags": [],
@@ -53679,7 +53692,7 @@
    "first_seen_utc": "2026-09-11T14:59:53Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 26,
     "found": 0
    }
@@ -53888,7 +53901,7 @@
     "name": "R2",
     "handle": "r2minusd2",
     "verified": false,
-    "followers": 973,
+    "followers": 974,
     "profile_image": "https://pbs.twimg.com/profile_images/1825220338747154432/Tpa2JiFX_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T15:03:45Z",
@@ -54056,7 +54069,7 @@
     "name": "Akash Ramaiah",
     "handle": "akashramaiah",
     "verified": true,
-    "followers": 375,
+    "followers": 377,
     "profile_image": "https://pbs.twimg.com/profile_images/1923142409866584065/GodefWOG_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T15:05:18Z",
@@ -54325,7 +54338,7 @@
     "name": "Ashutosh Mishra",
     "handle": "caashutosh22",
     "verified": false,
-    "followers": 1571,
+    "followers": 1570,
     "profile_image": "https://pbs.twimg.com/profile_images/2090810709701791745/Px4Wq2UD_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T15:14:26Z",
@@ -54601,7 +54614,7 @@
     "name": "Shivam Agrawal",
     "handle": "ShivamA65287844",
     "verified": false,
-    "followers": 286,
+    "followers": 288,
     "profile_image": "https://pbs.twimg.com/profile_images/2114763963909251072/08c5O2bb_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T15:25:10Z",
@@ -54756,7 +54769,7 @@
     "name": "Alejandro",
     "handle": "aljrico",
     "verified": true,
-    "followers": 225,
+    "followers": 226,
     "profile_image": "https://pbs.twimg.com/profile_images/2004836781120692224/CPSw6SEZ_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T15:30:39Z",
@@ -54828,7 +54841,7 @@
     "name": "navya choudhari",
     "handle": "nachoyaps",
     "verified": true,
-    "followers": 1515,
+    "followers": 1519,
     "profile_image": "https://pbs.twimg.com/profile_images/1979661715865280512/bCLJOgTS_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T15:30:39Z",
@@ -55074,7 +55087,7 @@
     "name": "2.5 Braincells",
     "handle": "chingiiiiix",
     "verified": false,
-    "followers": 928,
+    "followers": 927,
     "profile_image": "https://pbs.twimg.com/profile_images/2109364462973333504/t7_Lsanu_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T15:38:33Z",
@@ -55168,7 +55181,7 @@
     "name": "R2",
     "handle": "r2minusd2",
     "verified": false,
-    "followers": 973,
+    "followers": 974,
     "profile_image": "https://pbs.twimg.com/profile_images/1825220338747154432/Tpa2JiFX_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T15:39:33Z",
@@ -55352,7 +55365,7 @@
     "name": "Ayush Vashistha",
     "handle": "ayushtweets2",
     "verified": false,
-    "followers": 99,
+    "followers": 98,
     "profile_image": "https://pbs.twimg.com/profile_images/1588079186899775488/FoaGR7wG_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T15:43:27Z",
@@ -55473,7 +55486,7 @@
     "name": "vansh",
     "handle": "madebyvansh",
     "verified": false,
-    "followers": 158,
+    "followers": 157,
     "profile_image": "https://pbs.twimg.com/profile_images/2070929367799300096/820Ov-gw_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T15:47:00Z",
@@ -55678,7 +55691,7 @@
     "name": "tomato 🍅",
     "handle": "neembu_paani31",
     "verified": true,
-    "followers": 21930,
+    "followers": 21924,
     "profile_image": "https://pbs.twimg.com/profile_images/2086159154088218624/x3q0ujxl_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T15:51:45Z",
@@ -55715,7 +55728,7 @@
    "first_seen_utc": "2026-09-11T16:01:03Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 17,
     "found": 0
    }
@@ -55774,7 +55787,7 @@
     "name": "রাজ শেখর",
     "handle": "DiscourseDancer",
     "verified": false,
-    "followers": 13514,
+    "followers": 13510,
     "profile_image": "https://pbs.twimg.com/profile_images/2081110643537858560/acaAMJyL_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T15:54:40Z",
@@ -55821,7 +55834,7 @@
     "name": "Tommy",
     "handle": "TommyV_VC",
     "verified": false,
-    "followers": 854,
+    "followers": 855,
     "profile_image": "https://pbs.twimg.com/profile_images/2112764765533769728/I5THyEh6_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T15:55:16Z",
@@ -55868,7 +55881,7 @@
     "name": "Tommy",
     "handle": "TommyV_VC",
     "verified": false,
-    "followers": 854,
+    "followers": 855,
     "profile_image": "https://pbs.twimg.com/profile_images/2112764765533769728/I5THyEh6_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T15:55:16Z",
@@ -55917,7 +55930,7 @@
     "name": "Kumar Manik",
     "handle": "KumarManik12",
     "verified": true,
-    "followers": 302,
+    "followers": 303,
     "profile_image": "https://pbs.twimg.com/profile_images/2078505617241911296/zP9UCOMu_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T15:57:31Z",
@@ -56507,7 +56520,7 @@
     "name": "shivam",
     "handle": "Shivam675int",
     "verified": false,
-    "followers": 887,
+    "followers": 886,
     "profile_image": "https://pbs.twimg.com/profile_images/2039733958934753281/ooUoqva7_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T16:05:37Z",
@@ -56841,7 +56854,7 @@
     "name": "Yash",
     "handle": "hellokittyjaat2",
     "verified": false,
-    "followers": 774,
+    "followers": 777,
     "profile_image": "https://pbs.twimg.com/profile_images/2085151149900849152/d_k4FYMI_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T16:08:27Z",
@@ -57555,7 +57568,7 @@
     "name": "Aniket Sahu",
     "handle": "aniketsahu_115",
     "verified": true,
-    "followers": 2654,
+    "followers": 2655,
     "profile_image": "https://pbs.twimg.com/profile_images/1960408714571042816/9T5YQFG4_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T16:19:42Z",
@@ -57735,7 +57748,7 @@
     "name": "Divyanshi",
     "handle": "divyanshifr",
     "verified": true,
-    "followers": 2992,
+    "followers": 2993,
     "profile_image": "https://pbs.twimg.com/profile_images/2103692470332854272/9SqUVp32_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T16:23:55Z",
@@ -58174,7 +58187,7 @@
     "name": "Tanay Kumar",
     "handle": "TanayKmr",
     "verified": true,
-    "followers": 1603,
+    "followers": 1602,
     "profile_image": "https://pbs.twimg.com/profile_images/2081422631102988288/yup5B0Rq_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T16:29:08Z",
@@ -58657,7 +58670,7 @@
     "name": "Nitesh Sharma",
     "handle": "niteshshar1",
     "verified": true,
-    "followers": 228,
+    "followers": 227,
     "profile_image": "https://pbs.twimg.com/profile_images/2109702153376022528/0_r1FPYH_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T16:33:50Z",
@@ -58911,7 +58924,7 @@
     "name": "@CtrlAltDefeat",
     "handle": "daway_W3",
     "verified": false,
-    "followers": 1317,
+    "followers": 1318,
     "profile_image": "https://pbs.twimg.com/profile_images/2100562685821865984/lvlVHkLl_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T16:36:53Z",
@@ -59076,7 +59089,7 @@
     "name": "Ajay Rotti",
     "handle": "ajayrotti",
     "verified": true,
-    "followers": 18514,
+    "followers": 18513,
     "profile_image": "https://pbs.twimg.com/profile_images/1559349144418140160/-nDr-C8p_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T16:39:32Z",
@@ -59204,7 +59217,7 @@
     "name": "Ankit Jakhar",
     "handle": "Jakhar_ankit_",
     "verified": true,
-    "followers": 2075,
+    "followers": 2074,
     "profile_image": "https://pbs.twimg.com/profile_images/1978783407233474560/M1rkN24l_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T16:41:02Z",
@@ -59512,7 +59525,7 @@
    "first_seen_utc": "2026-09-11T16:52:04Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 9,
     "found": 0
    }
@@ -59604,7 +59617,7 @@
     "name": "Priyanshu Priyank",
     "handle": "PriyanshuP1405",
     "verified": true,
-    "followers": 13811,
+    "followers": 13847,
     "profile_image": "https://pbs.twimg.com/profile_images/2075146134495137792/xenm3txG_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T16:49:34Z",
@@ -59623,7 +59636,7 @@
     "reposts": 1,
     "replies": 0,
     "quotes": 0,
-    "bookmarks": 10,
+    "bookmarks": 11,
     "views": 2305
    },
    "urls": [
@@ -59647,7 +59660,7 @@
     "name": "SCR",
     "handle": "SCR01111",
     "verified": true,
-    "followers": 8361,
+    "followers": 8368,
     "profile_image": "https://pbs.twimg.com/profile_images/1947111709673504768/2fZx0nMF_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T16:50:14Z",
@@ -59893,7 +59906,7 @@
     "name": "Mihir Kulkarni",
     "handle": "mihirk1994",
     "verified": false,
-    "followers": 635,
+    "followers": 634,
     "profile_image": "https://pbs.twimg.com/profile_images/412865790983954433/xuddjt2E_400x400.jpeg"
    },
    "created_at_utc": "2026-09-11T16:57:26Z",
@@ -60400,7 +60413,7 @@
     "name": "Jay 🦀",
     "handle": "radiumcoders",
     "verified": true,
-    "followers": 448,
+    "followers": 450,
     "profile_image": "https://pbs.twimg.com/profile_images/2076269294166716416/54KZNBIu_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T17:09:25Z",
@@ -60583,7 +60596,7 @@
     "replies": 2,
     "quotes": 0,
     "bookmarks": 1,
-    "views": 1296
+    "views": 1297
    },
    "urls": [],
    "hashtags": [],
@@ -61079,7 +61092,7 @@
     "name": "Venkateswaran K N",
     "handle": "KVenkat1984",
     "verified": true,
-    "followers": 6542,
+    "followers": 6543,
     "profile_image": "https://pbs.twimg.com/profile_images/1787933102318489600/HfBCGF_O_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T17:22:03Z",
@@ -61428,7 +61441,7 @@
     "name": "divyansh",
     "handle": "divyansh_1729",
     "verified": true,
-    "followers": 8222,
+    "followers": 8300,
     "profile_image": "https://pbs.twimg.com/profile_images/2033183657842933760/DbiKuIUn_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T17:29:09Z",
@@ -61512,7 +61525,7 @@
     "name": "Divyanshi",
     "handle": "divyanshifr",
     "verified": true,
-    "followers": 2992,
+    "followers": 2993,
     "profile_image": "https://pbs.twimg.com/profile_images/2103692470332854272/9SqUVp32_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T17:30:17Z",
@@ -61637,7 +61650,7 @@
     "name": "Kavir",
     "handle": "kavirkaycee",
     "verified": true,
-    "followers": 5861,
+    "followers": 5860,
     "profile_image": "https://pbs.twimg.com/profile_images/1743585325761560576/ul_C-7rH_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T17:33:37Z",
@@ -61759,7 +61772,7 @@
     "name": "Jay 🦀",
     "handle": "radiumcoders",
     "verified": true,
-    "followers": 448,
+    "followers": 450,
     "profile_image": "https://pbs.twimg.com/profile_images/2076269294166716416/54KZNBIu_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T17:35:03Z",
@@ -62909,7 +62922,7 @@
     "name": "Rajat",
     "handle": "rajatsandeepsen",
     "verified": true,
-    "followers": 1673,
+    "followers": 1674,
     "profile_image": "https://pbs.twimg.com/profile_images/1994312429157928961/vKCxw-08_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T17:59:08Z",
@@ -63170,7 +63183,7 @@
     "name": "shaan",
     "handle": "shancynix",
     "verified": false,
-    "followers": 863,
+    "followers": 861,
     "profile_image": "https://pbs.twimg.com/profile_images/1958165150898262016/l_aR-QHb_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T18:02:05Z",
@@ -63212,7 +63225,7 @@
     "name": "shaan",
     "handle": "shancynix",
     "verified": false,
-    "followers": 863,
+    "followers": 861,
     "profile_image": "https://pbs.twimg.com/profile_images/1958165150898262016/l_aR-QHb_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T18:02:32Z",
@@ -63586,7 +63599,7 @@
     "name": "itskaveri",
     "handle": "itskaveriirl",
     "verified": true,
-    "followers": 840,
+    "followers": 851,
     "profile_image": "https://pbs.twimg.com/profile_images/2095192520280141824/Bs5-EHJ5_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T18:06:42Z",
@@ -64417,7 +64430,7 @@
     "name": "Pratik 📈",
     "handle": "PratikSinhatwt",
     "verified": true,
-    "followers": 5125,
+    "followers": 5126,
     "profile_image": "https://pbs.twimg.com/profile_images/1991064909799706625/pDTIGZOp_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T18:20:09Z",
@@ -64931,7 +64944,7 @@
     "name": "maithun",
     "handle": "Being_Humor",
     "verified": true,
-    "followers": 466578,
+    "followers": 466569,
     "profile_image": "https://pbs.twimg.com/profile_images/2080356435037483008/L-tzv01X_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T18:37:59Z",
@@ -65211,7 +65224,7 @@
     "name": "Prahalad Atreyaa",
     "handle": "prahaladatreyaa",
     "verified": true,
-    "followers": 1333,
+    "followers": 1332,
     "profile_image": "https://pbs.twimg.com/profile_images/2085614258407329792/kgapMpLF_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T18:48:59Z",
@@ -65623,7 +65636,7 @@
     "name": "Siddharth's Echelon",
     "handle": "SiddharthKG7",
     "verified": true,
-    "followers": 27404,
+    "followers": 27399,
     "profile_image": "https://pbs.twimg.com/profile_images/2110504007752118272/SM7AGATH_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T19:02:52Z",
@@ -66524,7 +66537,7 @@
     "name": "Sneha",
     "handle": "snehanomics",
     "verified": false,
-    "followers": 846,
+    "followers": 847,
     "profile_image": "https://pbs.twimg.com/profile_images/1940677181035646976/3EbkT_jX_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T19:47:18Z",
@@ -67111,7 +67124,7 @@
     "name": "I'M UNKNOWN",
     "handle": "Earth_1729",
     "verified": false,
-    "followers": 239,
+    "followers": 241,
     "profile_image": "https://pbs.twimg.com/profile_images/2089426290277498880/1Awcki6c_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T20:02:51Z",
@@ -67353,7 +67366,7 @@
     "name": "Vidhi",
     "handle": "itsvidsss",
     "verified": false,
-    "followers": 3191,
+    "followers": 3192,
     "profile_image": "https://pbs.twimg.com/profile_images/1969323172542758918/F4NfcttA_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T20:07:49Z",
@@ -67883,7 +67896,7 @@
     "name": "Ritik Singh",
     "handle": "bitsbyritik",
     "verified": true,
-    "followers": 841,
+    "followers": 840,
     "profile_image": "https://pbs.twimg.com/profile_images/1730974234028220416/Kgp2f7XC_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T20:45:01Z",
@@ -68046,7 +68059,7 @@
     "name": "Sumeet 🎒",
     "handle": "TheCoderShow",
     "verified": true,
-    "followers": 2825,
+    "followers": 2826,
     "profile_image": "https://pbs.twimg.com/profile_images/2074455020951801856/A7L3gDFr_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T20:56:25Z",
@@ -68270,7 +68283,7 @@
     "name": "ClaudeDevs",
     "handle": "ClaudeDevs",
     "verified": true,
-    "followers": 786899,
+    "followers": 787083,
     "profile_image": "https://pbs.twimg.com/profile_images/2044472418815893504/xf14RxM8_400x400.png"
    },
    "created_at_utc": "2026-09-11T21:11:43Z",
@@ -68287,7 +68300,7 @@
     "replies": 167,
     "quotes": 8,
     "bookmarks": 148,
-    "views": 314871
+    "views": 314874
    },
    "urls": [],
    "hashtags": [],
@@ -68300,7 +68313,7 @@
    "first_seen_utc": "2026-09-11T21:18:16Z",
    "matches_keyword": false,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 167,
     "found": 0
    }
@@ -68355,7 +68368,7 @@
     "name": "Levi Barbosa",
     "handle": "datalevi",
     "verified": true,
-    "followers": 1424,
+    "followers": 1423,
     "profile_image": "https://pbs.twimg.com/profile_images/2016580545426149376/hAxuVHJq_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T21:12:59Z",
@@ -68445,7 +68458,7 @@
     "name": "Yash Kapoor",
     "handle": "IamYashKapoor",
     "verified": true,
-    "followers": 1416,
+    "followers": 1418,
     "profile_image": "https://pbs.twimg.com/profile_images/2037833696418668544/u-aFdOXL_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T21:13:28Z",
@@ -68781,7 +68794,7 @@
     "name": "harshit",
     "handle": "hrstwt",
     "verified": false,
-    "followers": 156,
+    "followers": 157,
     "profile_image": "https://pbs.twimg.com/profile_images/2092499046934212610/w_WV9hxc_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T21:26:38Z",
@@ -68895,7 +68908,7 @@
     "name": "Vaibhav Pathak",
     "handle": "vkpdeveloper",
     "verified": true,
-    "followers": 640,
+    "followers": 641,
     "profile_image": "https://pbs.twimg.com/profile_images/2072142242203242496/mJDccbSn_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T21:33:12Z",
@@ -69028,7 +69041,7 @@
     "name": "Aniket Sahu",
     "handle": "aniketsahu_115",
     "verified": true,
-    "followers": 2654,
+    "followers": 2655,
     "profile_image": "https://pbs.twimg.com/profile_images/1960408714571042816/9T5YQFG4_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T21:34:16Z",
@@ -69113,7 +69126,7 @@
     "name": "bokensha",
     "handle": "iambokensha",
     "verified": true,
-    "followers": 624,
+    "followers": 628,
     "profile_image": "https://pbs.twimg.com/profile_images/2070142296197152768/OGeD-ZHq_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T21:47:37Z",
@@ -69154,7 +69167,7 @@
     "name": "Sumeet 🎒",
     "handle": "TheCoderShow",
     "verified": true,
-    "followers": 2825,
+    "followers": 2826,
     "profile_image": "https://pbs.twimg.com/profile_images/2074455020951801856/A7L3gDFr_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T21:48:32Z",
@@ -69709,7 +69722,7 @@
     "name": "Enthusiastic Bread",
     "handle": "Okay___bye",
     "verified": false,
-    "followers": 5274,
+    "followers": 5275,
     "profile_image": "https://pbs.twimg.com/profile_images/1467562309270708224/Nu5H5sLs_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T22:16:01Z",
@@ -69745,7 +69758,7 @@
     "name": "JoeCat ®",
     "handle": "JoeCattt",
     "verified": false,
-    "followers": 7928,
+    "followers": 7927,
     "profile_image": "https://pbs.twimg.com/profile_images/1150585013626396673/iKep6jj__400x400.jpg"
    },
    "created_at_utc": "2026-09-11T22:19:14Z",
@@ -69869,7 +69882,7 @@
     "name": "Sumeet 🎒",
     "handle": "TheCoderShow",
     "verified": true,
-    "followers": 2825,
+    "followers": 2826,
     "profile_image": "https://pbs.twimg.com/profile_images/2074455020951801856/A7L3gDFr_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T22:20:06Z",
@@ -69910,9 +69923,9 @@
    "first_seen_utc": "2026-09-11T22:29:26Z",
    "matches_keyword": false,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 9,
-    "found": 1
+    "found": 0
    }
   },
   {
@@ -70494,7 +70507,7 @@
     "name": "Sagar",
     "handle": "code_sagar",
     "verified": true,
-    "followers": 10845,
+    "followers": 10843,
     "profile_image": "https://pbs.twimg.com/profile_images/2021096931884400642/_YdkUiS4_400x400.jpg"
    },
    "created_at_utc": "2026-09-11T23:58:25Z",
@@ -70531,7 +70544,7 @@
     "name": "AIガチ勢オジ｜40代×Claude Code",
     "handle": "ai_gachi_oji",
     "verified": true,
-    "followers": 1753,
+    "followers": 1752,
     "profile_image": "https://pbs.twimg.com/profile_images/2050528526546436096/dIjTu4RW_400x400.jpg"
    },
    "created_at_utc": "2026-09-12T00:01:37Z",
@@ -70898,7 +70911,7 @@
     "name": "sambhav dixit",
     "handle": "sambhavdixitpro",
     "verified": true,
-    "followers": 1615,
+    "followers": 1614,
     "profile_image": "https://pbs.twimg.com/profile_images/1787016903531057152/pzM5aDJB_400x400.jpg"
    },
    "created_at_utc": "2026-09-12T00:38:46Z",
@@ -71188,7 +71201,7 @@
     "name": "Ayush Tomar",
     "handle": "ayush_tomar8",
     "verified": true,
-    "followers": 4205,
+    "followers": 4203,
     "profile_image": "https://pbs.twimg.com/profile_images/1904473209195630592/69o44g-Z_400x400.jpg"
    },
    "created_at_utc": "2026-09-12T01:19:48Z",
@@ -71224,7 +71237,7 @@
     "name": "Sharad Dubey",
     "handle": "Sharad9Dubey",
     "verified": true,
-    "followers": 57104,
+    "followers": 57103,
     "profile_image": "https://pbs.twimg.com/profile_images/1974391605143498752/M9lTc5IM_400x400.jpg"
    },
    "created_at_utc": "2026-09-12T01:31:34Z",
@@ -72439,7 +72452,7 @@
     "name": "Sadanand",
     "handle": "sadanand_dev",
     "verified": true,
-    "followers": 1098,
+    "followers": 1100,
     "profile_image": "https://pbs.twimg.com/profile_images/2030631804106153984/qOQ9lnd2_400x400.jpg"
    },
    "created_at_utc": "2026-09-12T04:06:18Z",
@@ -72817,7 +72830,7 @@
     "replies": 0,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 138
+    "views": 139
    },
    "urls": [],
    "hashtags": [],
@@ -73042,7 +73055,7 @@
     "name": "Anupam Haldkar ",
     "handle": "AnupamHaldkar",
     "verified": true,
-    "followers": 2172,
+    "followers": 2171,
     "profile_image": "https://pbs.twimg.com/profile_images/2044764404819050496/-lWVPZ6e_400x400.jpg"
    },
    "created_at_utc": "2026-09-12T04:36:26Z",
@@ -73077,7 +73090,7 @@
    "first_seen_utc": "2026-09-12T04:48:27Z",
    "matches_keyword": true,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 11,
     "found": 0
    }
@@ -73819,7 +73832,7 @@
     "name": "Mainak Mukherjee 🇮🇳",
     "handle": "MainakMukh47974",
     "verified": true,
-    "followers": 809,
+    "followers": 810,
     "profile_image": "https://pbs.twimg.com/profile_images/1657079677293322253/QcFji2rC_400x400.jpg"
    },
    "created_at_utc": "2026-09-12T04:52:56Z",
@@ -74383,7 +74396,7 @@
     "name": "Mαulik ✦",
     "handle": "maulik_5",
     "verified": false,
-    "followers": 999,
+    "followers": 998,
     "profile_image": "https://pbs.twimg.com/profile_images/2109938834016460800/iNqpzxhZ_400x400.jpg"
    },
    "created_at_utc": "2026-09-12T04:59:55Z",
@@ -74430,7 +74443,7 @@
     "name": "Sumeet 🎒",
     "handle": "TheCoderShow",
     "verified": true,
-    "followers": 2825,
+    "followers": 2826,
     "profile_image": "https://pbs.twimg.com/profile_images/2074455020951801856/A7L3gDFr_400x400.jpg"
    },
    "created_at_utc": "2026-09-12T05:00:00Z",
@@ -74467,7 +74480,7 @@
    "first_seen_utc": "2026-09-12T06:59:50Z",
    "matches_keyword": false,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 19,
     "found": 0
    }
@@ -75009,7 +75022,7 @@
     "name": "Ashutosh Mishra",
     "handle": "caashutosh22",
     "verified": false,
-    "followers": 1571,
+    "followers": 1570,
     "profile_image": "https://pbs.twimg.com/profile_images/2090810709701791745/Px4Wq2UD_400x400.jpg"
    },
    "created_at_utc": "2026-09-12T05:08:01Z",
@@ -75347,7 +75360,7 @@
     "name": "R2",
     "handle": "r2minusd2",
     "verified": false,
-    "followers": 973,
+    "followers": 974,
     "profile_image": "https://pbs.twimg.com/profile_images/1825220338747154432/Tpa2JiFX_400x400.jpg"
    },
    "created_at_utc": "2026-09-12T05:18:29Z",
@@ -75431,7 +75444,7 @@
     "name": "Ananda Verma",
     "handle": "anandaverma20",
     "verified": false,
-    "followers": 1013,
+    "followers": 1012,
     "profile_image": "https://pbs.twimg.com/profile_images/2102345781105790976/9uxCWSci_400x400.jpg"
    },
    "created_at_utc": "2026-09-12T05:19:27Z",
@@ -75757,7 +75770,7 @@
     "name": "Aniket Sahu",
     "handle": "aniketsahu_115",
     "verified": true,
-    "followers": 2654,
+    "followers": 2655,
     "profile_image": "https://pbs.twimg.com/profile_images/1960408714571042816/9T5YQFG4_400x400.jpg"
    },
    "created_at_utc": "2026-09-12T05:43:25Z",
@@ -75881,7 +75894,7 @@
     "name": "harsh",
     "handle": "__harsh020__",
     "verified": true,
-    "followers": 166,
+    "followers": 167,
     "profile_image": "https://pbs.twimg.com/profile_images/1837116688510152704/zb4IeIHj_400x400.jpg"
    },
    "created_at_utc": "2026-09-12T05:47:28Z",
@@ -76046,7 +76059,7 @@
     "name": "Build with Adi 💯",
     "handle": "buildwithadi24",
     "verified": true,
-    "followers": 14475,
+    "followers": 14472,
     "profile_image": "https://pbs.twimg.com/profile_images/2019300292798668800/j4BEwUJz_400x400.jpg"
    },
    "created_at_utc": "2026-09-12T05:54:30Z",
@@ -76472,7 +76485,7 @@
     "name": "Muhammad (Nuclear scientist for Iran ☢️)",
     "handle": "Mossad_funds_me",
     "verified": false,
-    "followers": 2648,
+    "followers": 2649,
     "profile_image": "https://pbs.twimg.com/profile_images/2091789927361257472/fFqn7t9b_400x400.jpg"
    },
    "created_at_utc": "2026-09-12T06:03:02Z",
@@ -76551,7 +76564,7 @@
     "name": "Adarsh",
     "handle": "Adarsh2028",
     "verified": false,
-    "followers": 1457,
+    "followers": 1456,
     "profile_image": "https://pbs.twimg.com/profile_images/2070175601500315648/KVH55ywg_400x400.jpg"
    },
    "created_at_utc": "2026-09-12T06:04:33Z",
@@ -76671,7 +76684,7 @@
     "name": "Animesh Chouhan",
     "handle": "animeshsingh38",
     "verified": true,
-    "followers": 4196,
+    "followers": 4193,
     "profile_image": "https://pbs.twimg.com/profile_images/2092002968698769409/Z9S4CenT_400x400.jpg"
    },
    "created_at_utc": "2026-09-12T06:07:21Z",
@@ -77108,7 +77121,7 @@
     "name": "Abhishek Swami | IBW + Devcon 8 🇮🇳",
     "handle": "swamiabhishek45",
     "verified": false,
-    "followers": 1477,
+    "followers": 1476,
     "profile_image": "https://pbs.twimg.com/profile_images/2074456508071628800/b-KKMOU-_400x400.jpg"
    },
    "created_at_utc": "2026-09-12T06:27:21Z",
@@ -77406,7 +77419,7 @@
     "name": "Sebastian Buzdugan",
     "handle": "sebuzdugan",
     "verified": true,
-    "followers": 8352,
+    "followers": 8345,
     "profile_image": "https://pbs.twimg.com/profile_images/2046175959401857025/9mSVXlTr_400x400.jpg"
    },
    "created_at_utc": "2026-09-12T06:35:08Z",
@@ -77452,7 +77465,7 @@
     "name": "Dev Advocate 🇵🇸 ✊️ 🇿🇦",
     "handle": "BoiketloDevAdv",
     "verified": false,
-    "followers": 1093,
+    "followers": 1092,
     "profile_image": "https://pbs.twimg.com/profile_images/2098735862368391170/3KG6a-aP_400x400.jpg"
    },
    "created_at_utc": "2026-09-12T06:35:56Z",
@@ -78254,7 +78267,7 @@
     "name": "Rohit Singh | Mr. Chartist",
     "handle": "Mr_Chartist",
     "verified": true,
-    "followers": 79604,
+    "followers": 79606,
     "profile_image": "https://pbs.twimg.com/profile_images/2089014066119651328/WOiMcWPd_400x400.jpg"
    },
    "created_at_utc": "2026-09-12T07:27:08Z",
@@ -79227,7 +79240,7 @@
     "name": "momo!",
     "handle": "momelavelle",
     "verified": false,
-    "followers": 1104,
+    "followers": 1102,
     "profile_image": "https://pbs.twimg.com/profile_images/2094079196498628609/tOHRZ96G_400x400.jpg"
    },
    "created_at_utc": "2026-09-12T08:16:33Z",
@@ -79479,7 +79492,7 @@
     "name": "Vinciii",
     "handle": "0Vincii",
     "verified": false,
-    "followers": 565,
+    "followers": 560,
     "profile_image": "https://pbs.twimg.com/profile_images/2113663286403289088/7E8kkZQx_400x400.jpg"
    },
    "created_at_utc": "2026-09-12T08:24:06Z",
@@ -81358,7 +81371,7 @@
     "name": "Himanshu",
     "handle": "himanxu0",
     "verified": true,
-    "followers": 818,
+    "followers": 819,
     "profile_image": "https://pbs.twimg.com/profile_images/2109151297949888512/7BkTYBDq_400x400.jpg"
    },
    "created_at_utc": "2026-09-12T10:23:23Z",
@@ -81652,7 +81665,7 @@
     "name": "Rahul Singh Bhadoriya",
     "handle": "rahulbhadoriiya",
     "verified": true,
-    "followers": 29439,
+    "followers": 29438,
     "profile_image": "https://pbs.twimg.com/profile_images/2108094955503972352/ExrQ_n3N_400x400.jpg"
    },
    "created_at_utc": "2026-09-12T10:40:06Z",
@@ -82357,7 +82370,7 @@
     "name": "Surendra Pandar",
     "handle": "surendra_pandar",
     "verified": true,
-    "followers": 1242,
+    "followers": 1247,
     "profile_image": "https://pbs.twimg.com/profile_images/2090853759723433985/2tbFL8W-_400x400.jpg"
    },
    "created_at_utc": "2026-09-12T12:03:33Z",
@@ -83360,7 +83373,7 @@
     "name": "Third Indian Urbanism 🚸",
     "handle": "indianurbanism3",
     "verified": false,
-    "followers": 2333,
+    "followers": 2334,
     "profile_image": "https://pbs.twimg.com/profile_images/1929808963438317568/Y8fzU-g7_400x400.jpg"
    },
    "created_at_utc": "2026-09-12T15:02:21Z",
@@ -83377,7 +83390,7 @@
     "replies": 1,
     "quotes": 0,
     "bookmarks": 0,
-    "views": 368
+    "views": 369
    },
    "urls": [],
    "hashtags": [],
@@ -83579,7 +83592,7 @@
     "name": "Kedar Vartak",
     "handle": "kdrvrtk",
     "verified": true,
-    "followers": 506,
+    "followers": 507,
     "profile_image": "https://pbs.twimg.com/profile_images/2098383727311429632/kYgE5iq3_400x400.jpg"
    },
    "created_at_utc": "2026-09-12T15:44:49Z",
@@ -83794,7 +83807,7 @@
     "name": "pink astrax",
     "handle": "svaish610",
     "verified": false,
-    "followers": 914,
+    "followers": 913,
     "profile_image": "https://pbs.twimg.com/profile_images/2107031554757476352/33JIS8fZ_400x400.jpg"
    },
    "created_at_utc": "2026-09-12T15:58:54Z",
@@ -83913,7 +83926,7 @@
     "name": "Sumeet 🎒",
     "handle": "TheCoderShow",
     "verified": true,
-    "followers": 2825,
+    "followers": 2826,
     "profile_image": "https://pbs.twimg.com/profile_images/2074455020951801856/A7L3gDFr_400x400.jpg"
    },
    "created_at_utc": "2026-09-12T16:13:42Z",
@@ -85763,7 +85776,7 @@
    "text_raw": "Next time jharkhand please",
    "lang": "en",
    "metrics": {
-    "likes": 17,
+    "likes": 16,
     "reposts": 0,
     "replies": 4,
     "quotes": 0,
@@ -86970,7 +86983,7 @@
     "name": "Himanshu Jasaiwal",
     "handle": "HimanshuJasaiw1",
     "verified": true,
-    "followers": 611,
+    "followers": 612,
     "profile_image": "https://pbs.twimg.com/profile_images/2083955659520004096/vMDmJHjT_400x400.jpg"
    },
    "created_at_utc": "2026-09-13T13:23:33Z",
@@ -88698,7 +88711,7 @@
     "name": "prakash",
     "handle": "prkxh",
     "verified": false,
-    "followers": 457,
+    "followers": 458,
     "profile_image": "https://pbs.twimg.com/profile_images/2061664799264735233/HtSs00zq_400x400.jpg"
    },
    "created_at_utc": "2026-09-13T21:11:42Z",
@@ -90524,7 +90537,7 @@
     "name": "Anmol Agarwal",
     "handle": "tw_anmolagarwal",
     "verified": true,
-    "followers": 31,
+    "followers": 30,
     "profile_image": "https://pbs.twimg.com/profile_images/2098813110958379008/T_Y5x0lm_400x400.jpg"
    },
    "created_at_utc": "2026-09-14T18:18:52Z",
@@ -91020,7 +91033,7 @@
     "name": "Anmol Agarwal",
     "handle": "tw_anmolagarwal",
     "verified": true,
-    "followers": 31,
+    "followers": 30,
     "profile_image": "https://pbs.twimg.com/profile_images/2098813110958379008/T_Y5x0lm_400x400.jpg"
    },
    "created_at_utc": "2026-09-15T11:06:55Z",
@@ -92863,7 +92876,7 @@
     "name": "Koichi",
     "handle": "fujibee",
     "verified": true,
-    "followers": 4517,
+    "followers": 4516,
     "profile_image": "https://pbs.twimg.com/profile_images/1925841433728008192/hfyfmGhn_400x400.jpg"
    },
    "created_at_utc": "2026-09-17T23:48:38Z",
@@ -94886,7 +94899,7 @@
     "name": "Meet Jain",
     "handle": "Meetjain_100",
     "verified": false,
-    "followers": 1114,
+    "followers": 1113,
     "profile_image": "https://pbs.twimg.com/profile_images/2103711591707684864/VbICUEYp_400x400.jpg"
    },
    "created_at_utc": "2026-09-19T07:31:03Z",
@@ -95736,7 +95749,7 @@
     "name": "Eliron Giny",
     "handle": "eliron_giny",
     "verified": true,
-    "followers": 1146,
+    "followers": 1151,
     "profile_image": "https://pbs.twimg.com/profile_images/2010706781920493568/hlRLSedG_400x400.jpg"
    },
    "created_at_utc": "2026-09-19T12:05:00Z",
@@ -100550,7 +100563,7 @@
     "name": "Sumeet 🎒",
     "handle": "TheCoderShow",
     "verified": true,
-    "followers": 2825,
+    "followers": 2826,
     "profile_image": "https://pbs.twimg.com/profile_images/2074455020951801856/A7L3gDFr_400x400.jpg"
    },
    "created_at_utc": "2026-09-20T12:38:51Z",
@@ -100584,7 +100597,7 @@
    "first_seen_utc": "2026-09-20T12:40:59Z",
    "matches_keyword": false,
    "conversation_scan": {
-    "at": "2026-10-26T11:51:13Z",
+    "at": "2026-10-26T20:45:22Z",
     "replies": 30,
     "found": 0
    }
@@ -105525,7 +105538,7 @@
     "name": "Ayush Deshmukh",
     "handle": "everywhereayush",
     "verified": false,
-    "followers": 136,
+    "followers": 135,
     "profile_image": "https://pbs.twimg.com/profile_images/1888209050846044161/lVICo2O7_400x400.jpg"
    },
    "created_at_utc": "2026-09-21T23:11:04Z",
@@ -107459,7 +107472,7 @@
     "name": "Devendra Rathore 🇮🇳",
     "handle": "iamofficialdev",
     "verified": true,
-    "followers": 1616,
+    "followers": 1624,
     "profile_image": "https://pbs.twimg.com/profile_images/2108234478271545345/XIPBUFuP_400x400.jpg"
    },
    "created_at_utc": "2026-09-29T11:22:03Z",
